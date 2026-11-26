@@ -17,8 +17,15 @@ Every build step is logged here: what was done before, what is being done now, a
 | 1.10 | 2026-11-26 | Contact form backend | Done | `functions/api/lead.js` (Cloudflare Pages Function → Resend), honeypot, validation |
 | 1.11 | 2026-11-26 | Audit | Done | `tools/audit.py`: 24 pages, 0 issues; responsive 360/768/1280 OK; no console errors |
 | 1.12 | 2026-11-26 | Push | Done | Committed to github.com/bobee1/PestControlUSA (main) |
-| 2 | Next | State pages + glossary | Coming | 51 state pages, glossary (50+ terms), Locations dropdown, pills → state pages |
-| 3+ | Later | City pages (batches) | Planned | Highest-demand cities first, 800–1,200 words, 60%+ unique |
+| 2.1 | 2026-11-26 | City scope + dataset | Done | Owner chose cities 25,000+ first. Built `tools/data/places_25k.csv` (1,855 places: 1,553 incorporated, 300 CDPs, + Washington DC 689,545 added manually) from 2020 Census data (bdurand/us_geo mirror) |
+| 2.2 | 2026-11-26 | State content | Done | Unique text for 50 states + DC: intro, local factors, 4–5 problem rows, tips, licensing agency, FAQ; season calendar per state; extra housing paragraph for 11 smaller states |
+| 2.3 | 2026-11-26 | State pages | Done | 51 pages at /locations/{state}/ with city tables, WebPage + Service (areaServed State, containsPlace) + FAQPage + BreadcrumbList schema |
+| 2.4 | 2026-11-26 | Glossary | Done | /glossary/ with 55 terms, DefinedTermSet schema, auto-links (max 4 per page) from service and state pages |
+| 2.5 | 2026-11-26 | Navigation + links | Done | Locations dropdown (51 states), footer glossary, service pills → state pages, home areas → state pages, hub cards → state pages |
+| 2.6 | 2026-11-26 | Audit | Done | 76 pages, 0 issues; location uniqueness lowest 62%, avg 73%; responsive + console checks OK |
+| 2.7 | 2026-11-26 | Push | Done | Committed to main |
+| 3 | Next | City pages batch 1 | Coming | Highest-demand states first; ~25–40 cities per batch; 800–1,200 words; 60%+ unique |
+| 4+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
 ## Keyword map (Semrush US, Nov 2026)

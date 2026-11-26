@@ -52,6 +52,8 @@ LOGO_SVG = ('<svg width="34" height="34" viewBox="0 0 48 48" aria-hidden="true" 
 
 # --------------------------------------------------------------- data shared by pages
 SERVICES = []   # filled by content.services (list of dicts)
+STATE_NAV = []  # (slug, name) filled by build
+AUTOLINK = None  # glossary auto-link hook set by build
 
 def svc(slug):
     for s in SERVICES:
@@ -93,6 +95,9 @@ p{margin:0 0 1em}ul,ol{padding-left:1.25em}li{margin:.3em 0}
 .dd{position:relative}.dd-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border-radius:12px;box-shadow:var(--shadow);padding:10px;min-width:290px;border:1px solid var(--line)}
 .dd-menu a{display:block;color:var(--ink);text-decoration:none;padding:8px 12px;border-radius:8px;font-size:.95rem}.dd-menu a:hover{background:var(--bg);color:var(--brand2)}
 .dd.open .dd-menu,.dd:hover .dd-menu,.dd:focus-within .dd-menu{display:block}
+.dd-menu.states{display:none;grid-template-columns:repeat(3,1fr);min-width:600px;left:auto;right:-170px;max-height:72vh;overflow:auto}.dd-menu.states a{padding:5px 10px;font-size:.9rem}.dd.open .dd-menu.states,.dd:hover .dd-menu.states,.dd:focus-within .dd-menu.states{display:grid}
+dl.gloss dt{font-weight:800;margin-top:14px;scroll-margin-top:80px}dl.gloss dd{margin:4px 0 0}.pills-jump a{display:inline-block;padding:2px 8px;margin:2px;border:1px solid var(--line);border-radius:6px;text-decoration:none}
+.state a{text-decoration:none;color:var(--ink)}.state a:hover strong{color:var(--brand2);text-decoration:underline}
 .dd-menu.cols{display:none;grid-template-columns:1fr 1fr;min-width:520px}.dd.open .dd-menu.cols,.dd:hover .dd-menu.cols,.dd:focus-within .dd-menu.cols{display:grid}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:999px;font-weight:700;text-decoration:none;border:2px solid transparent;cursor:pointer;font-size:1rem;line-height:1.2}
 .btn-call{background:var(--amber);color:#1b1400}.btn-call:hover{background:var(--amber2);color:#000}
@@ -100,7 +105,7 @@ p{margin:0 0 1em}ul,ol{padding-left:1.25em}li{margin:.3em 0}
 .btn-line{border-color:var(--brand);color:var(--brand2);background:#fff}.btn-line:hover{background:var(--brand);color:#fff}
 .menu-btn{display:none;margin-left:auto;background:none;border:2px solid #3f5d4f;color:#fff;border-radius:10px;padding:8px 12px;font:inherit;font-weight:700;cursor:pointer}
 .head-call{margin-left:8px}
-@media (max-width:960px){.menu-btn{display:block}.head-call{display:none}.nav{display:none;position:absolute;top:66px;left:0;right:0;background:var(--ink);flex-direction:column;align-items:stretch;padding:10px 16px 18px;max-height:calc(100vh - 66px);overflow:auto}.nav.open{display:flex}.nav .dd-menu,.nav .dd-menu.cols{position:static;box-shadow:none;min-width:0;background:var(--ink2);border:0;grid-template-columns:1fr}.dd:hover .dd-menu{display:none}.dd:hover .dd-menu.cols{display:none}.dd.open .dd-menu{display:block}.dd.open .dd-menu.cols{display:grid}.dd-menu a{color:#e9f1ec}.dd-menu a:hover{background:var(--ink);color:#fff}}
+@media (max-width:960px){.menu-btn{display:block}.head-call{display:none}.nav{display:none;position:absolute;top:66px;left:0;right:0;background:var(--ink);flex-direction:column;align-items:stretch;padding:10px 16px 18px;max-height:calc(100vh - 66px);overflow:auto}.nav.open{display:flex}.nav .dd-menu,.nav .dd-menu.cols,.nav .dd-menu.states{position:static;box-shadow:none;min-width:0;background:var(--ink2);border:0;grid-template-columns:1fr}.dd:hover .dd-menu{display:none}.dd:hover .dd-menu.cols,.dd:hover .dd-menu.states{display:none}.dd.open .dd-menu{display:block}.dd.open .dd-menu.cols{display:grid}.dd.open .dd-menu.states{display:grid;grid-template-columns:1fr 1fr;min-width:0;max-height:none}.dd-menu a{color:#e9f1ec}.dd-menu a:hover{background:var(--ink);color:#fff}}
 /* hero */
 .hero{position:relative;color:#fff;background:var(--ink);overflow:hidden}
 .hero .bg{position:absolute;inset:0}.hero .bg img{width:100%;height:100%;object-fit:cover;opacity:.32}
@@ -158,12 +163,13 @@ fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},bod
 # --------------------------------------------------------------- layout
 def nav_html():
     svc_links = "".join(f'<a href="/services/{s["slug"]}/">{s["nav"]}</a>' for s in SERVICES)
+    state_links = "".join(f'<a href="/locations/{slug}/">{name}</a>' for slug, name in STATE_NAV)
     return f'''<header class="top"><div class="wrap">
 <a class="logo" href="/" aria-label="{BRAND} home">{LOGO_SVG}<span>Pest<b>Halt</b></span></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
 <nav id="nav" class="nav" aria-label="Main">
 <div class="dd"><button aria-expanded="false" aria-haspopup="true">Services{icon("chev",18)}</button><div class="dd-menu cols"><a href="/services/"><strong>All pest control services</strong></a>{svc_links}</div></div>
-<a href="/locations/">Locations</a>
+<div class="dd"><button aria-expanded="false" aria-haspopup="true">Locations{icon("chev",18)}</button><div class="dd-menu states"><a href="/locations/"><strong>All locations</strong></a>{state_links}</div></div>
 <a href="/about/">About</a>
 <a href="/contact/">Contact</a>
 <span class="head-call">{phone_link("btn btn-call", PHONE_DISPLAY)}</span>
@@ -179,7 +185,7 @@ def footer_html():
 <p><a href="tel:{PHONE_TEL}">{PHONE_DISPLAY}</a></p></div>
 <div><h2>Pest control services</h2><ul>{svc_links}</ul></div>
 <div><h2>More services</h2><ul>{svc_links2}<li><a href="/services/">All services</a></li></ul></div>
-<div><h2>Company</h2><ul><li><a href="/about/">About {BRAND}</a></li><li><a href="/contact/">Contact</a></li><li><a href="/locations/">Locations</a></li><li><a href="/editorial-policy/">Editorial policy</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/privacy-policy/">Privacy policy</a></li><li><a href="/terms/">Terms of use</a></li><li><a href="/accessibility/">Accessibility</a></li></ul></div>
+<div><h2>Company</h2><ul><li><a href="/about/">About {BRAND}</a></li><li><a href="/contact/">Contact</a></li><li><a href="/locations/">Locations</a></li><li><a href="/glossary/">Pest control glossary</a></li><li><a href="/editorial-policy/">Editorial policy</a></li><li><a href="/disclaimer/">Disclaimer</a></li><li><a href="/privacy-policy/">Privacy policy</a></li><li><a href="/terms/">Terms of use</a></li><li><a href="/accessibility/">Accessibility</a></li></ul></div>
 </div>
 <p class="disclosure">{DISCLOSURE}<br><br>&copy; {TODAY.year} {BRAND}. All rights reserved. Information on this site is general guidance, not professional advice.</p>
 </div></footer>
@@ -227,6 +233,8 @@ def page(url, title, meta, h1_hero, body, crumbs=None, schema=None, priority=0.5
     assert len(title) <= 60, f"title too long ({len(title)}): {title}"
     assert len(meta) <= 155, f"meta too long ({len(meta)}): {meta}"
     canonical = BASE + url
+    if AUTOLINK and kind in ("service", "state"):
+        body = AUTOLINK(body, url)
     graph = []
     if url == "/":
         pass

@@ -134,10 +134,38 @@ def main():
     print("WORD COUNTS (main content):")
     for url in sorted(words):
         print(f"  {words[url]:5d}  {url}")
+    if os.path.isdir(os.path.join(ROOT, "locations")):
+        u = uniqueness()
+        if u:
+            low = min(u.items(), key=lambda x: x[1])
+            print(f"\nLOCATION UNIQUENESS (5-word shingles): lowest {low[0]} {low[1]:.0%}, average {sum(u.values())/len(u):.0%}")
+            for k, v in u.items():
+                if v < 0.60: issues.append(("location uniqueness", k, f"{v:.0%}"))
     print(f"\nPAGES: {len(pages)}   ISSUES: {len(issues)}")
     for i in issues:
         print("  FAIL", *i)
     sys.exit(1 if issues else 0)
+
+
+
+def uniqueness(prefix="/locations/", n=5, exclude_tables=False):
+    """Share of each location page's 5-word shingles not found on any other location page."""
+    import glob
+    docs = {}
+    for url in sorted(os.listdir(os.path.join(ROOT, "locations"))):
+        p = os.path.join(ROOT, "locations", url, "index.html")
+        if not os.path.exists(p): continue
+        s = open(p).read()
+        s = re.sub(r'<(article|aside|section) class="(card svc-card|cta-box|callband)[^"]*".*?</\1>', " ", s, flags=re.S)
+        m = re.search(r'<main.*?</main>', s, flags=re.S)
+        txt = re.sub(r"<[^>]+>", " ", m.group(0)).lower()
+        w = re.findall(r"[a-z0-9']+", txt)
+        docs[url] = set(tuple(w[i:i + n]) for i in range(len(w) - n + 1))
+    from collections import Counter
+    cnt = Counter()
+    for sh in docs.values(): cnt.update(sh)
+    res = {u: sum(1 for x in sh if cnt[x] == 1) / max(1, len(sh)) for u, sh in docs.items()}
+    return res
 
 
 if __name__ == "__main__":

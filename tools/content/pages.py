@@ -28,7 +28,7 @@ def build_home():
     crumbs = None
     regions_html = ""
     for r in REGIONS:
-        names = ", ".join(n for _, n, _, reg, _ in STATES if reg == r)
+        names = ", ".join(f'<a href="/locations/{sl}/">{n}</a>' for sl, n, _, reg, _ in STATES if reg == r)
         regions_html += f"<li><strong>{r}:</strong> {names}</li>"
     hero = f'''<section class="hero"><div class="bg">{S.img("home-hero", "Two-story suburban home with a front lawn at dusk", eager=True, sizes="100vw")}</div><div class="wrap">
 <h1>Pest Control Near You, in All 50 States</h1>
@@ -166,14 +166,14 @@ def build_services_hub():
 # ---------------------------------------------------------------- LOCATIONS HUB
 def build_locations_hub():
     crumbs = [("Home", "/"), ("Locations", "/locations/")]
-    hero = S.page_hero(crumbs, "Pest Control Locations: All 50 States", f"{S.BRAND} connects callers with licensed pest control providers in every state and Washington, D.C. Here are the pests most common in each one.", "locations-hub", "Modern suburban home with a lawn and wet driveway at dusk", ["All 50 states + DC", "Cities, towns & rural areas"])
+    hero = S.page_hero(crumbs, "Pest Control Locations: All 50 States", f"{S.BRAND} connects callers with licensed pest control providers in every state and Washington, D.C. Choose your state to see local pests, licensing and every city over 25,000 people we serve.", "locations-hub", "Modern suburban home with a lawn and wet driveway at dusk", ["All 50 states + DC", "Cities, towns & rural areas"])
     blocks = ""
     for r in REGIONS:
-        cards = "".join(f'<div class="state" id="{slug}"><strong>{name} ({ab})</strong><span>{pests}</span></div>'
+        cards = "".join(f'<div class="state" id="{slug}"><a href="/locations/{slug}/"><strong>Pest control in {name}</strong></a><span>{pests}</span></div>'
                         for slug, name, ab, reg, pests in STATES if reg == r)
         blocks += f"<h2>Pest control in the {r}</h2><div class=\"state-grid\">{cards}</div>"
     body = f'''<div class="wrap"><div class="content">
-<p>Pest control needs change from state to state. Climate, humidity, soil, building styles and local species decide which pests you're most likely to face and when. Use the list below to see common pests by state, then call {S.PHONE_DISPLAY} to reach a licensed pest control provider who serves your city or county.</p>
+<p>Pest control needs change from state to state. Climate, humidity, soil, building styles and local species decide which pests you're most likely to face and when. Choose your state below for local pests, licensing rules and the cities we serve, or call {S.PHONE_DISPLAY} to reach a licensed pest control provider who serves your city or county.</p>
 <p class="quick"><strong>Licensing note:</strong> Each state licenses pest control applicators through its own agency, usually the department of agriculture or a structural pest control board. Ask for the provider's license number and check it with your state regulator.</p>
 {blocks}
 <h2>How regional pest pressure differs</h2>

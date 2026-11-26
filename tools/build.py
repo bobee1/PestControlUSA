@@ -7,10 +7,12 @@ import core as S
 from content.services_a import SERVICES_A, SRC, WIKI
 from content.services_b import SERVICES_B, SRC_B
 from content.states import STATES
-from content import pages, legal
+from content import pages, legal, statepages
 
 SRC.update(SRC_B)
 S.SERVICES.extend(SERVICES_A + SERVICES_B)
+S.STATE_NAV.extend((slug, name) for slug, name, ab, reg, p in STATES)
+S.AUTOLINK = statepages.autolink
 
 # second, in-content photos per service (hero image is used as background)
 SECOND = {
@@ -58,7 +60,7 @@ def render_service(s):
         figure = f'<figure>{S.img(sec[0], sec[1])}<figcaption>{sec[1]}.</figcaption></figure>'
     sources = "".join(f'<li><a href="{SRC[k][1]}" rel="noopener">{SRC[k][0]}</a></li>' for k in s["sources"])
     related = pages.svc_cards(s["related"])
-    pills = "".join(f'<li><a href="/locations/#{slug}">{s["nav"].capitalize()} in {nm}</a></li>' for slug, nm, ab, reg, p in STATES)
+    pills = "".join(f'<li><a href="/locations/{slug}/">{s["nav"].capitalize()} in {nm}</a></li>' for slug, nm, ab, reg, p in STATES)
     illus_hero = ""
 
     body = f'''<div class="wrap"><div class="content">
@@ -141,6 +143,8 @@ def main():
     for s in S.SERVICES:
         render_service(s)
     pages.build_locations_hub()
+    statepages.build_states()
+    statepages.build_glossary()
     pages.build_about()
     pages.build_contact()
     legal.build_legal()
