@@ -74,7 +74,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 11.4 | 2026-11-26 | Template fix | Done | Nearby paragraph reads "also cover the rest of {county}" when no nearby towns exist; nearby lists added for Knoxville, Chattanooga, Tallahassee |
 | 11.5 | 2026-11-26 | Audit | Done | 166 pages, 0 issues; batch uniqueness 76–87%; responsive 360/768/1280 clean |
 | 11.6 | 2026-11-26 | Push | Done | Committed to main |
-| 12 | Next | City pages batch 10 | Coming | Laredo, Lubbock, Amarillo, Brownsville, McAllen, Garland, Irving, Grand Prairie, Frisco, McKinney |
+| 12.1 | 2026-11-26 | Batch 10 data check | Done | All 10 names match the dataset; ZIPs 3–14 per city |
+| 12.2 | 2026-11-26 | Batch 10 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 12.3 | 2026-11-26 | Batch 10 content | Done | `tools/content/cities_b10.py`: Laredo, Lubbock, Amarillo, Brownsville, McAllen, Garland, Irving, Grand Prairie, Frisco, McKinney; topics chosen to avoid overlap with earlier Texas pages (no new scorpion topics) |
+| 12.4 | 2026-11-26 | Nearby lists | Done | Smaller towns added for Laredo, Lubbock, Amarillo, Brownsville |
+| 12.5 | 2026-11-26 | Audit | Done | 176 pages, 0 issues; batch uniqueness 78–84%; responsive 360/768/1280 clean |
+| 12.6 | 2026-11-26 | Push | Done | Committed to main |
+| 13 | Next | City pages batch 11 | Coming | Riverside, San Bernardino, Fontana, Moreno Valley, Santa Ana, Irvine, Chula Vista, Stockton, Modesto, Fremont |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
