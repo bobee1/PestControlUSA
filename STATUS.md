@@ -3,20 +3,21 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 14)
+**Last updated:** 2026-11-26 (Build 15)
 
-## Previous step — Build 13: city pages batch 11 ✅
-- Riverside, San Bernardino, Fontana, Moreno Valley, Santa Ana, Irvine, Chula Vista, Stockton, Modesto, Fremont.
+## Previous step — Build 14: city pages batch 12 ✅
+- Chandler, Gilbert, Glendale AZ, Peoria AZ, Henderson, North Las Vegas, Reno, Aurora CO, Fort Collins, Lakewood CO.
 
-## Current step — Build 14: city pages batch 12 ✅ complete (Arizona, Nevada, Colorado suburbs)
-- **Cities live:** Chandler, Gilbert, Glendale and Peoria (AZ); Henderson, North Las Vegas and Reno (NV); Aurora, Fort Collins and Lakewood (CO).
-- **Keyword highlights (Semrush US):** exterminator Aurora CO KD 8 and pest control Aurora CO 390 (KD 11); bed bug exterminator Aurora KD 5; exterminator Glendale AZ KD 9; termite control Chandler KD 10; bee removal Chandler 140 (KD 11) and Gilbert 110 (KD 12); pest control Reno NV 480 (KD 16); pest control Lakewood CO KD 17; pest control Fort Collins 590 (KD 27). Henderson and Chandler head terms are hard (KD 50–53).
-- **City-specific topics:** desert subterranean termites (Chandler), flood irrigation pests (Gilbert), sewer roaches and monsoon (Glendale), Africanized bees (Peoria), desert mosquitoes and Aedes aegypti (Henderson), roof rats in palms and tile roofs (North Las Vegas), yellowjackets (Reno), bed bugs in apartments (Aurora), West Nile monitoring (Fort Collins), Front Range termites (Lakewood).
-- **Local facts used:** Intel Ocotillo campus; Gilbert as the former "Hay Shipping Capital of the World"; Southern Nevada Health District mosquito surveillance; Colorado's rental bed bug law; Northern Colorado's 2003 West Nile outbreak and Fort Collins mosquito testing.
-- **Checks:** 196 pages, 0 issues; batch uniqueness 76–82%; responsive 360/768/1280 clean. Watch items: South Dakota 61%, Nevada state page 64% (now has 4 city guides).
+## Current step — Build 15: city pages batch 13 ✅ complete (Florida second tier)
+- **Cities live:** Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay.
+- **Keyword highlights (Semrush US):** pest control Hollywood FL KD 8; pest control Miramar 170 (KD 9); termite control Port St. Lucie 140 (KD 9); mosquito control Coral Springs KD 8; exterminator Palm Bay KD 8; pest control Gainesville FL 590 (KD 16); pest control Pembroke Pines 390 (KD 19); pest control Clearwater FL 880 (KD 20); rodent control West Palm Beach 590 (KD 27).
+- **City-specific topics:** renewing termite protection (Port St. Lucie), ghost and white-footed ants (Pembroke Pines), iguanas and seawalls (Hollywood), Everglades-edge mosquitoes (Miramar), Asian and Formosan termites (Coral Springs), rats in historic neighborhoods (West Palm Beach), no-see-ums (Clearwater), armadillos and wildlife (Lakeland), integrated pest management (Gainesville), palmetto bugs (Palm Bay).
+- **Local facts used:** General Development Corporation origins of Port St. Lucie and Port Malabar; Hollywood's 1920s founding; Florida's iguana removal guidance; Broward County's two invasive subterranean termites; UF entomology and IPM.
+- **Checks:** 206 pages, 0 issues; batch uniqueness 77–83%; responsive 360/768/1280 clean. Watch items: South Dakota 61%, Nevada 64%.
 
-## Coming next — Build 15: city pages batch 13 (10 cities)
-- Proposed: Florida second tier: Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay.
+## Coming next — Build 16: state page uniqueness pass + city batch 14
+- First, add state-specific content to South Dakota, Nevada and any other state page under 66% so they stay well above the 60% rule.
+- Then 10 Midwest second-tier cities: Fort Wayne (IN), Toledo and Akron (OH), Grand Rapids (MI), Lincoln (NE), Sioux Falls (SD), Overland Park (KS), Springfield (MO), Rochester (MN), Cedar Rapids (IA). Sioux Falls also helps the South Dakota page.
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.
