@@ -3,20 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 13)
+**Last updated:** 2026-11-26 (Build 14)
 
-## Previous step — Build 12: city pages batch 10 ✅
-- Laredo, Lubbock, Amarillo, Brownsville, McAllen, Garland, Irving, Grand Prairie, Frisco, McKinney.
+## Previous step — Build 13: city pages batch 11 ✅
+- Riverside, San Bernardino, Fontana, Moreno Valley, Santa Ana, Irvine, Chula Vista, Stockton, Modesto, Fremont.
 
-## Current step — Build 13: city pages batch 11 ✅ complete (California second tier)
-- **Cities live:** Riverside, San Bernardino, Fontana, Moreno Valley, Santa Ana, Irvine, Chula Vista, Stockton, Modesto, Fremont.
-- **Keyword highlights (Semrush US):** pest control San Bernardino 210 (KD 8); exterminator Fontana KD 4 and pest control Fontana KD 11; exterminator Moreno Valley 170 (KD 9); bee removal Riverside KD 4 and termite control Riverside 480 (KD 15); pest control Irvine 480 (KD 12) and ant control Irvine KD 12; termite control Santa Ana KD 10; pest control Santa Ana 1,000 (KD 21); pest control Modesto 880 (KD 24).
-- **City-specific topics:** bee swarms and Africanized bees (Riverside), wildfire and foothill pests (San Bernardino), warehouse pest programs (Fontana), green pools and mosquitoes (Moreno Valley), German cockroaches in apartments (Santa Ana), Argentine ant supercolonies (Irvine), termites and HOAs in attached homes (Chula Vista), Delta waterways and mosquitoes (Stockton), irrigation and perimeter pests (Modesto), rat-proofing older tract homes (Fremont).
-- **Local facts used:** Riverside's navel orange heritage, Fontana's Kaiser Steel past and logistics hub, Irvine Ranch villages, San Joaquin County Mosquito and Vector Control District and Port of Stockton, Modesto Irrigation District flood irrigation, Fremont's 1956 merger of five towns.
-- **Checks:** 186 pages, 0 issues; batch uniqueness 80–84%; California state page 87%; responsive 360/768/1280 clean. South Dakota state page holding at 61%.
+## Current step — Build 14: city pages batch 12 ✅ complete (Arizona, Nevada, Colorado suburbs)
+- **Cities live:** Chandler, Gilbert, Glendale and Peoria (AZ); Henderson, North Las Vegas and Reno (NV); Aurora, Fort Collins and Lakewood (CO).
+- **Keyword highlights (Semrush US):** exterminator Aurora CO KD 8 and pest control Aurora CO 390 (KD 11); bed bug exterminator Aurora KD 5; exterminator Glendale AZ KD 9; termite control Chandler KD 10; bee removal Chandler 140 (KD 11) and Gilbert 110 (KD 12); pest control Reno NV 480 (KD 16); pest control Lakewood CO KD 17; pest control Fort Collins 590 (KD 27). Henderson and Chandler head terms are hard (KD 50–53).
+- **City-specific topics:** desert subterranean termites (Chandler), flood irrigation pests (Gilbert), sewer roaches and monsoon (Glendale), Africanized bees (Peoria), desert mosquitoes and Aedes aegypti (Henderson), roof rats in palms and tile roofs (North Las Vegas), yellowjackets (Reno), bed bugs in apartments (Aurora), West Nile monitoring (Fort Collins), Front Range termites (Lakewood).
+- **Local facts used:** Intel Ocotillo campus; Gilbert as the former "Hay Shipping Capital of the World"; Southern Nevada Health District mosquito surveillance; Colorado's rental bed bug law; Northern Colorado's 2003 West Nile outbreak and Fort Collins mosquito testing.
+- **Checks:** 196 pages, 0 issues; batch uniqueness 76–82%; responsive 360/768/1280 clean. Watch items: South Dakota 61%, Nevada state page 64% (now has 4 city guides).
 
-## Coming next — Build 14: city pages batch 12 (10 cities)
-- Proposed: Southwest and Mountain suburbs: Chandler, Gilbert, Glendale and Peoria (AZ), Henderson, North Las Vegas and Reno (NV), Aurora, Fort Collins and Lakewood (CO).
+## Coming next — Build 15: city pages batch 13 (10 cities)
+- Proposed: Florida second tier: Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay.
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.

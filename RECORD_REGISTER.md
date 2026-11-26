@@ -85,7 +85,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 13.3 | 2026-11-26 | Batch 11 content | Done | `tools/content/cities_b11.py`: Riverside, San Bernardino, Fontana, Moreno Valley, Santa Ana, Irvine, Chula Vista, Stockton, Modesto, Fremont; topics chosen to avoid overlap with Build 3 California pages |
 | 13.4 | 2026-11-26 | Audit | Done | 186 pages, 0 issues; batch uniqueness 80–84%; responsive 360/768/1280 clean |
 | 13.5 | 2026-11-26 | Push | Done | Committed to main |
-| 14 | Next | City pages batch 12 | Coming | Chandler, Gilbert, Glendale AZ, Peoria AZ, Henderson, North Las Vegas, Reno, Aurora CO, Fort Collins, Lakewood CO |
+| 14.1 | 2026-11-26 | Batch 12 data check | Done | All 10 names match the dataset; ZIPs 4–13 per city |
+| 14.2 | 2026-11-26 | Batch 12 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 14.3 | 2026-11-26 | Batch 12 content | Done | `tools/content/cities_b12.py`: Chandler, Gilbert, Glendale AZ, Peoria AZ, Henderson, North Las Vegas, Reno, Aurora, Fort Collins, Lakewood CO; no new scorpion topics |
+| 14.4 | 2026-11-26 | Audit | Done | 196 pages, 0 issues; batch uniqueness 76–82%; Nevada state page now 64% (watch); responsive clean |
+| 14.5 | 2026-11-26 | Push | Done | Committed to main |
+| 15 | Next | City pages batch 13 | Coming | Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
