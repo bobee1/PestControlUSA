@@ -46,8 +46,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 6.4 | 2026-11-26 | Linking upgrade | Done | Cross-state nearest-guide fallback for states with fewer than 3 city guides (fixed Birmingham, Charleston) |
 | 6.5 | 2026-11-26 | Audit | Done | 116 pages, 0 issues; city uniqueness 80–85%; responsive and console checks clean |
 | 6.6 | 2026-11-26 | Push | Done | Committed to main |
-| 7 | Next | City pages batch 5 | Coming | Chicago, Indianapolis, Columbus OH, Kansas City MO, St. Louis, Louisville, Oklahoma City, Tulsa, Denver, Las Vegas |
-| 8+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
+| 7.1 | 2026-11-26 | Batch 5 research | Done | Semrush keywords for 10 cities (40 terms); ZIP codes 18–57 per city |
+| 7.2 | 2026-11-26 | Batch 5 content | Done | `tools/content/cities_b5.py`: Chicago, Indianapolis, Columbus OH, Kansas City, St. Louis, Louisville, Oklahoma City, Tulsa, Denver, Las Vegas |
+| 7.3 | 2026-11-26 | Linking guarantee | Done | `plan_guides()` precomputes city guide links and tops up any city with fewer than 3 in-text inbound links |
+| 7.4 | 2026-11-26 | Audit | Done | 126 pages, 0 issues; responsive and console checks clean |
+| 7.5 | 2026-11-26 | Push | Done | Committed to main |
+| 8 | Next | City pages batch 6 | Coming | New York City, Philadelphia, Boston, Baltimore, Washington DC, Pittsburgh, Newark, Providence, Virginia Beach, Richmond |
+| 9+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
 ## Keyword map (Semrush US, Nov 2026)

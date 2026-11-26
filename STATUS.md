@@ -3,23 +3,22 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 6)
+**Last updated:** 2026-11-26 (Build 7)
 
-## Previous step — Build 5: city pages batch 3 ✅
-- Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim.
+## Previous step — Build 6: city pages batch 4 ✅
+- Atlanta, Charlotte, Raleigh, Nashville, Memphis, New Orleans, Baton Rouge, Birmingham, Charleston SC, Savannah; dataset fix (1,866 places).
 
-## Current step — Build 6: city pages batch 4 ✅ complete (10 Southeast cities)
-- **Cities live:** Atlanta, Savannah (GA); Charlotte, Raleigh (NC); Nashville, Memphis (TN); New Orleans, Baton Rouge (LA); Birmingham (AL); Charleston (SC).
-- **Keyword highlights (Semrush US):** pest control Atlanta 2,900 (KD 32); pest control Nashville 1,900 (KD 23); pest control Baton Rouge 1,900; pest control Raleigh 1,600 (KD 28); termite control Atlanta KD 9; mosquito control Atlanta 590 (KD 11); termite control New Orleans 390 (KD 19).
-- **City-specific topics:** canopy and crawl spaces (Atlanta), new construction (Charlotte), historic-district termite inspections (Raleigh), brown recluses (Nashville), heat and termites (Memphis), Formosan termites in historic homes (New Orleans), flood recovery (Baton Rouge), hillside drainage (Birmingham), tidal flooding (Charleston), live oaks and marsh (Savannah).
-- **Verified local events used:** Atlanta floods (Sept 2009), Hurricane Hugo (1989), Hurricane Fran (1996), Nashville flood (May 2010) and tornado (Mar 2020), Mississippi River crest at Memphis (May 2011), Formosan arrival after WWII, Katrina (2005) and Ida (2021), Baton Rouge flood (Aug 2016), Apr 27 2011 tornado outbreak, Matthew (2016) and Irma (2017) in Savannah.
-- **Dataset fix:** the census mirror omitted consolidated city-counties and had blank populations for some cities. Added 11 places with 2020 Census counts: Nashville, Louisville, Indianapolis, Augusta, Columbus (GA), Athens (GA), Butte, Methuen, Watertown, Penn Hills, Mount Lebanon. Dataset now 1,866 places; affected state pages updated automatically.
-- **Linking upgrade:** if a state has fewer than 3 other city guides, city pages link the nearest guides in neighboring states.
-- **Checks:** 116 pages, 0 issues; Southeast city uniqueness 80–85%; responsive 360/768/1280 with no overflow or console errors.
+## Current step — Build 7: city pages batch 5 ✅ complete (10 cities)
+- **Cities live:** Chicago (IL), Indianapolis (IN), Columbus (OH), Kansas City and St. Louis (MO), Louisville (KY), Oklahoma City and Tulsa (OK), Denver (CO), Las Vegas (NV).
+- **Keyword highlights (Semrush US):** pest control Las Vegas 2,900; pest control Chicago 2,400; pest control Kansas City 2,400; pest control Indianapolis 1,900; pest control Tulsa 1,900 (KD 26); pest control Denver 1,600 (KD 26, $33.47); rodent control Denver 880 (KD 25, $33.47); pest control St. Louis 1,300 (KD 15); exterminator Louisville KY KD 7.
+- **City-specific topics:** alley rats (Chicago), termite inspections (Indianapolis), student rentals near Ohio State (Columbus), brown recluses (Kansas City), old brick and mortar gaps (St. Louis), Victorian and shotgun homes (Louisville), storm damage (Oklahoma City), oil-boom historic homes (Tulsa), mice and hail damage (Denver), desert-edge scorpions (Las Vegas).
+- **Verified local events used:** Great Chicago Fire (1871), Chicago West Side floods (Jul 2023), Unigov (1970), Plaza flood (Sep 1977), Great Fire of 1849 and Great Flood of 1993 (St. Louis), Great Flood of 1937 and 2003 merger (Louisville), May 3 1999 tornado (OKC), Memorial Day flood (1984, Tulsa).
+- **Linking upgrade:** city-to-city guide links are now planned up front with a guarantee: any city short of 3 in-text inbound links is added to its nearest neighbors' guide lists (fixed Denver and El Paso as service-page slots got more crowded).
+- **Checks:** 126 pages, 0 issues; city uniqueness 77–87% this batch; responsive 360/768/1280 with no overflow or console errors.
 
-## Coming next — Build 7: city pages batch 5 (10 cities)
-- Proposed: Midwest and Mountain metros: Chicago, Indianapolis, Columbus (OH), Kansas City (MO), St. Louis, Louisville, Oklahoma City, Tulsa, Denver, Las Vegas.
-- Brings rats and bed bugs in Chicago, brown recluses in Kansas City, St. Louis and Oklahoma, stink bugs, miller moths in Denver and desert scorpions in Las Vegas.
+## Coming next — Build 8: city pages batch 6 (10 cities)
+- Proposed: Northeast and Mid-Atlantic: New York City, Philadelphia, Boston, Baltimore, Washington DC, Pittsburgh, Newark, Providence, Virginia Beach, Richmond.
+- Brings NYC rats and bed bugs, Lyme ticks, stink bugs and spotted lanternflies, row-house rodents and Chesapeake mosquitoes.
 
 ## Later builds
 - Remaining city batches until all 1,855 places are live; then towns under 25,000 if wanted.

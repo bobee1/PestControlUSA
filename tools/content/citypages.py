@@ -6,17 +6,19 @@ from content.cities_b1 import CITIES_B1
 from content.cities_b2 import CITIES_B2
 from content.cities_b3 import CITIES_B3
 from content.cities_b4 import CITIES_B4
+from content.cities_b5 import CITIES_B5
 
 CITIES = {}
 CITIES.update(CITIES_B1)
 CITIES.update(CITIES_B2)
 CITIES.update(CITIES_B3)
 CITIES.update(CITIES_B4)
+CITIES.update(CITIES_B5)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
              "Tampa": "Tampa,_Florida", "Orlando": "Orlando,_Florida", "Saint Petersburg": "St._Petersburg,_Florida"}
-STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina"}
+STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina", "IL": "Illinois", "IN": "Indiana", "OH": "Ohio", "MO": "Missouri", "KY": "Kentucky", "OK": "Oklahoma", "CO": "Colorado", "NV": "Nevada"}
 
 ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips.json")))
 
@@ -78,17 +80,11 @@ def city_page(key, row, allrows):
     faqs = c["faqs"] + [cover]
     near_txt = ", ".join(nlink(r) for r in near_local)
     linked = {(r["name"], r["state"]) for r in near_local}
-    same_state = sorted(((dist(row, r), (r["name"], r["state"])) for r in allrows
-                         if (r["name"], r["state"]) in built and (r["name"], r["state"]) not in linked), key=lambda x: x[0])[:3]
-    if len(same_state) < 3:
-        taken = linked | {k for d, k in same_state}
-        cross = sorted(((dist(row, r), (r["name"], r["state"])) for r in ALL_BUILT_ROWS
-                        if (r["name"], r["state"]) in built and (r["name"], r["state"]) not in taken), key=lambda x: x[0])[:3 - len(same_state)]
-        same_state = same_state + cross
+    same_state = [(0, k) for k in GUIDES.get(key, []) if k not in linked]
     more_state = ""
     if same_state:
         ls = [f'<a href="{built[k]}">pest control in {CITIES[k].get("display", k[0])}</a>' for d, k in same_state]
-        lead_txt = f"Other {sname} city guides" if all(k[1] == ab for d, k in same_state) else "Nearby city guides"
+        lead_txt = f"Other {sname} city guides" if all(k[1] == ab for d, k in same_state) else "More city guides"
         more_state = f" {lead_txt}: " + (", ".join(ls[:-1]) + " and " + ls[-1] if len(ls) > 1 else ls[0]) + "."
     pills = "".join(f'<li><a href="{built[k]}">Pest control in {CITIES[k].get("display", k[0])}</a></li>' for d, k in near_built)
     pills += f'<li><a href="/locations/{sslug}/">Pest control in {sname}</a></li><li><a href="/">{S.BRAND} home</a></li><li><a href="/locations/">All locations</a></li>'
@@ -130,7 +126,7 @@ def city_page(key, row, allrows):
         meta = f"Pest control in {nm}, {ab} for termites, roaches, rodents and more. Licensed local exterminators. Call {S.PHONE_DISPLAY}."
 
     full = S.BASE + url
-    county_wiki = "https://en.wikipedia.org/wiki/" + c["county"].replace(" ", "_") + "," + "_" + STATE_FULL[ab]
+    county_wiki = "https://en.wikipedia.org/wiki/" + (c["county_wiki"] if c.get("county_wiki") else c["county"].replace(" ", "_") + ",_" + STATE_FULL[ab])
     city_node = {"@type": "City", "name": f"{nm}, {ab}", "sameAs": "https://en.wikipedia.org/wiki/" + c.get("wiki", WIKI_CITY.get(key[0], "")),
                  "containedInPlace": {"@type": "AdministrativeArea", "name": c["county"], "sameAs": county_wiki,
                                       "containedInPlace": {"@type": "State", "name": sname}}}
@@ -148,12 +144,43 @@ def city_page(key, row, allrows):
 
 
 ALL_BUILT_ROWS = []
+GUIDES = {}
+
+
+def plan_guides(places):
+    """Outbound 'city guides' links per city: 3 nearest same-state guides, filled with nearest
+    cross-state guides; then top up any city with fewer than 3 in-text inbound links
+    (state page + service pages + other cities) by adding it to its nearest neighbours' lists."""
+    rows = {k: [r for r in places[k[1]] if r["name"] == k[0]][0] for k in CITIES}
+    for k, r in rows.items():
+        near_local = {(x["name"], x["state"]) for x in places[k[1]] if x["geoid"] != r["geoid"] and dist(r, x) <= 35}
+        others = sorted((dist(r, rows[o]), o) for o in rows if o != k)
+        same = [o for d, o in others if o[1] == k[1] and o not in near_local][:3]
+        if len(same) < 3:
+            same += [o for d, o in others if o not in same and o[1] != k[1]][:3 - len(same)]
+        GUIDES[k] = same
+    if not _ALLOC:
+        _allocate()
+    def inbound(k):
+        n = 1  # state page guides sentence
+        n += sum(1 for sl, ks in _ALLOC.items() if k in ks)
+        n += sum(1 for o, lst in GUIDES.items() if o != k and k in lst)
+        n += sum(1 for o, r in rows.items() if o != k and o[1] == k[1] and dist(r, rows[k]) <= 35)
+        return n
+    for k in rows:
+        others = sorted((dist(rows[k], rows[o]), o) for o in rows if o != k)
+        for d, o in others:
+            if inbound(k) >= 3:
+                break
+            if k not in GUIDES[o]:
+                GUIDES[o].append(k)
 
 
 def build_cities():
     places = load_places()
     for k in CITIES:
         ALL_BUILT_ROWS.extend(r for r in places[k[1]] if r["name"] == k[0])
+    plan_guides(places)
     for key in CITIES:
         rows = places[key[1]]
         row = [r for r in rows if r["name"] == key[0]][0]
