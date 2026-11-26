@@ -141,6 +141,15 @@ def main():
             print(f"\nLOCATION UNIQUENESS (5-word shingles): lowest {low[0]} {low[1]:.0%}, average {sum(u.values())/len(u):.0%}")
             for k, v in u.items():
                 if v < 0.60: issues.append(("location uniqueness", k, f"{v:.0%}"))
+    # city pages need 3+ in-text (paragraph) inbound links
+    for url, (pr, src) in pages.items():
+        if url.startswith("/locations/") and url.count("/") == 4:
+            n = 0
+            for u2, (p2, s2) in pages.items():
+                if u2 == url: continue
+                m = re.search(r"<main.*?</main>", s2, re.S)
+                if m and any(url in para for para in re.findall(r"<p[ >].*?</p>", m.group(0), re.S)): n += 1
+            if n < 3: issues.append(("in-text inbound < 3", url, n))
     print(f"\nPAGES: {len(pages)}   ISSUES: {len(issues)}")
     for i in issues:
         print("  FAIL", *i)

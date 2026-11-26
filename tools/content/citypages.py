@@ -3,16 +3,18 @@ import csv, os, math, json, html
 import core as S
 from content.statepages import BY_AB, load_places, display_name, fmt, SVC_NAME
 from content.cities_b1 import CITIES_B1
+from content.cities_b2 import CITIES_B2
 
 CITIES = {}
 CITIES.update(CITIES_B1)
+CITIES.update(CITIES_B2)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
              "Tampa": "Tampa,_Florida", "Orlando": "Orlando,_Florida", "Saint Petersburg": "St._Petersburg,_Florida"}
-STATE_FULL = {"TX": "Texas", "FL": "Florida"}
+STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona"}
 
-ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips_batch1.json")))
+ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips.json")))
 
 
 def dist(a, b):
@@ -42,7 +44,7 @@ def city_page(key, row, allrows):
     nm = city_name(key)
     url = city_url(key)
     crumbs = [("Home", "/"), ("Locations", "/locations/"), (sname, f"/locations/{sslug}/"), (nm, url)]
-    zips = ZIPS.get(f"{'St. Petersburg' if key[0]=='Saint Petersburg' else key[0]}|{ab}", [])
+    zips = ZIPS.get(f"{key[0]}|{ab}", [])
     pop = int(row["population"])
     hu = int(row["housing_units"])
     # nearby 25k+ communities
@@ -111,7 +113,7 @@ def city_page(key, row, allrows):
 
     full = S.BASE + url
     county_wiki = "https://en.wikipedia.org/wiki/" + c["county"].replace(" ", "_") + "," + "_" + STATE_FULL[ab]
-    city_node = {"@type": "City", "name": f"{nm}, {ab}", "sameAs": "https://en.wikipedia.org/wiki/" + WIKI_CITY[key[0]],
+    city_node = {"@type": "City", "name": f"{nm}, {ab}", "sameAs": "https://en.wikipedia.org/wiki/" + c.get("wiki", WIKI_CITY.get(key[0], "")),
                  "containedInPlace": {"@type": "AdministrativeArea", "name": c["county"], "sameAs": county_wiki,
                                       "containedInPlace": {"@type": "State", "name": sname}}}
     schema = [
@@ -148,7 +150,7 @@ def _allocate():
         hits = [k for k, c in CITIES.items() if any(p[2] == sl for p in c["problems"])]
         word = SVC_NAME.get(sl, sl).split()[0].lower()
         hits.sort(key=lambda k: (not any(word in x.lower() for x in CITIES[k]["secondary"]), count[k], list(CITIES).index(k)))
-        pick = hits[:5]
+        pick = hits[:6]
         for k in pick:
             count[k] += 1
         _ALLOC[sl] = pick

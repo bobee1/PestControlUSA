@@ -3,23 +3,22 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 3)
+**Last updated:** 2026-11-26 (Build 4)
 
-## Previous step — Build 2: state pages + glossary ✅
-- 51 state pages (`/locations/{state}/`) with unique local content and full 25k+ city tables; glossary (55 terms) with auto-links; Locations dropdown.
+## Previous step — Build 3: city pages batch 1 ✅
+- Houston, San Antonio, Dallas, Austin, Fort Worth, Jacksonville, Miami, Tampa, Orlando, St. Petersburg.
 
-## Current step — Build 3: city pages, batch 1 ✅ complete (10 cities)
-- Owner direction: short batches, no compromise on quality, fully relevant, optimized and semantic.
-- **Cities live:** Houston, San Antonio, Dallas, Austin, Fort Worth (TX); Jacksonville, Miami, Tampa, Orlando, St. Petersburg (FL), at `/locations/{state}/{city}/`.
-- **Research per city:** Semrush city keywords (primary + 3 secondary), 2020 Census population and housing units, primary ZIP codes (2020 ZCTA data), 12 named neighborhoods, landmarks and waterways, housing types and eras, verified local events (Harvey 2017, Imelda 2019, Dallas West Nile outbreak 2012, Winter Storm Uri 2021, Irma 2017 river flooding, Wynwood Zika 2016, Ian 2022, Helene and Milton 2024).
-- **Each page:** H1 "Pest Control in {City}, {ST}", quick answer, census stats, "why pest control here is different", local problems table linking services, a city-specific topic section (e.g. Formosan termites and flooding in Houston, scorpions in West Austin, condo pest control in Miami, tent fumigation in Tampa), pest calendar, resident tips, 4 FAQs incl. "Do you cover all of {City}?" with ZIP codes, all service cards, nearby 25k+ communities within 35 miles, links to 3 nearest city guides + state page.
-- **Schema:** WebPage (about Service + Pest control; mentions City with Wikipedia sameAs, containedInPlace county → state), Service (areaServed City), FAQPage, BreadcrumbList.
-- **Internal links:** state pages link city names in their tables plus an in-text "city guides" sentence; service pages' Local note links 3–5 city guides with varied anchors; every city gets 3–5 in-text inbound links.
-- **Quality checks:** uniqueness 88–91% per city (5-word shingles vs all 61 location pages); 960–1,100 words; audit 86 pages, 0 issues; responsive 360/1280 OK; no console errors.
+## Current step — Build 4: city pages batch 2 ✅ complete (10 cities)
+- **Cities live:** El Paso, Arlington, Corpus Christi, Plano (TX); Hialeah, Fort Lauderdale (FL); Phoenix, Tucson, Mesa, Scottsdale (AZ). First Arizona city pages.
+- **Keyword highlights (Semrush US):** pest control Phoenix 4,400/mo (KD 29); termite control Phoenix 1,600 ($32.33, KD 26); rodent control Phoenix 1,600 (KD 17); pest control Tucson 3,600; pest control El Paso 1,300 (KD 24); pest control Scottsdale 1,000 (KD 24); pest control Hialeah KD 9.
+- **City-specific topics:** scorpions and the Franklin Mountains (El Paso), apartments and bed bugs near UTA (Arlington), coastal humidity and hurricanes (Corpus Christi), greenbelts and attic pests (Plano), dense shared-wall housing (Hialeah), termite tenting (Fort Lauderdale), bark scorpions in the Valley (Phoenix), pack rats and wiring damage (Tucson), snowbird seasonal homes (Mesa), desert-edge living (Scottsdale).
+- **Verified local events used:** El Paso flood (Aug 2006), Hurricane Celia (1970) and Harvey (2017) for Corpus Christi, Fort Lauderdale record rainfall (Apr 2023), Phoenix 31 straight days at 110°F+ (Jul 2023), roof rats confirmed in Arcadia (~2001).
+- **Data:** `tools/data/city_zips.json` now holds primary ZIP codes for all 1,795 places that have them (59 places have no primary ZIP in the data and will need a fallback).
+- **Checks:** 96 pages, 0 issues; city uniqueness 82–91%; every city has 3–5 in-text inbound links (new audit check); responsive 360/768/1280 with no overflow or console errors.
 
-## Coming next — Build 4: city pages, batch 2 (10 cities)
-- Proposed: next-largest cities in Texas and Florida plus Arizona's top metros: El Paso, Arlington, Corpus Christi, Plano (TX); Hialeah, Fort Lauderdale (FL); Phoenix, Tucson, Mesa, Scottsdale (AZ).
-- Same research depth and page structure; nearby-city links will interlink across batches automatically.
+## Coming next — Build 5: city pages batch 3 (10 cities)
+- Proposed: California's largest cities: Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim.
+- California adds drywood termite tenting, Argentine ants, roof rats and Structural Pest Control Board rules at city level.
 
 ## Later builds
 - Remaining city batches until all 1,855 places are live; then towns under 25,000 if wanted.

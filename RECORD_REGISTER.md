@@ -30,8 +30,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 3.4 | 2026-11-26 | City builder + linking | Done | `tools/content/citypages.py`; nearby 25k+ places within 35 mi; state tables link cities; service pages link 3–5 cities each with varied anchors |
 | 3.5 | 2026-11-26 | Audit | Done | 86 pages, 0 issues; city uniqueness 88–91%; every city 3+ in-text inbound links |
 | 3.6 | 2026-11-26 | Push | Done | Committed to main |
-| 4 | Next | City pages batch 2 | Coming | 10 cities: El Paso, Arlington, Corpus Christi, Plano, Hialeah, Fort Lauderdale, Phoenix, Tucson, Mesa, Scottsdale |
-| 5+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
+| 4.1 | 2026-11-26 | Batch 2 research | Done | Semrush keywords for 10 cities (40 terms); ZIP codes for all 25k+ places saved to `tools/data/city_zips.json` |
+| 4.2 | 2026-11-26 | Batch 2 content | Done | `tools/content/cities_b2.py`: El Paso, Arlington, Corpus Christi, Plano, Hialeah, Fort Lauderdale, Phoenix, Tucson, Mesa, Scottsdale |
+| 4.3 | 2026-11-26 | Linking | Done | Service pages link up to 6 city guides each (keyword-matched first); new audit check enforces 3+ in-text inbound links per city |
+| 4.4 | 2026-11-26 | Audit | Done | 96 pages, 0 issues; city uniqueness 82–91%; responsive and console checks clean |
+| 4.5 | 2026-11-26 | Push | Done | Committed to main |
+| 5 | Next | City pages batch 3 | Coming | California: Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim |
+| 6+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
 ## Keyword map (Semrush US, Nov 2026)
