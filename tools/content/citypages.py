@@ -10,6 +10,7 @@ from content.cities_b5 import CITIES_B5
 from content.cities_b6 import CITIES_B6
 from content.cities_b7 import CITIES_B7
 from content.cities_b8 import CITIES_B8
+from content.cities_b9 import CITIES_B9
 
 CITIES = {}
 CITIES.update(CITIES_B1)
@@ -20,6 +21,7 @@ CITIES.update(CITIES_B5)
 CITIES.update(CITIES_B6)
 CITIES.update(CITIES_B7)
 CITIES.update(CITIES_B8)
+CITIES.update(CITIES_B9)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
@@ -85,7 +87,7 @@ def city_page(key, row, allrows):
              + (f", in ZIP codes {zip_text}" if zips and len(zips) <= 60 else (f", in all {len(zips)} ZIP codes from {zips[0]} to {zips[-1]}" if zips else "")) + ".")
     faqs = c["faqs"] + [cover]
     near_items = [nlink(r) for r in near_local] + c.get("nearby", [])
-    near_txt = (", ".join(near_items[:-1]) + " and " + near_items[-1]) if len(near_items) > 1 else (near_items[0] if near_items else "the rest of " + c["county"])
+    near_txt = (", ".join(near_items[:-1]) + " and " + near_items[-1]) if len(near_items) > 1 else (near_items[0] if near_items else "")
     linked = {(r["name"], r["state"]) for r in near_local}
     same_state = [(0, k) for k in GUIDES.get(key, []) if k not in linked]
     more_state = ""
@@ -116,7 +118,7 @@ def city_page(key, row, allrows):
 <p>Licensed providers serving {nm} handle every service below, from one-time visits to year-round plans.</p>
 {svc_cards()}
 <h2>Nearby areas covered</h2>
-<p>Providers who serve {nm} also cover nearby communities, including {near_txt}.{more_state}</p>
+<p>{"Providers who serve " + nm + " also cover nearby communities, including " + near_txt if near_items else "Providers who serve " + nm + " also cover the rest of " + c["county"]}.{more_state}</p>
 <ul class="pills">{pills}</ul>
 </div></div>
 {S.call_band(f"Pest control in {nm}, {ab}", f"Call to reach a licensed provider serving {nm} and {c['county']}.")}'''

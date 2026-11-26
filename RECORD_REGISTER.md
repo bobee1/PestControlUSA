@@ -68,7 +68,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 10.3 | 2026-11-26 | Batch 8 content | Done | `tools/content/cities_b8.py`: Detroit, Milwaukee, Minneapolis, St. Paul, Cleveland, Cincinnati, Omaha, Wichita, Madison, Des Moines |
 | 10.4 | 2026-11-26 | Audit | Done | 156 pages, 0 issues; batch uniqueness 77–86%; responsive 360/768/1280 clean |
 | 10.5 | 2026-11-26 | Push | Done | Committed to main |
-| 11 | Next | City pages batch 9 | Coming | Lexington, Knoxville, Chattanooga, Greensboro, Durham, Winston-Salem, Norfolk, Chesapeake, Tallahassee, Cape Coral |
+| 11.1 | 2026-11-26 | Batch 9 data check | Done | Dataset name "Lexington-Fayette Urban County" shown as Lexington; Norfolk and Chesapeake use independent-city county text; ZIPs 6–15 per city |
+| 11.2 | 2026-11-26 | Batch 9 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 11.3 | 2026-11-26 | Batch 9 content | Done | `tools/content/cities_b9.py`: Lexington, Knoxville, Chattanooga, Greensboro, Durham, Winston-Salem, Norfolk, Chesapeake, Tallahassee, Cape Coral |
+| 11.4 | 2026-11-26 | Template fix | Done | Nearby paragraph reads "also cover the rest of {county}" when no nearby towns exist; nearby lists added for Knoxville, Chattanooga, Tallahassee |
+| 11.5 | 2026-11-26 | Audit | Done | 166 pages, 0 issues; batch uniqueness 76–87%; responsive 360/768/1280 clean |
+| 11.6 | 2026-11-26 | Push | Done | Committed to main |
+| 12 | Next | City pages batch 10 | Coming | Laredo, Lubbock, Amarillo, Brownsville, McAllen, Garland, Irving, Grand Prairie, Frisco, McKinney |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
