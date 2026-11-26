@@ -35,8 +35,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 4.3 | 2026-11-26 | Linking | Done | Service pages link up to 6 city guides each (keyword-matched first); new audit check enforces 3+ in-text inbound links per city |
 | 4.4 | 2026-11-26 | Audit | Done | 96 pages, 0 issues; city uniqueness 82–91%; responsive and console checks clean |
 | 4.5 | 2026-11-26 | Push | Done | Committed to main |
-| 5 | Next | City pages batch 3 | Coming | California: Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim |
-| 6+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
+| 5.1 | 2026-11-26 | Batch 3 research | Done | Semrush keywords for 10 California cities (40 terms); ZIP codes from `tools/data/city_zips.json` (7–102 per city) |
+| 5.2 | 2026-11-26 | Batch 3 content | Done | `tools/content/cities_b3.py`: LA, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim |
+| 5.3 | 2026-11-26 | Linking upgrade | Done | City pages link the 3 nearest same-state city guides in-text; fixes cities without nearby guides |
+| 5.4 | 2026-11-26 | Audit | Done | 106 pages, 0 issues; CA city uniqueness 82–87%; responsive and console checks clean |
+| 5.5 | 2026-11-26 | Push | Done | Committed to main |
+| 6 | Next | City pages batch 4 | Coming | Southeast: Atlanta, Charlotte, Raleigh, Nashville, Memphis, New Orleans, Baton Rouge, Birmingham, Charleston SC, Savannah |
+| 7+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
 ## Keyword map (Semrush US, Nov 2026)

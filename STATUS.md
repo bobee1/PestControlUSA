@@ -3,22 +3,22 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 4)
+**Last updated:** 2026-11-26 (Build 5)
 
-## Previous step — Build 3: city pages batch 1 ✅
-- Houston, San Antonio, Dallas, Austin, Fort Worth, Jacksonville, Miami, Tampa, Orlando, St. Petersburg.
+## Previous step — Build 4: city pages batch 2 ✅
+- El Paso, Arlington, Corpus Christi, Plano, Hialeah, Fort Lauderdale, Phoenix, Tucson, Mesa, Scottsdale.
 
-## Current step — Build 4: city pages batch 2 ✅ complete (10 cities)
-- **Cities live:** El Paso, Arlington, Corpus Christi, Plano (TX); Hialeah, Fort Lauderdale (FL); Phoenix, Tucson, Mesa, Scottsdale (AZ). First Arizona city pages.
-- **Keyword highlights (Semrush US):** pest control Phoenix 4,400/mo (KD 29); termite control Phoenix 1,600 ($32.33, KD 26); rodent control Phoenix 1,600 (KD 17); pest control Tucson 3,600; pest control El Paso 1,300 (KD 24); pest control Scottsdale 1,000 (KD 24); pest control Hialeah KD 9.
-- **City-specific topics:** scorpions and the Franklin Mountains (El Paso), apartments and bed bugs near UTA (Arlington), coastal humidity and hurricanes (Corpus Christi), greenbelts and attic pests (Plano), dense shared-wall housing (Hialeah), termite tenting (Fort Lauderdale), bark scorpions in the Valley (Phoenix), pack rats and wiring damage (Tucson), snowbird seasonal homes (Mesa), desert-edge living (Scottsdale).
-- **Verified local events used:** El Paso flood (Aug 2006), Hurricane Celia (1970) and Harvey (2017) for Corpus Christi, Fort Lauderdale record rainfall (Apr 2023), Phoenix 31 straight days at 110°F+ (Jul 2023), roof rats confirmed in Arcadia (~2001).
-- **Data:** `tools/data/city_zips.json` now holds primary ZIP codes for all 1,795 places that have them (59 places have no primary ZIP in the data and will need a fallback).
-- **Checks:** 96 pages, 0 issues; city uniqueness 82–91%; every city has 3–5 in-text inbound links (new audit check); responsive 360/768/1280 with no overflow or console errors.
+## Current step — Build 5: city pages batch 3 ✅ complete (10 California cities)
+- **Cities live:** Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim.
+- **Keyword highlights (Semrush US):** pest control Sacramento 2,400 (KD 28); pest control San Diego 2,400 (KD 34); pest control Los Angeles 1,900 (KD 37); pest control San Jose 1,300 (KD 20); pest control Fresno 1,300 (KD 16); termite control Los Angeles $32.88/click; termite inspection San Diego 390 ($34.57).
+- **City-specific topics:** termite tenting (LA), canyon wildlife (San Diego), orchards and roof rats (San Jose), attached-building pests (San Francisco), black widows in the Valley (Fresno), WDO Section 1/Section 2 reports (Sacramento), historic homes and drywood termites (Long Beach), hillside wildlife and yellow jackets (Oakland), heat and harvest (Bakersfield), hotels and bed bugs (Anaheim).
+- **Verified local events used:** LA flea-borne typhus outbreak (2018), San Diego floods (Jan 2024), Coyote Creek flood (Feb 2017), SF IPM ordinance (1996), Oakland Hills firestorm (1991), Canyon Fire 2 in Anaheim Hills (2017), Anaheim founding as a vineyard colony (1857).
+- **Linking upgrade:** each city page now links the 3 nearest same-state city guides in-text, so every city keeps 3+ in-text inbound links as batches grow (audit check caught Fresno, Bakersfield and San Diego at 2 before the fix).
+- **Checks:** 106 pages, 0 issues; California city uniqueness 82–87%; responsive 360/768/1280 with no overflow or console errors.
 
-## Coming next — Build 5: city pages batch 3 (10 cities)
-- Proposed: California's largest cities: Los Angeles, San Diego, San Jose, San Francisco, Fresno, Sacramento, Long Beach, Oakland, Bakersfield, Anaheim.
-- California adds drywood termite tenting, Argentine ants, roof rats and Structural Pest Control Board rules at city level.
+## Coming next — Build 6: city pages batch 4 (10 cities)
+- Proposed: Southeast metros: Atlanta, Charlotte, Raleigh, Nashville, Memphis, New Orleans, Baton Rouge, Birmingham, Charleston (SC), Savannah.
+- Brings Formosan termites in New Orleans and Charleston, fire ants, brown recluses in Memphis and Nashville, and crawl-space homes across the Carolinas.
 
 ## Later builds
 - Remaining city batches until all 1,855 places are live; then towns under 25,000 if wanted.

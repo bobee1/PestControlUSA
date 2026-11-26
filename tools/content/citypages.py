@@ -4,15 +4,17 @@ import core as S
 from content.statepages import BY_AB, load_places, display_name, fmt, SVC_NAME
 from content.cities_b1 import CITIES_B1
 from content.cities_b2 import CITIES_B2
+from content.cities_b3 import CITIES_B3
 
 CITIES = {}
 CITIES.update(CITIES_B1)
 CITIES.update(CITIES_B2)
+CITIES.update(CITIES_B3)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
              "Tampa": "Tampa,_Florida", "Orlando": "Orlando,_Florida", "Saint Petersburg": "St._Petersburg,_Florida"}
-STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona"}
+STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California"}
 
 ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips.json")))
 
@@ -72,6 +74,13 @@ def city_page(key, row, allrows):
              + (f", in ZIP codes {zip_text}" if zips and len(zips) <= 60 else (f", in all {len(zips)} ZIP codes from {zips[0]} to {zips[-1]}" if zips else "")) + ".")
     faqs = c["faqs"] + [cover]
     near_txt = ", ".join(nlink(r) for r in near_local)
+    linked = {(r["name"], r["state"]) for r in near_local}
+    same_state = sorted(((dist(row, r), (r["name"], r["state"])) for r in allrows
+                         if (r["name"], r["state"]) in built and (r["name"], r["state"]) not in linked), key=lambda x: x[0])[:3]
+    more_state = ""
+    if same_state:
+        ls = [f'<a href="{built[k]}">pest control in {CITIES[k].get("display", k[0])}</a>' for d, k in same_state]
+        more_state = f" Other {sname} city guides: " + (", ".join(ls[:-1]) + " and " + ls[-1] if len(ls) > 1 else ls[0]) + "."
     pills = "".join(f'<li><a href="{built[k]}">Pest control in {CITIES[k].get("display", k[0])}</a></li>' for d, k in near_built)
     pills += f'<li><a href="/locations/{sslug}/">Pest control in {sname}</a></li><li><a href="/">{S.BRAND} home</a></li><li><a href="/locations/">All locations</a></li>'
 
@@ -95,7 +104,7 @@ def city_page(key, row, allrows):
 <p>Licensed providers serving {nm} handle every service below, from one-time visits to year-round plans.</p>
 {svc_cards()}
 <h2>Nearby areas covered</h2>
-<p>Providers who serve {nm} also cover nearby communities, including {near_txt}.</p>
+<p>Providers who serve {nm} also cover nearby communities, including {near_txt}.{more_state}</p>
 <ul class="pills">{pills}</ul>
 </div></div>
 {S.call_band(f"Pest control in {nm}, {ab}", f"Call to reach a licensed provider serving {nm} and {c['county']}.")}'''
