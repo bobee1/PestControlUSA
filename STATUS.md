@@ -3,24 +3,23 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 2)
+**Last updated:** 2026-11-26 (Build 3)
 
-## Previous step — Build 1: core site + legal pages ✅
-- Home, services hub, 13 service pages, locations hub, about, contact (+ Resend form), disclaimer, editorial policy, privacy, terms, accessibility, 404, sitemap, robots, headers, redirects.
+## Previous step — Build 2: state pages + glossary ✅
+- 51 state pages (`/locations/{state}/`) with unique local content and full 25k+ city tables; glossary (55 terms) with auto-links; Locations dropdown.
 
-## Current step — Build 2: state pages + glossary ✅ complete
-- **City scope decided by owner:** cities with **25,000+ population** first (2020 Census). Dataset: `tools/data/places_25k.csv`, **1,855 places** (1,553 incorporated cities + 300 large census-designated places + Washington, DC), with county, population, housing units and coordinates. Source: 2020 Census place data via the bdurand/us_geo GitHub mirror (census.gov is unreachable from the build environment).
-- **51 state pages** at `/locations/{state}/` (50 states + DC), each with: H1 "Pest Control in {State}", quick answer, city stats, "why pest control here is different" (unique local text), common-problems table linking services, pest season calendar, local tips, state licensing agency and rules, full table of every 25k+ city with county and population, 4 FAQs, all 13 service cards, neighboring-state links.
-- **Uniqueness (5-word shingles vs all other state pages):** lowest 62% (New Hampshire), average 73%. Target was 60%+. Word counts 870–2,500.
-- **Glossary** at `/glossary/`: 55 terms, A–Z jump links, anchors, DefinedTermSet schema; first mention of up to 4 terms on each service and state page auto-links to the glossary.
-- **Navigation:** Locations dropdown with all 51 states; footer links the glossary; service-page "near you" pills, home "Areas served" and the locations hub now link to state pages.
-- Audit: **76 pages, 0 issues** (location uniqueness check added to `tools/audit.py`). Responsive OK at 360/768/1280; no console errors.
+## Current step — Build 3: city pages, batch 1 ✅ complete (10 cities)
+- Owner direction: short batches, no compromise on quality, fully relevant, optimized and semantic.
+- **Cities live:** Houston, San Antonio, Dallas, Austin, Fort Worth (TX); Jacksonville, Miami, Tampa, Orlando, St. Petersburg (FL), at `/locations/{state}/{city}/`.
+- **Research per city:** Semrush city keywords (primary + 3 secondary), 2020 Census population and housing units, primary ZIP codes (2020 ZCTA data), 12 named neighborhoods, landmarks and waterways, housing types and eras, verified local events (Harvey 2017, Imelda 2019, Dallas West Nile outbreak 2012, Winter Storm Uri 2021, Irma 2017 river flooding, Wynwood Zika 2016, Ian 2022, Helene and Milton 2024).
+- **Each page:** H1 "Pest Control in {City}, {ST}", quick answer, census stats, "why pest control here is different", local problems table linking services, a city-specific topic section (e.g. Formosan termites and flooding in Houston, scorpions in West Austin, condo pest control in Miami, tent fumigation in Tampa), pest calendar, resident tips, 4 FAQs incl. "Do you cover all of {City}?" with ZIP codes, all service cards, nearby 25k+ communities within 35 miles, links to 3 nearest city guides + state page.
+- **Schema:** WebPage (about Service + Pest control; mentions City with Wikipedia sameAs, containedInPlace county → state), Service (areaServed City), FAQPage, BreadcrumbList.
+- **Internal links:** state pages link city names in their tables plus an in-text "city guides" sentence; service pages' Local note links 3–5 city guides with varied anchors; every city gets 3–5 in-text inbound links.
+- **Quality checks:** uniqueness 88–91% per city (5-word shingles vs all 61 location pages); 960–1,100 words; audit 86 pages, 0 issues; responsive 360/1280 OK; no console errors.
 
-## Coming next — Build 3: city pages, batch 1
-- City pages at `/locations/{state}/{city}/` for the 1,855 places over 25,000, built in batches by state, starting with the highest-demand states (Texas, Florida, California, Georgia, Arizona, North Carolina).
-- Each city page: 800–1,200 words, 60%+ unique, real local entities (county, ZIP codes, neighborhoods, landmarks, housing age), common-problems table, FAQ "Do you cover all of {City}?", links to 3 nearby cities.
-- State pages' city tables will link to each city page as it goes live.
-- Proposed batch size: about 25–40 cities per build, so each page gets real local research rather than templates.
+## Coming next — Build 4: city pages, batch 2 (10 cities)
+- Proposed: next-largest cities in Texas and Florida plus Arizona's top metros: El Paso, Arlington, Corpus Christi, Plano (TX); Hialeah, Fort Lauderdale (FL); Phoenix, Tucson, Mesa, Scottsdale (AZ).
+- Same research depth and page structure; nearby-city links will interlink across batches automatically.
 
 ## Later builds
 - Remaining city batches until all 1,855 places are live; then towns under 25,000 if wanted.

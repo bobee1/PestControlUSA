@@ -7,12 +7,20 @@ import core as S
 from content.services_a import SERVICES_A, SRC, WIKI
 from content.services_b import SERVICES_B, SRC_B
 from content.states import STATES
-from content import pages, legal, statepages
+from content import pages, legal, statepages, citypages
 
 SRC.update(SRC_B)
 S.SERVICES.extend(SERVICES_A + SERVICES_B)
 S.STATE_NAV.extend((slug, name) for slug, name, ab, reg, p in STATES)
 S.AUTOLINK = statepages.autolink
+for _s in S.SERVICES:
+    statepages.SVC_NAME[_s["slug"]] = _s["name"]
+for _s in S.SERVICES:
+    _sent = citypages.service_city_sentence(_s["slug"])
+    if _sent:
+        i = _s["local"].rindex("</p>")
+        _s["local"] = _s["local"][:i] + _sent + _s["local"][i:]
+statepages.CITY_LINKS.update(citypages.built_city_links())
 
 # second, in-content photos per service (hero image is used as background)
 SECOND = {
@@ -145,6 +153,7 @@ def main():
     pages.build_locations_hub()
     statepages.build_states()
     statepages.build_glossary()
+    citypages.build_cities()
     pages.build_about()
     pages.build_contact()
     legal.build_legal()

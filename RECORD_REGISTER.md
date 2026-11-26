@@ -24,8 +24,14 @@ Every build step is logged here: what was done before, what is being done now, a
 | 2.5 | 2026-11-26 | Navigation + links | Done | Locations dropdown (51 states), footer glossary, service pills → state pages, home areas → state pages, hub cards → state pages |
 | 2.6 | 2026-11-26 | Audit | Done | 76 pages, 0 issues; location uniqueness lowest 62%, avg 73%; responsive + console checks OK |
 | 2.7 | 2026-11-26 | Push | Done | Committed to main |
-| 3 | Next | City pages batch 1 | Coming | Highest-demand states first; ~25–40 cities per batch; 800–1,200 words; 60%+ unique |
-| 4+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
+| 3.1 | 2026-11-26 | Batch 1 selection | Done | Owner asked for short, high-quality batches. 10 cities: Houston, San Antonio, Dallas, Austin, Fort Worth, Jacksonville, Miami, Tampa, Orlando, St. Petersburg |
+| 3.2 | 2026-11-26 | City research | Done | Semrush city keywords (e.g. pest control Houston 3,600/mo, pest control Austin 2,400 KD 26, rodent control Miami 1,000 KD 18, termite treatment Tampa 720); 2020 ZCTA ZIP codes saved to `tools/data/city_zips_batch1.json` |
+| 3.3 | 2026-11-26 | City content | Done | `tools/content/cities_b1.py`: neighborhoods, history, problems, topic section, calendar, tips, FAQs per city |
+| 3.4 | 2026-11-26 | City builder + linking | Done | `tools/content/citypages.py`; nearby 25k+ places within 35 mi; state tables link cities; service pages link 3–5 cities each with varied anchors |
+| 3.5 | 2026-11-26 | Audit | Done | 86 pages, 0 issues; city uniqueness 88–91%; every city 3+ in-text inbound links |
+| 3.6 | 2026-11-26 | Push | Done | Committed to main |
+| 4 | Next | City pages batch 2 | Coming | 10 cities: El Paso, Arlington, Corpus Christi, Plano, Hialeah, Fort Lauderdale, Phoenix, Tucson, Mesa, Scottsdale |
+| 5+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
 ## Keyword map (Semrush US, Nov 2026)

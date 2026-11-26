@@ -152,9 +152,10 @@ def uniqueness(prefix="/locations/", n=5, exclude_tables=False):
     """Share of each location page's 5-word shingles not found on any other location page."""
     import glob
     docs = {}
-    for url in sorted(os.listdir(os.path.join(ROOT, "locations"))):
-        p = os.path.join(ROOT, "locations", url, "index.html")
-        if not os.path.exists(p): continue
+    for dp, dn, fn in os.walk(os.path.join(ROOT, "locations")):
+        if dp == os.path.join(ROOT, "locations") or "index.html" not in fn: continue
+        url = os.path.relpath(dp, os.path.join(ROOT, "locations"))
+        p = os.path.join(dp, "index.html")
         s = open(p).read()
         s = re.sub(r'<(article|aside|section) class="(card svc-card|cta-box|callband)[^"]*".*?</\1>', " ", s, flags=re.S)
         m = re.search(r'<main.*?</main>', s, flags=re.S)
