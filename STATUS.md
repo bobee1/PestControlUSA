@@ -3,20 +3,21 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 16)
+**Last updated:** 2026-11-26 (Build 17)
 
-## Previous step — Build 15: city pages batch 13 ✅
-- Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay.
+## Previous step — Build 16: state uniqueness pass + city pages batch 14 ✅
+- 13 state pages got a state-specific section (lowest state now 66%); Fort Wayne, Toledo, Akron, Grand Rapids, Lincoln, Sioux Falls, Overland Park, Springfield MO, Rochester MN, Cedar Rapids.
 
-## Current step — Build 16: state uniqueness pass + city pages batch 14 ✅ complete
-- **State pass:** added a state-specific section to 13 state pages (South Dakota, Kansas, New Hampshire, Wyoming, West Virginia, North Dakota, Nevada, Oklahoma, Kentucky, Nebraska, Rhode Island, Montana, New Mexico) with verified local facts, e.g. Black Hills pine beetle outbreak and Sturgis rally lodging, Flint Hills burns, Seacoast browntail moth, Red River floods and the Bakken, Mormon crickets in northern Nevada, the July 2022 eastern Kentucky floods, New Mexico plague and hantavirus. Lowest state page is now 66% (was 61%).
-- **Cities live:** Fort Wayne (IN), Toledo and Akron (OH), Grand Rapids (MI), Lincoln (NE), Sioux Falls (SD), Overland Park (KS), Springfield (MO), Rochester (MN), Cedar Rapids (IA).
-- **Keyword highlights (Semrush US):** bat removal Grand Rapids KD 7; mosquito control Overland Park 210 (KD 15); termite control Overland Park KD 19; exterminator Toledo KD 20; pest control Grand Rapids 880 (KD 23); exterminator Rochester MN KD 24; pest control Akron Ohio KD 25; pest control Sioux Falls 720 (KD 31).
-- **City-specific topics:** river wildlife (Fort Wayne), Lake Erie mayflies (Toledo), company-built rubber-worker homes (Akron), bats in Heritage Hill (Grand Rapids), termites vs carpenter ants (Lincoln), West Nile and mosquitoes (Sioux Falls), termite protection (Overland Park), Ozark ticks and chiggers (Springfield), hotels, clinics and long-stay rentals near Mayo (Rochester), derecho and flood damage and attic wildlife (Cedar Rapids).
-- **Checks:** 216 pages, 0 issues; batch uniqueness 74–81%; responsive 360/768/1280 clean.
+## Current step — Build 17: city pages batch 15 ✅ complete (Northeast second tier)
+- **Cities live:** Buffalo, Rochester, Syracuse and Yonkers (NY); Worcester and Springfield (MA); Hartford, New Haven and Bridgeport (CT); Allentown (PA).
+- **Keyword highlights (Semrush US):** exterminator New Haven KD 14; exterminator Bridgeport CT KD 15 and rodent control Bridgeport KD 15; exterminator Springfield MA KD 16; pest control Syracuse NY 480 (KD 16); pest control Yonkers KD 23; exterminator Buffalo NY 480 (KD 25); pest control Worcester 590 (KD 29). Rochester NY head terms are hard (KD 55–56).
+- **City-specific topics:** ice dams and carpenter ants (Buffalo), rats along the Genesee (Rochester), bats (Syracuse), mice and roaches in apartment buildings (Yonkers), EEE and mosquitoes (Worcester), squirrels in McKnight Victorians (Springfield), perfect sixes (Hartford), ticks and Lyme disease (New Haven), rats and multi-family trash (Bridgeport), spotted lanternflies (Allentown).
+- **Local facts used:** Snowvember 2014 and the December 2022 blizzard; Syracuse snowfall; EEE cases in Worcester County in 2019–2020 and the Central Massachusetts Mosquito Control Project; the 2008 Asian longhorned beetle find in Worcester; the June 2011 Springfield tornado; Hartford's perfect sixes; Lyme disease named for Lyme, CT; lanternfly first found in Berks County in 2014.
+- **Same-name fix:** the services paragraph on every city page now names the state, so Rochester MN/NY and Springfield MO/MA no longer share an identical paragraph.
+- **Checks:** 226 pages, 0 issues; batch uniqueness 68–83%; responsive 360/768/1280 clean.
 
-## Coming next — Build 17: city pages batch 15 (10 cities)
-- Proposed: Northeast second tier: Buffalo, Rochester and Syracuse (NY), Yonkers (NY), Worcester and Springfield (MA), Hartford, New Haven and Bridgeport (CT), Allentown (PA).
+## Coming next — Build 18: city pages batch 16 (10 cities)
+- Proposed: Deep South second tier: Columbia and Greenville (SC), Augusta and Columbus (GA), Huntsville, Montgomery and Mobile (AL), Jackson (MS), Little Rock (AR), Shreveport (LA).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.

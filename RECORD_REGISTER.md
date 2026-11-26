@@ -100,7 +100,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 16.3 | 2026-11-26 | Batch 14 content | Done | `tools/content/cities_b14.py`: Fort Wayne, Toledo, Akron, Grand Rapids, Lincoln, Sioux Falls, Overland Park, Springfield MO, Rochester MN, Cedar Rapids; South Dakota gets its first city guide |
 | 16.4 | 2026-11-26 | Audit | Done | 216 pages, 0 issues; batch uniqueness 74–81%; responsive clean |
 | 16.5 | 2026-11-26 | Push | Done | Committed to main |
-| 17 | Next | City pages batch 15 | Coming | Buffalo, Rochester NY, Syracuse, Yonkers, Worcester, Springfield MA, Hartford, New Haven, Bridgeport, Allentown |
+| 17.1 | 2026-11-26 | Batch 15 data check | Done | Connecticut rows use 2022 planning regions; pages use the historic counties (Hartford, New Haven, Fairfield) for county text and schema |
+| 17.2 | 2026-11-26 | Batch 15 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 17.3 | 2026-11-26 | Batch 15 content | Done | `tools/content/cities_b15.py`: Buffalo, Rochester NY, Syracuse, Yonkers, Worcester, Springfield MA, Hartford, New Haven, Bridgeport, Allentown |
+| 17.4 | 2026-11-26 | Same-name fix | Done | Rochester (MN/NY) and Springfield (MO/MA) produced identical service paragraphs; the paragraph now names the state ("Licensed {State} providers serving…") on every city page |
+| 17.5 | 2026-11-26 | Audit | Done | 226 pages, 0 issues; batch uniqueness 68–83% (same-name pairs lowest); responsive clean |
+| 17.6 | 2026-11-26 | Push | Done | Committed to main |
+| 18 | Next | City pages batch 16 | Coming | Columbia SC, Greenville SC, Augusta GA, Columbus GA, Huntsville, Montgomery, Mobile, Jackson MS, Little Rock, Shreveport |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
