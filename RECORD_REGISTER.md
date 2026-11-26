@@ -63,7 +63,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 9.4 | 2026-11-26 | Template updates | Done | Display names now used on state pages for every built city; optional `nearby` list fills the nearby-areas paragraph for isolated cities (Anchorage, Spokane); nearby lists now read "A, B and C" |
 | 9.5 | 2026-11-26 | Audit | Done | 146 pages, 0 issues; batch uniqueness 82–88%; responsive 360/768/1280 clean |
 | 9.6 | 2026-11-26 | Push | Done | Committed to main |
-| 10 | Next | City pages batch 8 | Coming | Detroit, Milwaukee, Minneapolis, St. Paul, Cleveland, Cincinnati, Omaha, Wichita, Madison, Des Moines |
+| 10.1 | 2026-11-26 | Batch 8 data check | Done | Dataset name "Saint Paul" shown as St. Paul; ZIPs 11–30 per city |
+| 10.2 | 2026-11-26 | Batch 8 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 10.3 | 2026-11-26 | Batch 8 content | Done | `tools/content/cities_b8.py`: Detroit, Milwaukee, Minneapolis, St. Paul, Cleveland, Cincinnati, Omaha, Wichita, Madison, Des Moines |
+| 10.4 | 2026-11-26 | Audit | Done | 156 pages, 0 issues; batch uniqueness 77–86%; responsive 360/768/1280 clean |
+| 10.5 | 2026-11-26 | Push | Done | Committed to main |
+| 11 | Next | City pages batch 9 | Coming | Lexington, Knoxville, Chattanooga, Greensboro, Durham, Winston-Salem, Norfolk, Chesapeake, Tallahassee, Cape Coral |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

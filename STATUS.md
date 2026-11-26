@@ -3,22 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 9)
+**Last updated:** 2026-11-26 (Build 10)
 
-## Previous step — Build 8: city pages batch 6 ✅
-- New York City, Philadelphia, Pittsburgh, Boston, Baltimore, Newark, Jersey City, Providence, Virginia Beach, Richmond.
+## Previous step — Build 9: city pages batch 7 ✅
+- Seattle, Portland, Spokane, Tacoma, Boise, Salt Lake City, Albuquerque, Colorado Springs, Anchorage, Honolulu.
 
-## Current step — Build 9: city pages batch 7 ✅ complete (Pacific Northwest, Mountain West, Southwest, Alaska, Hawaii)
-- **Cities live:** Seattle, Spokane and Tacoma (WA), Portland (OR), Boise (ID), Salt Lake City (UT), Albuquerque (NM), Colorado Springs (CO), Anchorage (AK), Honolulu (HI).
-- **Dataset notes:** Census names "Boise City" and "Urban Honolulu" (a CDP) display as Boise and Honolulu. Anchorage has no other 25k+ place within 35 miles, so its nearby paragraph names Eagle River, Chugiak, Girdwood, Wasilla and Palmer.
-- **Keyword highlights (Semrush US):** pest control Tacoma 1,000 (KD 18); pest control Anchorage 320 (KD 20); exterminator Honolulu KD 13; mosquito control Boise 140 (KD 9); spider control Boise 210 (KD 15); termite control Albuquerque KD 8; rodent control Seattle 880 and rodent control Portland 720; pest control Seattle and Portland 1,900 each.
-- **City-specific topics:** moisture and wood-destroying pests (Seattle), older homes and moisture pests (Portland), the fall pest rush (Spokane), gulches and rats (Tacoma), new-home pests and black widows (Boise), window wells and old foundations (Salt Lake City), hantavirus and safe rodent cleanup (Albuquerque), miller moths and fall invaders (Colorado Springs), cold-climate pest control and bear-safe trash (Anchorage), subterranean vs drywood termite treatment (Honolulu).
-- **Local facts used:** Multnomah County vector control, Ada County mosquito abatement, Salt Lake City Mosquito Abatement District, NM hantavirus guidance, Front Range miller moth migration and elm seed bugs, Anchorage trash rules for bears, rat lungworm disease and Hawaii Department of Agriculture invasive-pest reporting (little fire ants, coconut rhinoceros beetle). Hobo spider claims were left out because the bite risk is disputed.
-- **Template updates:** state pages show display names for all built cities; optional `nearby` list for isolated cities; nearby lists read "A, B and C".
-- **Checks:** 146 pages, 0 issues; batch uniqueness 82–88%; responsive 360/768/1280 clean. South Dakota state page holding at 61%.
+## Current step — Build 10: city pages batch 8 ✅ complete (Great Lakes and Plains)
+- **Cities live:** Detroit (MI), Milwaukee and Madison (WI), Minneapolis and St. Paul (MN), Cleveland and Cincinnati (OH), Omaha (NE), Wichita (KS), Des Moines (IA).
+- **Keyword highlights (Semrush US):** pest control St. Paul 1,000 (KD 20) and exterminator St. Paul KD 19; pest control Detroit 1,000 (KD 21) and rodent control Detroit 210 (KD 0); termite control Cincinnati KD 12; bed bug exterminator Milwaukee KD 5; mouse exterminator Minneapolis 170 (KD 7); wasp removal Minneapolis KD 6; mosquito control Omaha 140 (KD 13); pest control Omaha 1,900.
+- **City-specific topics:** vacant lots, demolitions and rats (Detroit), fall invaders in attics and wall voids (Milwaukee), lakes and the Metropolitan Mosquito Control District (Minneapolis), bats and squirrels in Victorian homes (St. Paul), Cleveland doubles (Cleveland), Ohio Valley termites (Cincinnati), river floods and mosquitoes (Omaha), brown recluse spiders (Wichita), ticks and Lyme risk (Madison), damp basements and moisture pests (Des Moines).
+- **Local facts used:** Detroit's 2014 and June 2021 basement floods and blight demolitions; Milwaukee duplexes and Polish flats; Minnesota's first emerald ash borer find in St. Paul (2009); Missouri River flooding in March 2019; Planeview built for aircraft workers; Madison's mid-August lease turnover and lake flies; Des Moines floods of 1993 and 2008.
+- **Checks:** 156 pages, 0 issues; batch uniqueness 77–86%; responsive 360/768/1280 clean. South Dakota state page holding at 61%.
 
-## Coming next — Build 10: city pages batch 8 (10 cities)
-- Proposed: Great Lakes and Plains: Detroit, Milwaukee, Minneapolis, St. Paul, Cleveland, Cincinnati, Omaha, Wichita, Madison, Des Moines.
+## Coming next — Build 11: city pages batch 9 (10 cities)
+- Proposed: Upper South and Southeast second tier: Lexington (KY), Knoxville and Chattanooga (TN), Greensboro, Durham and Winston-Salem (NC), Norfolk and Chesapeake (VA), Tallahassee and Cape Coral (FL).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.
