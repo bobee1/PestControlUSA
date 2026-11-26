@@ -3,21 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 15)
+**Last updated:** 2026-11-26 (Build 16)
 
-## Previous step — Build 14: city pages batch 12 ✅
-- Chandler, Gilbert, Glendale AZ, Peoria AZ, Henderson, North Las Vegas, Reno, Aurora CO, Fort Collins, Lakewood CO.
+## Previous step — Build 15: city pages batch 13 ✅
+- Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay.
 
-## Current step — Build 15: city pages batch 13 ✅ complete (Florida second tier)
-- **Cities live:** Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay.
-- **Keyword highlights (Semrush US):** pest control Hollywood FL KD 8; pest control Miramar 170 (KD 9); termite control Port St. Lucie 140 (KD 9); mosquito control Coral Springs KD 8; exterminator Palm Bay KD 8; pest control Gainesville FL 590 (KD 16); pest control Pembroke Pines 390 (KD 19); pest control Clearwater FL 880 (KD 20); rodent control West Palm Beach 590 (KD 27).
-- **City-specific topics:** renewing termite protection (Port St. Lucie), ghost and white-footed ants (Pembroke Pines), iguanas and seawalls (Hollywood), Everglades-edge mosquitoes (Miramar), Asian and Formosan termites (Coral Springs), rats in historic neighborhoods (West Palm Beach), no-see-ums (Clearwater), armadillos and wildlife (Lakeland), integrated pest management (Gainesville), palmetto bugs (Palm Bay).
-- **Local facts used:** General Development Corporation origins of Port St. Lucie and Port Malabar; Hollywood's 1920s founding; Florida's iguana removal guidance; Broward County's two invasive subterranean termites; UF entomology and IPM.
-- **Checks:** 206 pages, 0 issues; batch uniqueness 77–83%; responsive 360/768/1280 clean. Watch items: South Dakota 61%, Nevada 64%.
+## Current step — Build 16: state uniqueness pass + city pages batch 14 ✅ complete
+- **State pass:** added a state-specific section to 13 state pages (South Dakota, Kansas, New Hampshire, Wyoming, West Virginia, North Dakota, Nevada, Oklahoma, Kentucky, Nebraska, Rhode Island, Montana, New Mexico) with verified local facts, e.g. Black Hills pine beetle outbreak and Sturgis rally lodging, Flint Hills burns, Seacoast browntail moth, Red River floods and the Bakken, Mormon crickets in northern Nevada, the July 2022 eastern Kentucky floods, New Mexico plague and hantavirus. Lowest state page is now 66% (was 61%).
+- **Cities live:** Fort Wayne (IN), Toledo and Akron (OH), Grand Rapids (MI), Lincoln (NE), Sioux Falls (SD), Overland Park (KS), Springfield (MO), Rochester (MN), Cedar Rapids (IA).
+- **Keyword highlights (Semrush US):** bat removal Grand Rapids KD 7; mosquito control Overland Park 210 (KD 15); termite control Overland Park KD 19; exterminator Toledo KD 20; pest control Grand Rapids 880 (KD 23); exterminator Rochester MN KD 24; pest control Akron Ohio KD 25; pest control Sioux Falls 720 (KD 31).
+- **City-specific topics:** river wildlife (Fort Wayne), Lake Erie mayflies (Toledo), company-built rubber-worker homes (Akron), bats in Heritage Hill (Grand Rapids), termites vs carpenter ants (Lincoln), West Nile and mosquitoes (Sioux Falls), termite protection (Overland Park), Ozark ticks and chiggers (Springfield), hotels, clinics and long-stay rentals near Mayo (Rochester), derecho and flood damage and attic wildlife (Cedar Rapids).
+- **Checks:** 216 pages, 0 issues; batch uniqueness 74–81%; responsive 360/768/1280 clean.
 
-## Coming next — Build 16: state page uniqueness pass + city batch 14
-- First, add state-specific content to South Dakota, Nevada and any other state page under 66% so they stay well above the 60% rule.
-- Then 10 Midwest second-tier cities: Fort Wayne (IN), Toledo and Akron (OH), Grand Rapids (MI), Lincoln (NE), Sioux Falls (SD), Overland Park (KS), Springfield (MO), Rochester (MN), Cedar Rapids (IA). Sioux Falls also helps the South Dakota page.
+## Coming next — Build 17: city pages batch 15 (10 cities)
+- Proposed: Northeast second tier: Buffalo, Rochester and Syracuse (NY), Yonkers (NY), Worcester and Springfield (MA), Hartford, New Haven and Bridgeport (CT), Allentown (PA).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.

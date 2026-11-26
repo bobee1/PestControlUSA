@@ -95,7 +95,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 15.3 | 2026-11-26 | Batch 13 content | Done | `tools/content/cities_b13.py`: Port St. Lucie, Pembroke Pines, Hollywood, Miramar, Coral Springs, West Palm Beach, Clearwater, Lakeland, Gainesville, Palm Bay; topics chosen to avoid overlap with the 12 earlier Florida pages |
 | 15.4 | 2026-11-26 | Audit | Done | 206 pages, 0 issues; batch uniqueness 77–83%; Florida state page 83%; responsive clean |
 | 15.5 | 2026-11-26 | Push | Done | Committed to main |
-| 16 | Next | State page uniqueness pass + city batch 14 | Coming | Lift South Dakota and Nevada (and any state under 66%); then Midwest second tier: Fort Wayne, Toledo, Akron, Grand Rapids, Lincoln, Sioux Falls, Overland Park, Springfield MO, Rochester MN, Cedar Rapids |
+| 16.1 | 2026-11-26 | State page uniqueness pass | Done | New `tools/content/states_extra.py`: an extra state-specific section for the 13 lowest states (SD, KS, NH, WY, WV, ND, NV, OK, KY, NE, RI, MT, NM); all state pages now 66%+ (were 61–66%) |
+| 16.2 | 2026-11-26 | Batch 14 research | Done | Semrush keywords for 10 cities (40 terms); all names match the dataset |
+| 16.3 | 2026-11-26 | Batch 14 content | Done | `tools/content/cities_b14.py`: Fort Wayne, Toledo, Akron, Grand Rapids, Lincoln, Sioux Falls, Overland Park, Springfield MO, Rochester MN, Cedar Rapids; South Dakota gets its first city guide |
+| 16.4 | 2026-11-26 | Audit | Done | 216 pages, 0 issues; batch uniqueness 74–81%; responsive clean |
+| 16.5 | 2026-11-26 | Push | Done | Committed to main |
+| 17 | Next | City pages batch 15 | Coming | Buffalo, Rochester NY, Syracuse, Yonkers, Worcester, Springfield MA, Hartford, New Haven, Bridgeport, Allentown |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

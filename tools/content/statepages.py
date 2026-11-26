@@ -27,6 +27,7 @@ NEIGHBORS = {
 WIKI_STATE = {"GA": "Georgia_(U.S._state)", "WA": "Washington_(state)", "NY": "New_York_(state)", "DC": "Washington,_D.C."}
 
 SVC_NAME = {}
+from content.states_extra import STATE_EXTRA
 CITY_LINKS = {}  # (name, state) -> url for built city pages
 CITY_DISPLAY = {}  # (name, state) -> display label for built city pages
 
@@ -123,6 +124,9 @@ def state_page(ab, places):
             stats += f" {n_cdp} of the communities listed below are unincorporated census-designated places, which local residents usually know by name."
 
     why = "".join(f"<p>{p}</p>" for p in T["why"])
+    if ab in STATE_EXTRA:
+        eh, ep = STATE_EXTRA[ab]
+        why += f"<h2>{eh}</h2>" + "".join(f"<p>{p}</p>" for p in ep)
     prow = "".join(
         f'<tr><td>{p}</td><td>{w}</td><td><a href="/services/{svc}/">{SVC_NAME[svc]} in {dn}</a></td></tr>' for p, w, svc in T["pests"])
     tips = "".join(f"<li>{t}</li>" for t in T["tips"])
