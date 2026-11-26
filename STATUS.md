@@ -3,20 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 12)
+**Last updated:** 2026-11-26 (Build 13)
 
-## Previous step — Build 11: city pages batch 9 ✅
-- Lexington, Knoxville, Chattanooga, Greensboro, Durham, Winston-Salem, Norfolk, Chesapeake, Tallahassee, Cape Coral.
+## Previous step — Build 12: city pages batch 10 ✅
+- Laredo, Lubbock, Amarillo, Brownsville, McAllen, Garland, Irving, Grand Prairie, Frisco, McKinney.
 
-## Current step — Build 12: city pages batch 10 ✅ complete (Texas second tier)
-- **Cities live:** Laredo, Lubbock, Amarillo, Brownsville, McAllen, Garland, Irving, Grand Prairie, Frisco, McKinney.
-- **Keyword highlights (Semrush US):** pest control Irving 260 (KD 10); exterminator Brownsville KD 10 and pest control Brownsville 480 (KD 15); pest control Garland TX KD 11; exterminator McAllen KD 14; pest control Frisco TX 590 (KD 15) and pest control Frisco 880 (KD 19); pest control McKinney 1,000 (KD 22); pest control Amarillo 390 (KD 21). Lubbock is hard (KD 61).
-- **City-specific topics:** kissing bugs and Chagas (Laredo), cricket swarms (Lubbock), winterizing against mice (Amarillo), Aedes mosquitoes and dengue (Brownsville), fire ants (McAllen), lake mosquitoes and West Nile (Garland), apartment pest control (Irving), roof rats (Grand Prairie), builder termite warranties (Frisco), ticks, fleas and pets (McKinney). Scorpion topics avoided because four earlier pages already cover them.
-- **Local facts used:** Port Laredo as the top U.S. land port, Texas A&M kissing bug testing, Cameron County local dengue cases, Brownsville resacas, Winter Texans in RV parks, Dallas County's 2012 West Nile outbreak, McKinney's historic district.
-- **Checks:** 176 pages, 0 issues; batch uniqueness 78–84%; Texas state page 80%; responsive 360/768/1280 clean. South Dakota state page holding at 61%.
+## Current step — Build 13: city pages batch 11 ✅ complete (California second tier)
+- **Cities live:** Riverside, San Bernardino, Fontana, Moreno Valley, Santa Ana, Irvine, Chula Vista, Stockton, Modesto, Fremont.
+- **Keyword highlights (Semrush US):** pest control San Bernardino 210 (KD 8); exterminator Fontana KD 4 and pest control Fontana KD 11; exterminator Moreno Valley 170 (KD 9); bee removal Riverside KD 4 and termite control Riverside 480 (KD 15); pest control Irvine 480 (KD 12) and ant control Irvine KD 12; termite control Santa Ana KD 10; pest control Santa Ana 1,000 (KD 21); pest control Modesto 880 (KD 24).
+- **City-specific topics:** bee swarms and Africanized bees (Riverside), wildfire and foothill pests (San Bernardino), warehouse pest programs (Fontana), green pools and mosquitoes (Moreno Valley), German cockroaches in apartments (Santa Ana), Argentine ant supercolonies (Irvine), termites and HOAs in attached homes (Chula Vista), Delta waterways and mosquitoes (Stockton), irrigation and perimeter pests (Modesto), rat-proofing older tract homes (Fremont).
+- **Local facts used:** Riverside's navel orange heritage, Fontana's Kaiser Steel past and logistics hub, Irvine Ranch villages, San Joaquin County Mosquito and Vector Control District and Port of Stockton, Modesto Irrigation District flood irrigation, Fremont's 1956 merger of five towns.
+- **Checks:** 186 pages, 0 issues; batch uniqueness 80–84%; California state page 87%; responsive 360/768/1280 clean. South Dakota state page holding at 61%.
 
-## Coming next — Build 13: city pages batch 11 (10 cities)
-- Proposed: California second tier: Riverside, San Bernardino, Fontana, Moreno Valley, Santa Ana, Irvine, Chula Vista, Stockton, Modesto, Fremont.
+## Coming next — Build 14: city pages batch 12 (10 cities)
+- Proposed: Southwest and Mountain suburbs: Chandler, Gilbert, Glendale and Peoria (AZ), Henderson, North Las Vegas and Reno (NV), Aurora, Fort Collins and Lakewood (CO).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.
