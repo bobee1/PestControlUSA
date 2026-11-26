@@ -1,0 +1,7 @@
+/index.html / 301
+/home / 301
+/services/pest-control/ /services/general-pest-control/ 301
+/services/exterminator/ /services/general-pest-control/ 301
+/services/bed-bugs/ /services/bed-bug-treatment/ 301
+/services/termites/ /services/termite-control/ 301
+/services/rodents/ /services/rodent-control/ 301

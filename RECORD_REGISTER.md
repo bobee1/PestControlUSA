@@ -1,0 +1,62 @@
+# PestHalt — Record Register
+
+Every build step is logged here: what was done before, what is being done now, and what comes next.
+
+| # | Date | Step | Status | Details |
+|---|------|------|--------|---------|
+| 0 | 2026-11-16 | Planning | Done | Nationwide pest control build plan: Semrush market data, state tiers, URL architecture, monetization, rollout |
+| 1.1 | 2026-11-26 | Intake & brand | Done | Brand **PestHalt**, domain **pesthalt.us** (backup bughalt.us); own call routing; temporary toll-free (800) 555-0199; legal pages name Anjam Javed; copy uses referral framing because pest control is state-licensed work |
+| 1.2 | 2026-11-26 | Keyword research | Done | Semrush US (Nov 2026): primary keyword per page chosen for volume and low KD (see keyword map below) |
+| 1.3 | 2026-11-26 | Source verification | Done | EPA (IPM, termites, bed bugs, mosquito), CDC (rodent seal-up / clean-up), NPIC, UF/IFAS, MSU Extension confirmed via search |
+| 1.4 | 2026-11-26 | Images | Done | 25 Pexels candidates downloaded and visually checked; 22 converted to WebP (600w/1200w); 3 branded photos removed; 3 SVG illustrations created |
+| 1.5 | 2026-11-26 | Generator + design system | Done | `tools/core.py` (layout, CSS, schema, sitemap, headers), `tools/build.py`; palette: forest green + amber; system fonts; inline CSS, 1.6 KB deferred JS |
+| 1.6 | 2026-11-26 | Home page | Done | H1 "Pest Control Near You, in All 50 States"; 13 service cards; how it works; areas served; cost factors; warning signs; 8 FAQs; Organization/WebSite/HomeAndConstructionBusiness/WebPage/FAQPage schema |
+| 1.7 | 2026-11-26 | Services hub + 13 service pages | Done | Each: quick answer, what's included, signs table, steps, competitor-gap sections, cost factors, DIY vs pro, licensing notes, local note, FAQ, sources, related services, state pills; WebPage+Service+FAQPage+BreadcrumbList schema |
+| 1.8 | 2026-11-26 | Locations hub | Done | All 50 states + DC grouped by Census region with common pests; anchors per state (become links in Build 2) |
+| 1.9 | 2026-11-26 | Trust & legal pages | Done | About, Contact (form + TCPA consent text), Disclaimer, Editorial policy, Privacy (CCPA/CPRA + state privacy laws, TCPA, COPPA, breach notice), Terms, Accessibility (WCAG 2.1 AA), 404 |
+| 1.10 | 2026-11-26 | Contact form backend | Done | `functions/api/lead.js` (Cloudflare Pages Function → Resend), honeypot, validation |
+| 1.11 | 2026-11-26 | Audit | Done | `tools/audit.py`: 24 pages, 0 issues; responsive 360/768/1280 OK; no console errors |
+| 1.12 | 2026-11-26 | Push | Done | Committed to github.com/bobee1/PestControlUSA (main) |
+| 2 | Next | State pages + glossary | Coming | 51 state pages, glossary (50+ terms), Locations dropdown, pills → state pages |
+| 3+ | Later | City pages (batches) | Planned | Highest-demand cities first, 800–1,200 words, 60%+ unique |
+| 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
+
+## Keyword map (Semrush US, Nov 2026)
+
+| Page | Primary keyword | Volume | KD | Secondary |
+|------|-----------------|--------|----|-----------|
+| / | pest control near me | 201,000 | 52 | pest control (673K, KD 10), exterminator near me |
+| /services/general-pest-control/ | general pest control | 1,600 | 36 | quarterly pest control (KD 7), pest inspection (KD 22) |
+| /services/termite-control/ | termite control | 49,500 | 22 | termite exterminator (KD 19), termite treatment |
+| /services/termite-inspection/ | termite inspection | 33,100 | 35 | signs of termites (KD 26), WDI report |
+| /services/rodent-control/ | rodent control | 60,500 | 34 | mouse exterminator (KD 22), rat control |
+| /services/bed-bug-treatment/ | bed bug exterminator | 27,100 | 53 | bed bug heat treatment (KD 15) |
+| /services/cockroach-control/ | roach exterminator | 8,100 | 37 | cockroach control |
+| /services/ant-control/ | ant exterminator | 14,800 | 43 | carpenter ant treatment (KD 21), fire ant control (KD 29) |
+| /services/mosquito-control/ | mosquito control service | 4,400 | 46 | mosquito yard treatment (KD 33) |
+| /services/wasp-bee-removal/ | wasp nest removal | 18,100 | 39 | wasp removal, bee removal, hornet nest removal |
+| /services/spider-control/ | spider exterminator | 9,900 | 25 | spider control |
+| /services/flea-tick-control/ | flea exterminator | 6,600 | 35 | flea and tick yard treatment (KD 17) |
+| /services/wildlife-removal/ | wildlife removal | 8,100 | 48 | raccoon removal (KD 18), squirrel removal (KD 23), bat removal (KD 26) |
+| /services/commercial-pest-control/ | commercial pest control | 18,100 | 28 | restaurant pest control (KD 7) |
+
+## Image register (Pexels, converted to WebP)
+
+| File | Pexels ID | Used on |
+|------|-----------|---------|
+| home-hero | 3958958 | Home hero |
+| indoor-treatment | 4176550 | Services hub hero |
+| general-pest-control | 4176549 | General pest control |
+| termite-control | 18087296 | Termite control |
+| termite-inspection / home-exterior-2 | 164558 / 3935333 | Termite inspection |
+| rodent-control | 69221 | Rodent control |
+| cockroach-control / german-cockroach | 19294665 / 27033323 | Cockroach control |
+| ant-control / ants-aphids | 36498272 / 32681811 | Ant control |
+| mosquito-control / mosquito-bite | 37020717 / 12972048 | Mosquito control |
+| wasp-bee-removal / yellow-jacket | 38680283 / 34430734 | Wasp & bee removal |
+| spider-control / spider-web | 34154708 / 42246 | Spider control |
+| commercial-pest-control / housefly | 32055757 / 14512575 | Commercial pest control |
+| about | 106399 | About |
+| contact | 209296 | Contact |
+| locations-hub | 1396132 | Locations hub |
+| Removed (branding visible) | 19789837, 19789841, 16851694 | Not used |
