@@ -28,6 +28,14 @@ WIKI_STATE = {"GA": "Georgia_(U.S._state)", "WA": "Washington_(state)", "NY": "N
 
 SVC_NAME = {}
 CITY_LINKS = {}  # (name, state) -> url for built city pages
+CITY_DISPLAY = {}  # (name, state) -> display label for built city pages
+
+
+def city_label(r):
+    k = (r["name"], r["state"])
+    if k in CITY_DISPLAY:
+        return CITY_DISPLAY[k]
+    return "St. Petersburg" if r["name"] == "Saint Petersburg" else r["name"]
 
 
 def load_places():
@@ -72,7 +80,7 @@ FIND = ["Call {ph}. Share your city or ZIP code and the pest you're seeing, and 
 
 def citycell(r):
     k = (r["name"], r["state"])
-    label = "St. Petersburg" if r["name"] == "Saint Petersburg" else r["name"]
+    label = city_label(r)
     return f'<a href="{CITY_LINKS[k]}">{html.escape(label)}</a>' if k in CITY_LINKS else html.escape(label)
 
 
@@ -129,7 +137,7 @@ def state_page(ab, places):
         guides = [(r, CITY_LINKS[(r["name"], r["state"])]) for r in rows if (r["name"], r["state"]) in CITY_LINKS]
         guides_txt = ""
         if guides:
-            gl = [f'<a href="{u}">pest control in {"St. Petersburg" if r["name"] == "Saint Petersburg" else r["name"]}</a>' for r, u in guides]
+            gl = [f'<a href="{u}">pest control in {city_label(r)}</a>' for r, u in guides]
             guides_txt = " Detailed city guides are available for " + (", ".join(gl[:-1]) + " and " + gl[-1] if len(gl) > 1 else gl[0]) + "."
         cnt_label = "Parish" if ab == "LA" else "Borough" if ab == "AK" else "County"
         city_table = (f'<h2>Cities we serve in {dn}</h2><p>{S.BRAND} connects callers in every {dn} city with 25,000 or more people, listed here by 2020 Census population, '

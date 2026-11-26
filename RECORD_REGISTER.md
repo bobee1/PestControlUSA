@@ -57,7 +57,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 8.4 | 2026-11-26 | Link planner fix | Done | Planner uses each page's actual 10-closest nearby list; fixed Dallas inbound count |
 | 8.5 | 2026-11-26 | Audit | Done | 136 pages, 0 issues; South Dakota state page 61% uniqueness flagged as watch item |
 | 8.6 | 2026-11-26 | Push | Done | Committed to main |
-| 9 | Next | City pages batch 7 | Coming | Seattle, Portland, Spokane, Tacoma, Boise, Salt Lake City, Albuquerque, Colorado Springs, Anchorage, Honolulu |
+| 9.1 | 2026-11-26 | Batch 7 data check | Done | Dataset names "Boise City" and "Urban Honolulu" (CDP) shown as Boise and Honolulu; ZIPs 8–27 per city |
+| 9.2 | 2026-11-26 | Batch 7 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 9.3 | 2026-11-26 | Batch 7 content | Done | `tools/content/cities_b7.py`: Seattle, Portland, Spokane, Tacoma, Boise, Salt Lake City, Albuquerque, Colorado Springs, Anchorage, Honolulu |
+| 9.4 | 2026-11-26 | Template updates | Done | Display names now used on state pages for every built city; optional `nearby` list fills the nearby-areas paragraph for isolated cities (Anchorage, Spokane); nearby lists now read "A, B and C" |
+| 9.5 | 2026-11-26 | Audit | Done | 146 pages, 0 issues; batch uniqueness 82–88%; responsive 360/768/1280 clean |
+| 9.6 | 2026-11-26 | Push | Done | Committed to main |
+| 10 | Next | City pages batch 8 | Coming | Detroit, Milwaukee, Minneapolis, St. Paul, Cleveland, Cincinnati, Omaha, Wichita, Madison, Des Moines |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

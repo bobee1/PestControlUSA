@@ -21,6 +21,7 @@ for _s in S.SERVICES:
         i = _s["local"].rindex("</p>")
         _s["local"] = _s["local"][:i] + _sent + _s["local"][i:]
 statepages.CITY_LINKS.update(citypages.built_city_links())
+statepages.CITY_DISPLAY.update({k: citypages.city_name(k) for k in citypages.CITIES})
 
 # second, in-content photos per service (hero image is used as background)
 SECOND = {

@@ -8,6 +8,7 @@ from content.cities_b3 import CITIES_B3
 from content.cities_b4 import CITIES_B4
 from content.cities_b5 import CITIES_B5
 from content.cities_b6 import CITIES_B6
+from content.cities_b7 import CITIES_B7
 
 CITIES = {}
 CITIES.update(CITIES_B1)
@@ -16,11 +17,12 @@ CITIES.update(CITIES_B3)
 CITIES.update(CITIES_B4)
 CITIES.update(CITIES_B5)
 CITIES.update(CITIES_B6)
+CITIES.update(CITIES_B7)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
              "Tampa": "Tampa,_Florida", "Orlando": "Orlando,_Florida", "Saint Petersburg": "St._Petersburg,_Florida"}
-STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina", "IL": "Illinois", "IN": "Indiana", "OH": "Ohio", "MO": "Missouri", "KY": "Kentucky", "OK": "Oklahoma", "CO": "Colorado", "NV": "Nevada", "NY": "New_York", "PA": "Pennsylvania", "MA": "Massachusetts", "MD": "Maryland", "NJ": "New_Jersey", "RI": "Rhode_Island", "VA": "Virginia"}
+STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina", "IL": "Illinois", "IN": "Indiana", "OH": "Ohio", "MO": "Missouri", "KY": "Kentucky", "OK": "Oklahoma", "CO": "Colorado", "NV": "Nevada", "NY": "New_York", "PA": "Pennsylvania", "MA": "Massachusetts", "MD": "Maryland", "NJ": "New_Jersey", "RI": "Rhode_Island", "VA": "Virginia", "WA": "Washington", "OR": "Oregon", "ID": "Idaho", "UT": "Utah", "NM": "New_Mexico", "AK": "Alaska", "HI": "Hawaii"}
 
 ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips.json")))
 
@@ -80,7 +82,8 @@ def city_page(key, row, allrows):
              f"Yes. {S.BRAND} connects callers across {nm}, including {', '.join(c['hoods'][:-1])} and {c['hoods'][-1]}"
              + (f", in ZIP codes {zip_text}" if zips and len(zips) <= 60 else (f", in all {len(zips)} ZIP codes from {zips[0]} to {zips[-1]}" if zips else "")) + ".")
     faqs = c["faqs"] + [cover]
-    near_txt = ", ".join(nlink(r) for r in near_local)
+    near_items = [nlink(r) for r in near_local] + c.get("nearby", [])
+    near_txt = (", ".join(near_items[:-1]) + " and " + near_items[-1]) if len(near_items) > 1 else (near_items[0] if near_items else "the rest of " + c["county"])
     linked = {(r["name"], r["state"]) for r in near_local}
     same_state = [(0, k) for k in GUIDES.get(key, []) if k not in linked]
     more_state = ""
