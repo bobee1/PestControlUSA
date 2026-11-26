@@ -5,16 +5,18 @@ from content.statepages import BY_AB, load_places, display_name, fmt, SVC_NAME
 from content.cities_b1 import CITIES_B1
 from content.cities_b2 import CITIES_B2
 from content.cities_b3 import CITIES_B3
+from content.cities_b4 import CITIES_B4
 
 CITIES = {}
 CITIES.update(CITIES_B1)
 CITIES.update(CITIES_B2)
 CITIES.update(CITIES_B3)
+CITIES.update(CITIES_B4)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
              "Tampa": "Tampa,_Florida", "Orlando": "Orlando,_Florida", "Saint Petersburg": "St._Petersburg,_Florida"}
-STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California"}
+STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina"}
 
 ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips.json")))
 
@@ -61,7 +63,8 @@ def city_page(key, row, allrows):
         label = CITIES[k].get("display", r["name"]) if k in CITIES else r["name"]
         return f'<a href="{built[k]}">{label}</a>' if k in built else label
 
-    stats = (f"{nm} had {fmt(pop)} residents and about {fmt(hu)} housing units in the 2020 Census, spread across {c['county']}"
+    hu_txt = f" and about {fmt(hu)} housing units" if hu else ""
+    stats = (f"{nm} had {fmt(pop)} residents{hu_txt} in the 2020 Census, spread across {c['county']}"
              + (f" and {len(zips)} ZIP codes" if zips else "") + f". {S.BRAND} connects callers in every part of the city, including {', '.join(c['hoods'][:5])} and {c['hoods'][5]}.")
 
     why = "".join(f"<p>{p}</p>" for p in c["why"])
@@ -77,10 +80,16 @@ def city_page(key, row, allrows):
     linked = {(r["name"], r["state"]) for r in near_local}
     same_state = sorted(((dist(row, r), (r["name"], r["state"])) for r in allrows
                          if (r["name"], r["state"]) in built and (r["name"], r["state"]) not in linked), key=lambda x: x[0])[:3]
+    if len(same_state) < 3:
+        taken = linked | {k for d, k in same_state}
+        cross = sorted(((dist(row, r), (r["name"], r["state"])) for r in ALL_BUILT_ROWS
+                        if (r["name"], r["state"]) in built and (r["name"], r["state"]) not in taken), key=lambda x: x[0])[:3 - len(same_state)]
+        same_state = same_state + cross
     more_state = ""
     if same_state:
         ls = [f'<a href="{built[k]}">pest control in {CITIES[k].get("display", k[0])}</a>' for d, k in same_state]
-        more_state = f" Other {sname} city guides: " + (", ".join(ls[:-1]) + " and " + ls[-1] if len(ls) > 1 else ls[0]) + "."
+        lead_txt = f"Other {sname} city guides" if all(k[1] == ab for d, k in same_state) else "Nearby city guides"
+        more_state = f" {lead_txt}: " + (", ".join(ls[:-1]) + " and " + ls[-1] if len(ls) > 1 else ls[0]) + "."
     pills = "".join(f'<li><a href="{built[k]}">Pest control in {CITIES[k].get("display", k[0])}</a></li>' for d, k in near_built)
     pills += f'<li><a href="/locations/{sslug}/">Pest control in {sname}</a></li><li><a href="/">{S.BRAND} home</a></li><li><a href="/locations/">All locations</a></li>'
 
@@ -138,8 +147,13 @@ def city_page(key, row, allrows):
     S.page(url, title, meta, hero, body, crumbs=crumbs, schema=schema, priority=0.8, kind="state", word_target=(800, 1600))
 
 
+ALL_BUILT_ROWS = []
+
+
 def build_cities():
     places = load_places()
+    for k in CITIES:
+        ALL_BUILT_ROWS.extend(r for r in places[k[1]] if r["name"] == k[0])
     for key in CITIES:
         rows = places[key[1]]
         row = [r for r in rows if r["name"] == key[0]][0]

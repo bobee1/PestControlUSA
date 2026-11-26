@@ -619,9 +619,12 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 1249260,Northdale,FL,U1,cdp,25420,9631,Hillsborough County,28.1058079,-82.5263929
 1205462,Bellview,FL,U1,cdp,25051,10907,Escambia County,30.46203,-87.3120324
 1304000,Atlanta,GA,C1,city,499287,259122,Fulton County; DeKalb County,33.762837,-84.4220541
+1319007,Columbus,GA,C1,city,206922,0,Muscogee County,32.461,-84.9877
 1319000,Columbus,GA,C1,city,204383,91288,Muscogee County,32.5099584,-84.877043
+1304204,Augusta,GA,C1,city,202081,0,Richmond County,33.4735,-82.0105
 1349008,Macon-Bibb County,GA,C1,city,156543,71869,Bibb County,32.8064982,-83.69742
 1369000,Savannah,GA,C1,city,147546,68153,Chatham County,32.028428,-81.1821594
+1303440,Athens,GA,C1,city,126913,0,Clarke County,33.9519,-83.3576
 1372122,South Fulton,GA,C1,city,109157,42578,Fulton County,33.6358556,-84.5797104
 1368516,Sandy Springs,GA,C1,city,107198,55765,Fulton County,33.9366588,-84.3703254
 1367284,Roswell,GA,C1,city,92577,37552,Fulton County; Cobb County,34.0391489,-84.3512494
@@ -794,6 +797,7 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 1744225,Lockport,IL,C1,city,26228,10046,Will County,41.5907047,-88.029246
 1780060,West Chicago,IL,C1,city,25434,7745,DuPage County,41.9021235,-88.2419807
 1701114,Alton,IL,C1,city,25430,12513,Madison County,38.9036937,-90.1520754
+1836003,Indianapolis,IN,C1,city,887642,0,Marion County,39.7684,-86.1581
 1825000,Fort Wayne,IN,C1,city,266235,117692,Allen County,41.0887753,-85.1436263
 1822000,Evansville,IN,C1,city,116441,58785,Vanderburgh County,37.9880815,-87.5340969
 1871000,South Bend,IN,C1,city,102866,47558,Saint Joseph County,41.6766788,-86.2695526
@@ -849,6 +853,7 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 2025325,Garden City,KS,C5,city,27781,10827,Finney County,37.9752117,-100.8526255
 2018250,Dodge City,KS,C5,city,27652,9787,Ford County,37.7609914,-100.0183461
 2017800,Derby,KS,C1,city,25801,10770,Sedgwick County,37.5571636,-97.2549236
+2148006,Louisville,KY,C1,city,633045,0,Jefferson County,38.2527,-85.7585
 2146027,Lexington-Fayette Urban County,KY,C1,city,321122,147720,Fayette County,38.0423216,-84.4587324
 2108902,Bowling Green,KY,C1,city,73638,32726,Warren County,36.9722566,-86.436098
 2158620,Owensboro,KY,C1,city,60112,27214,Daviess County,37.7575051,-87.1167127
@@ -905,6 +910,7 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 2578972,Weymouth Town,MA,C5,city,57786,26160,Norfolk County,42.2069012,-70.944428
 2513660,Chicopee,MA,C5,city,55213,25528,Hampden County,42.1763836,-72.5718542
 2552490,Peabody,MA,C5,city,54180,23254,Essex County,42.5335286,-70.9724667
+2540675,Methuen,MA,C1,city,53059,0,Essex County,42.7339844,-71.1888296
 2521990,Everett,MA,C5,city,49236,18541,Middlesex County,42.4064404,-71.0544729
 2503690,Barnstable Town,MA,C5,city,49232,27488,Barnstable County,41.6679504,-70.3573257
 2502690,Attleboro,MA,C5,city,46499,19055,Bristol County,41.9311103,-71.2948922
@@ -921,6 +927,7 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 2507740,Braintree Town,MA,C5,city,38762,15032,Norfolk County,42.2038455,-71.0022163
 2530840,Holyoke,MA,C5,city,37949,17057,Hampden County,42.2125188,-72.6411095
 2501370,Amherst,MA,C5,city,35472,10400,Hampshire County,42.3644722,-72.5068646
+2573405,Watertown,MA,C1,city,35329,0,Middlesex County,42.369968,-71.1774325
 2556000,Randolph Town,MA,C5,city,34683,13064,Norfolk County,42.1778478,-71.0539592
 2535250,Lexington,MA,U1,cdp,34085,12672,Middlesex County,42.4456324,-71.2307053
 2525172,Franklin Town,MA,C5,city,33067,12889,Norfolk County,42.0862129,-71.4112801
@@ -1146,6 +1153,7 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 3050200,Missoula,MT,C1,city,75600,36310,Missoula County,46.8749739,-114.0217741
 3032800,Great Falls,MT,C1,city,60412,28333,Cascade County,47.5021338,-111.2997176
 3008950,Bozeman,MT,C1,city,55042,24846,Gallatin County,45.6828727,-111.0558391
+3011397,Butte,MT,C1,city,34494,0,Silver Bow County,46.0038,-112.5348
 3035600,Helena,MT,C1,city,33126,16574,Lewis and Clark County,46.5965169,-112.0200339
 3040075,Kalispell,MT,C1,city,26830,11650,Flathead County,48.2151072,-114.3272353
 3712000,Charlotte,NC,C1,city,886283,390835,Mecklenburg County,35.2083601,-80.8306756
@@ -1462,8 +1470,10 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 4287048,York,PA,C5,city,44830,19307,York County,39.9651,-76.7315353
 4285152,Wilkes-Barre,PA,C5,city,44217,19993,Luzerne County,41.2469188,-75.8760579
 4202184,Altoona,PA,C5,city,43508,20983,Blair County,40.508244,-78.4006736
+4259040,Penn Hills,PA,C1,city,41059,0,Allegheny County,40.47621,-79.8254
 4273808,State College,PA,C5,city,40669,13148,Centre County,40.7910394,-77.8568136
 4254656,Norristown,PA,C5,city,35782,14336,Montgomery County,40.1224543,-75.3398353
+4251794,Mount Lebanon,PA,C1,city,34075,0,Allegheny County,40.37524,-80.04944
 4213208,Chester,PA,C5,city,33209,14845,Delaware County,39.8456275,-75.3718342
 4206064,Bethel Park,PA,C5,city,33070,15723,Allegheny County,40.3238063,-80.0364175
 4219920,Drexel Hill,PA,U1,cdp,30015,12664,Delaware County,39.9494982,-75.3038763
@@ -1517,6 +1527,7 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 4659020,Sioux Falls,SD,C5,city,197642,87121,Minnehaha County; Lincoln County,43.5398463,-96.7313426
 4652980,Rapid City,SD,C5,city,76836,34751,Pennington County,44.0713024,-103.2207312
 4600100,Aberdeen,SD,C5,city,28297,13395,Brown County,45.4648283,-98.4685887
+4752006,Nashville,TN,C1,city,689447,0,Davidson County,36.1627,-86.7816
 4748000,Memphis,TN,C1,city,629063,292290,Shelby County,35.1087723,-89.9677041
 4740000,Knoxville,TN,C1,city,193721,94885,Knox County,35.9693168,-83.9494127
 4714000,Chattanooga,TN,C1,city,182832,87138,Hamilton County,35.0660117,-85.2481349

@@ -40,8 +40,14 @@ Every build step is logged here: what was done before, what is being done now, a
 | 5.3 | 2026-11-26 | Linking upgrade | Done | City pages link the 3 nearest same-state city guides in-text; fixes cities without nearby guides |
 | 5.4 | 2026-11-26 | Audit | Done | 106 pages, 0 issues; CA city uniqueness 82–87%; responsive and console checks clean |
 | 5.5 | 2026-11-26 | Push | Done | Committed to main |
-| 6 | Next | City pages batch 4 | Coming | Southeast: Atlanta, Charlotte, Raleigh, Nashville, Memphis, New Orleans, Baton Rouge, Birmingham, Charleston SC, Savannah |
-| 7+ | Later | Remaining city batches | Planned | Until all 1,855 places are live |
+| 6.1 | 2026-11-26 | Dataset fix | Done | Found consolidated city-counties missing from the census mirror (Nashville, Louisville, Indianapolis, Augusta, Columbus GA, Athens GA, Butte) plus blank populations (Methuen, Watertown, Penn Hills, Mount Lebanon). Added with 2020 Census counts; dataset now 1,866 places; ZIPs added where available |
+| 6.2 | 2026-11-26 | Batch 4 research | Done | Semrush keywords for 10 Southeast cities (40 terms) |
+| 6.3 | 2026-11-26 | Batch 4 content | Done | `tools/content/cities_b4.py`: Atlanta, Charlotte, Raleigh, Nashville, Memphis, New Orleans, Baton Rouge, Birmingham, Charleston SC, Savannah |
+| 6.4 | 2026-11-26 | Linking upgrade | Done | Cross-state nearest-guide fallback for states with fewer than 3 city guides (fixed Birmingham, Charleston) |
+| 6.5 | 2026-11-26 | Audit | Done | 116 pages, 0 issues; city uniqueness 80–85%; responsive and console checks clean |
+| 6.6 | 2026-11-26 | Push | Done | Committed to main |
+| 7 | Next | City pages batch 5 | Coming | Chicago, Indianapolis, Columbus OH, Kansas City MO, St. Louis, Louisville, Oklahoma City, Tulsa, Denver, Las Vegas |
+| 8+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
 ## Keyword map (Semrush US, Nov 2026)
