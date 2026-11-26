@@ -51,8 +51,14 @@ Every build step is logged here: what was done before, what is being done now, a
 | 7.3 | 2026-11-26 | Linking guarantee | Done | `plan_guides()` precomputes city guide links and tops up any city with fewer than 3 in-text inbound links |
 | 7.4 | 2026-11-26 | Audit | Done | 126 pages, 0 issues; responsive and console checks clean |
 | 7.5 | 2026-11-26 | Push | Done | Committed to main |
-| 8 | Next | City pages batch 6 | Coming | New York City, Philadelphia, Boston, Baltimore, Washington DC, Pittsburgh, Newark, Providence, Virginia Beach, Richmond |
-| 9+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
+| 8.1 | 2026-11-26 | Batch 6 scope | Done | Washington DC replaced with Jersey City (DC state page already serves as the city page) |
+| 8.2 | 2026-11-26 | Batch 6 research | Done | Semrush keywords for 10 cities (40 terms); ZIP codes 7–181 per city |
+| 8.3 | 2026-11-26 | Batch 6 content | Done | `tools/content/cities_b6.py`: NYC, Philadelphia, Boston, Baltimore, Pittsburgh, Newark, Jersey City, Providence, Virginia Beach, Richmond |
+| 8.4 | 2026-11-26 | Link planner fix | Done | Planner uses each page's actual 10-closest nearby list; fixed Dallas inbound count |
+| 8.5 | 2026-11-26 | Audit | Done | 136 pages, 0 issues; South Dakota state page 61% uniqueness flagged as watch item |
+| 8.6 | 2026-11-26 | Push | Done | Committed to main |
+| 9 | Next | City pages batch 7 | Coming | Seattle, Portland, Spokane, Tacoma, Boise, Salt Lake City, Albuquerque, Colorado Springs, Anchorage, Honolulu |
+| 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
 ## Keyword map (Semrush US, Nov 2026)

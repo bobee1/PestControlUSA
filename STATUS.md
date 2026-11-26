@@ -3,22 +3,23 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 7)
+**Last updated:** 2026-11-26 (Build 8)
 
-## Previous step — Build 6: city pages batch 4 ✅
-- Atlanta, Charlotte, Raleigh, Nashville, Memphis, New Orleans, Baton Rouge, Birmingham, Charleston SC, Savannah; dataset fix (1,866 places).
+## Previous step — Build 7: city pages batch 5 ✅
+- Chicago, Indianapolis, Columbus OH, Kansas City, St. Louis, Louisville, Oklahoma City, Tulsa, Denver, Las Vegas.
 
-## Current step — Build 7: city pages batch 5 ✅ complete (10 cities)
-- **Cities live:** Chicago (IL), Indianapolis (IN), Columbus (OH), Kansas City and St. Louis (MO), Louisville (KY), Oklahoma City and Tulsa (OK), Denver (CO), Las Vegas (NV).
-- **Keyword highlights (Semrush US):** pest control Las Vegas 2,900; pest control Chicago 2,400; pest control Kansas City 2,400; pest control Indianapolis 1,900; pest control Tulsa 1,900 (KD 26); pest control Denver 1,600 (KD 26, $33.47); rodent control Denver 880 (KD 25, $33.47); pest control St. Louis 1,300 (KD 15); exterminator Louisville KY KD 7.
-- **City-specific topics:** alley rats (Chicago), termite inspections (Indianapolis), student rentals near Ohio State (Columbus), brown recluses (Kansas City), old brick and mortar gaps (St. Louis), Victorian and shotgun homes (Louisville), storm damage (Oklahoma City), oil-boom historic homes (Tulsa), mice and hail damage (Denver), desert-edge scorpions (Las Vegas).
-- **Verified local events used:** Great Chicago Fire (1871), Chicago West Side floods (Jul 2023), Unigov (1970), Plaza flood (Sep 1977), Great Fire of 1849 and Great Flood of 1993 (St. Louis), Great Flood of 1937 and 2003 merger (Louisville), May 3 1999 tornado (OKC), Memorial Day flood (1984, Tulsa).
-- **Linking upgrade:** city-to-city guide links are now planned up front with a guarantee: any city short of 3 in-text inbound links is added to its nearest neighbors' guide lists (fixed Denver and El Paso as service-page slots got more crowded).
-- **Checks:** 126 pages, 0 issues; city uniqueness 77–87% this batch; responsive 360/768/1280 with no overflow or console errors.
+## Current step — Build 8: city pages batch 6 ✅ complete (10 Northeast and Mid-Atlantic cities)
+- **Cities live:** New York City (NY), Philadelphia and Pittsburgh (PA), Boston (MA), Baltimore (MD), Newark and Jersey City (NJ), Providence (RI), Virginia Beach and Richmond (VA).
+- **Change from plan:** Washington, DC was swapped for Jersey City, because the DC page already serves as the city's page and a second DC page would cannibalize it.
+- **Keyword highlights (Semrush US):** pest control Virginia Beach 1,900 (KD 14); pest control Philadelphia 1,600 (KD 16); bed bug exterminator Philadelphia KD 9; pest control Richmond VA 1,600; exterminator Pittsburgh 880 (KD 21); pest control NYC 1,900 (KD 61, page leans on borough terms like exterminator Brooklyn 1,000).
+- **City-specific topics:** landlord responsibility and rats (NYC), rowhome block-wide control (Philadelphia), September 1 moving day and bed bugs (Boston), alleys and Rat Rubout (Baltimore), hillside damp basements (Pittsburgh), multi-family homes (Newark), waterfront construction and rats (Jersey City), triple-deckers and carpenter ants (Providence), coastal termite inspections (Virginia Beach), historic-home termites (Richmond).
+- **Verified local events used:** NYC rodent mitigation director (2023), Sandy (2012) and Ida (2021) flooding, Lanternfly first U.S. detection in Berks County (2014), Great Baltimore Fire (1904), Hurricane Ivan flooding (2004) and 2018 landslides in Pittsburgh, Fox Point Hurricane Barrier after the 1938 and 1954 hurricanes, Hurricane Matthew (2016) in Virginia Beach, Tropical Storm Gaston (2004) in Richmond.
+- **Linking fix:** the link planner now mirrors the exact "nearby communities" list each page shows (10 closest within 35 miles), which fixed Dallas.
+- **Checks:** 136 pages, 0 issues; batch uniqueness 77–85%; responsive 360/768/1280 with no overflow or console errors. Watch item: South Dakota state page at 61% uniqueness (rule is 60%) as more location pages are added.
 
-## Coming next — Build 8: city pages batch 6 (10 cities)
-- Proposed: Northeast and Mid-Atlantic: New York City, Philadelphia, Boston, Baltimore, Washington DC, Pittsburgh, Newark, Providence, Virginia Beach, Richmond.
-- Brings NYC rats and bed bugs, Lyme ticks, stink bugs and spotted lanternflies, row-house rodents and Chesapeake mosquitoes.
+## Coming next — Build 9: city pages batch 7 (10 cities)
+- Proposed: Pacific Northwest, Mountain West and Hawaii: Seattle, Portland, Spokane, Tacoma, Boise, Salt Lake City, Albuquerque, Colorado Springs, Anchorage, Honolulu.
+- Brings carpenter ants and dampwood termites, rats in Seattle and Portland, hobo spiders and wasps in Boise and Spokane, hantavirus in Albuquerque, and Formosan termites in Honolulu.
 
 ## Later builds
 - Remaining city batches until all 1,855 places are live; then towns under 25,000 if wanted.

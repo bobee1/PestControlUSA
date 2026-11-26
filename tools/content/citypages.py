@@ -7,6 +7,7 @@ from content.cities_b2 import CITIES_B2
 from content.cities_b3 import CITIES_B3
 from content.cities_b4 import CITIES_B4
 from content.cities_b5 import CITIES_B5
+from content.cities_b6 import CITIES_B6
 
 CITIES = {}
 CITIES.update(CITIES_B1)
@@ -14,11 +15,12 @@ CITIES.update(CITIES_B2)
 CITIES.update(CITIES_B3)
 CITIES.update(CITIES_B4)
 CITIES.update(CITIES_B5)
+CITIES.update(CITIES_B6)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
              "Tampa": "Tampa,_Florida", "Orlando": "Orlando,_Florida", "Saint Petersburg": "St._Petersburg,_Florida"}
-STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina", "IL": "Illinois", "IN": "Indiana", "OH": "Ohio", "MO": "Missouri", "KY": "Kentucky", "OK": "Oklahoma", "CO": "Colorado", "NV": "Nevada"}
+STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina", "IL": "Illinois", "IN": "Indiana", "OH": "Ohio", "MO": "Missouri", "KY": "Kentucky", "OK": "Oklahoma", "CO": "Colorado", "NV": "Nevada", "NY": "New_York", "PA": "Pennsylvania", "MA": "Massachusetts", "MD": "Maryland", "NJ": "New_Jersey", "RI": "Rhode_Island", "VA": "Virginia"}
 
 ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips.json")))
 
@@ -152,8 +154,13 @@ def plan_guides(places):
     cross-state guides; then top up any city with fewer than 3 in-text inbound links
     (state page + service pages + other cities) by adding it to its nearest neighbours' lists."""
     rows = {k: [r for r in places[k[1]] if r["name"] == k[0]][0] for k in CITIES}
+    NEAR = {}
     for k, r in rows.items():
-        near_local = {(x["name"], x["state"]) for x in places[k[1]] if x["geoid"] != r["geoid"] and dist(r, x) <= 35}
+        near = sorted(((dist(r, x), x) for x in places[k[1]] if x["geoid"] != r["geoid"]), key=lambda t: t[0])
+        NEAR[k] = {(x["name"], x["state"]) for d, x in near if d <= 35}
+        NEAR[k] = {(x["name"], x["state"]) for d, x in near[:10] if d <= 35}
+    for k, r in rows.items():
+        near_local = NEAR[k]
         others = sorted((dist(r, rows[o]), o) for o in rows if o != k)
         same = [o for d, o in others if o[1] == k[1] and o not in near_local][:3]
         if len(same) < 3:
@@ -165,7 +172,7 @@ def plan_guides(places):
         n = 1  # state page guides sentence
         n += sum(1 for sl, ks in _ALLOC.items() if k in ks)
         n += sum(1 for o, lst in GUIDES.items() if o != k and k in lst)
-        n += sum(1 for o, r in rows.items() if o != k and o[1] == k[1] and dist(r, rows[k]) <= 35)
+        n += sum(1 for o in rows if o != k and k in NEAR[o])
         return n
     for k in rows:
         others = sorted((dist(rows[k], rows[o]), o) for o in rows if o != k)
