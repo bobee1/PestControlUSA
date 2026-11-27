@@ -167,7 +167,7 @@ Every build step is logged here: what was done before, what is being done now, a
 | 30.1 | 2026-11-27 | City pages batch 28 | Done | Dayton, Youngstown, Canton, Parma (OH); Erie, Reading, Scranton, Lancaster, Bethlehem, Harrisburg (PA) |
 | 30.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Dayton 480 (KD 9), Bethlehem PA 260 (KD 9), Canton Ohio 320 (KD 10), Lancaster PA 1,000 (KD 37) |
 | 30.3 | 2026-11-27 | QA | Done | 356 pages, 0 issues; batch uniqueness 67–79%; responsive 360/768/1280 clean |
-| 30.4 | 2026-11-27 | Scope change | Done | Owner rule: no US territories. Removed 11 Puerto Rico places from places_25k.csv (1,854 remain); no PR pages had been built |
+| 30.4 | 2026-11-27 | Scope change | Done | Owner rule: all 50 states incl. AK and HI, plus DC; no US territories. Removed 11 Puerto Rico places from places_25k.csv (1,854 remain); no PR pages had been built |
 | 31 | Next | City pages batch 29 | Coming | California fourth tier: Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |

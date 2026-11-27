@@ -17,7 +17,7 @@
 ## Coming next — Build 31: city pages batch 29 (10 cities)
 - Proposed: California fourth tier: Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance.
 - Flagged for a later build: Washington, DC (needs a district page instead of a state page) and Las Vegas-area unincorporated places (Enterprise, Spring Valley, Sunrise Manor, Paradise).
-- Scope rule (owner, 2026-11-27): US states only, no overseas territories. Puerto Rico's 11 places removed from the city list (1,854 places remain).
+- Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories. Puerto Rico's 11 places removed from the city list (1,854 places remain).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.
