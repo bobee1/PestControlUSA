@@ -68,6 +68,8 @@ from content.cities_b31 import CITIES_B31
 CITIES.update(CITIES_B31)
 from content.cities_b32 import CITIES_B32
 CITIES.update(CITIES_B32)
+from content.cities_b33 import CITIES_B33
+CITIES.update(CITIES_B33)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
@@ -120,6 +122,8 @@ def city_page(key, row, allrows):
     def nlink(r):
         k = (r["name"], r["state"])
         label = CITIES[k].get("display", r["name"]) if k in CITIES else r["name"]
+        if label.startswith("Metro of "):
+            label = label[len("Metro of "):]
         return f'<a href="{built[k]}">{label}</a>' if k in built else label
 
     hu_txt = f" and about {fmt(hu)} housing units" if hu else ""

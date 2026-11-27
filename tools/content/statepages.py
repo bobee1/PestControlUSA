@@ -36,6 +36,8 @@ def city_label(r):
     k = (r["name"], r["state"])
     if k in CITY_DISPLAY:
         return CITY_DISPLAY[k]
+    if r["name"].startswith("Metro of "):
+        return r["name"][len("Metro of "):]
     return "St. Petersburg" if r["name"] == "Saint Petersburg" else r["name"]
 
 

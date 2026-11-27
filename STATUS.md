@@ -3,19 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 34)
+**Last updated:** 2026-11-26 (Build 35)
 
-## Previous step — Build 33: city pages batch 31 ✅
-- Paradise, Enterprise, Spring Valley, Sunrise Manor (NV); Columbia MO, Topeka KS, Meridian ID, Lafayette LA, Billings MT, Lewisville TX.
+## Previous step — Build 34: city pages batch 32 ✅
+- Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield (CA).
 
-## Current step — Build 34: city pages batch 32 ✅ complete
-- **Cities live:** Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield (CA).
-- **Keyword highlights (Semrush US):** pest control Santa Clara 210 (KD 5); pest control Concord CA 210 (KD 7); pest control Vallejo 170 (KD 8); rodent control Thousand Oaks 110 (KD 9); pest control Berkeley 140 (KD 10); termite inspection Orange County 260 (KD 21).
-- **City-specific topics:** termite inspections for Old Towne historic homes (Orange), moisture pests in irrigated desert yards (Victorville), rodent control for offices and data centers (Santa Clara), rodents drawing rattlesnakes (Simi Valley), wildlife-safe rodent control and California's rodenticide limits (Thousand Oaks), dampwood termites (Vallejo), backyard chicken coops and rats (Concord), canals and mosquitoes (Clovis), IPM and low-toxicity methods (Berkeley), move-in pest checks for Travis AFB families (Fairfield).
-- **Checks:** 395 pages, 0 issues; batch uniqueness 73–80%; responsive 360/768/1280 clean.
+## Current step — Build 35: city pages batch 33 ✅ complete
+- **Cities live:** Lehigh Acres, Spring Hill, Brandon (FL); Arvada, Westminster (CO); Richardson TX; West Jordan UT; Broken Arrow OK; Antioch, Carlsbad (CA).
+- **Keyword highlights (Semrush US):** exterminator West Jordan 70 (KD 6); pest control Arvada 210 (KD 7); termite inspection Carlsbad 110 (KD 7); pest control West Jordan 90 (KD 9); pest control Carlsbad 390 (KD 13); pest control Broken Arrow 390 (KD 22); pest control Spring Hill FL 480 (KD 26).
+- **City-specific topics:** pests from vacant lots (Lehigh Acres), slab cracks and termites in sinkhole country (Spring Hill), chinch bugs and lawn pests (Brandon), elm seed bugs (Arvada), wildlife along open space (Westminster), alleys and rats (Richardson), European paper wasps (West Jordan), termite swarms vs. flying ants (Broken Arrow), Norway rats on the waterfront (Antioch), coastal termite inspections (Carlsbad).
+- **Fix:** Utah 'Metro of Kearns/Magna' census names now show as Kearns and Magna.
+- **Checks:** 405 pages, 0 issues; batch uniqueness 68–79%; responsive 360/768/1280 clean.
 
-## Coming next — Build 35: city pages batch 33 (10 cities)
-- Proposed: Lehigh Acres, Spring Hill and Brandon (FL); Arvada and Westminster (CO); Richardson TX; West Jordan UT; Broken Arrow OK; Antioch and Carlsbad (CA).
+## Coming next — Build 36: city pages batch 34 (10 cities)
+- Proposed: Richmond, East Los Angeles, Downey, Murrieta, Costa Mesa, Temecula and Ventura (CA); Pueblo and Greeley (CO); Miami Gardens (FL).
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds

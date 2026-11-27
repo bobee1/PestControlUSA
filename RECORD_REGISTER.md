@@ -181,7 +181,11 @@ Every build step is logged here: what was done before, what is being done now, a
 | 34.1 | 2026-11-27 | City pages batch 32 | Done | Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield (CA) |
 | 34.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Santa Clara 210 (KD 5), pest control Concord CA 210 (KD 7), pest control Vallejo 170 (KD 8), rodent control Thousand Oaks 110 (KD 9), pest control Berkeley 140 (KD 10), termite inspection Orange County 260 (KD 21) |
 | 34.3 | 2026-11-27 | QA | Done | 395 pages, 0 issues; batch uniqueness 73–80%; Concord CA/NC both fine; responsive clean |
-| 35 | Next | City pages batch 33 | Coming | Lehigh Acres, Spring Hill, Brandon (FL); Arvada, Westminster (CO); Richardson TX; West Jordan UT; Broken Arrow OK; Antioch, Carlsbad (CA) |
+| 35.1 | 2026-11-27 | City pages batch 33 | Done | Lehigh Acres, Spring Hill, Brandon (FL); Arvada, Westminster (CO); Richardson TX; West Jordan UT; Broken Arrow OK; Antioch, Carlsbad (CA) |
+| 35.2 | 2026-11-27 | Keyword research | Done | Semrush US: exterminator West Jordan 70 (KD 6), pest control Arvada 210 (KD 7), termite inspection Carlsbad 110 (KD 7), pest control Carlsbad 390 (KD 13), pest control Broken Arrow 390 (KD 22), pest control Spring Hill FL 480 (KD 26) |
+| 35.3 | 2026-11-27 | Generator fix | Done | Census 'Metro of Kearns/Magna' (UT metro townships) now display as Kearns and Magna in nearby lists and the Utah state table |
+| 35.4 | 2026-11-27 | QA | Done | 405 pages, 0 issues; batch uniqueness 68–79%; responsive clean |
+| 36 | Next | City pages batch 34 | Coming | Richmond, East Los Angeles, Downey, Murrieta, Costa Mesa, Temecula, Ventura (CA); Pueblo, Greeley (CO); Miami Gardens FL |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
