@@ -3,20 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 29)
+**Last updated:** 2026-11-26 (Build 30)
 
-## Previous step — Build 28: city pages batch 26 ✅
-- Athens, Macon, Sandy Springs, Roswell, Johns Creek, North Charleston, Mount Pleasant, Rock Hill, Concord NC, Tuscaloosa.
+## Previous step — Build 29: state page pass 2 + city pages batch 27 ✅
+- State-specific sections for SC, PA, MO, IA, ME, VT, IN plus extra paragraphs for WY, KS, SD, WV, NH; Texas suburbs batch (Sugar Land to Wichita Falls).
 
-## Current step — Build 29: state page pass 2 + city pages batch 27 ✅ complete
-- **State pass:** new state-specific sections for South Carolina, Pennsylvania, Missouri, Iowa, Maine, Vermont and Indiana, plus an extra paragraph for Wyoming, Kansas, South Dakota, West Virginia and New Hampshire. Facts used include Clemson's role as SC pesticide regulator, the stink bug's first U.S. find near Allentown, Pennsylvania's lanternfly quarantine, Missouri tick-borne illness rates, Iowa floods and the 2020 derecho, Maine's browntail moth and Board of Pesticides Control, Vermont cluster flies. All state pages now 66%+.
-- **Cities live:** Sugar Land, The Woodlands, Pearland, League City, Conroe, New Braunfels, San Marcos, College Station, Tyler, Wichita Falls.
-- **Keyword highlights (Semrush US):** mosquito control The Woodlands 140 (KD 2); exterminator Sugar Land KD 7; mosquito control League City 170 (KD 9); exterminator The Woodlands KD 10; mosquito control Sugar Land 170 (KD 10); pest control Sugar Land 720 (KD 12); pest control The Woodlands 720 (KD 14); pest control Conroe KD 16; pest control New Braunfels 390 (KD 17).
-- **City-specific topics:** Brazos floods and pests (Sugar Land), rats and squirrels in the pine canopy (The Woodlands), tawny crazy ants (Pearland), Galveston Bay mosquitoes (League City), lakefront docks and termites (Conroe), river cabins and vacation rentals (New Braunfels), leafcutter ants (San Marcos), student housing (College Station), Piney Woods termites (Tyler), drought-driven pests (Wichita Falls).
-- **Checks:** 346 pages, 0 issues; batch uniqueness 73–82%; responsive 360/768/1280 clean.
+## Current step — Build 30: city pages batch 28 ✅ complete
+- **Cities live:** Dayton, Youngstown, Canton, Parma (OH); Erie, Reading, Scranton, Lancaster, Bethlehem, Harrisburg (PA).
+- **Keyword highlights (Semrush US):** pest control Dayton 480 (KD 9); pest control Bethlehem PA 260 (KD 9) and exterminator Bethlehem PA 140 (KD 9); pest control Canton Ohio 320 (KD 10); termite inspection Dayton Ohio 50 (KD 11); pest control Parma 110 (KD 13); pest control Lancaster PA 1,000 (KD 37, biggest of the batch).
+- **City-specific topics:** termite inspections for post-1913-flood historic homes (Dayton), ticks near Mill Creek MetroParks (Youngstown), yellowjackets/paper wasps/bald-faced hornets (Canton), mice in postwar bungalow kneewalls (Parma), lake-effect winters and mice (Erie), German cockroaches in divided rowhomes (Reading), wildlife in double-block homes (Scranton), termites in brick rowhouses (Lancaster), mosquitoes along the Lehigh and Monocacy (Bethlehem), bed bugs in apartments and hotels (Harrisburg).
+- **Checks:** 356 pages, 0 issues; batch uniqueness 67–79%; Ohio and Pennsylvania state pages 68%; responsive 360/768/1280 clean.
 
-## Coming next — Build 30: city pages batch 28 (10 cities)
-- Proposed: Ohio and Pennsylvania third tier: Dayton, Youngstown, Canton and Parma (OH); Erie, Reading, Scranton, Lancaster, Bethlehem and Harrisburg (PA).
+## Coming next — Build 31: city pages batch 29 (10 cities)
+- Proposed: California fourth tier: Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance.
+- Flagged for a later build: Washington, DC (needs a district page instead of a state page), Puerto Rico cities, and Las Vegas-area unincorporated places (Enterprise, Spring Valley, Sunrise Manor, Paradise).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.

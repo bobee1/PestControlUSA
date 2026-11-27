@@ -164,7 +164,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 29.3 | 2026-11-27 | Batch 27 content | Done | `tools/content/cities_b27.py`: Sugar Land, The Woodlands, Pearland, League City, Conroe, New Braunfels, San Marcos, College Station, Tyler, Wichita Falls |
 | 29.4 | 2026-11-27 | Audit | Done | 346 pages, 0 issues; batch uniqueness 73–82%; responsive clean |
 | 29.5 | 2026-11-27 | Push | Done | Committed to main |
-| 30 | Next | City pages batch 28 | Coming | Ohio and Pennsylvania third tier: Dayton, Youngstown, Canton, Parma, Erie, Reading, Scranton, Lancaster, Bethlehem, Harrisburg |
+| 30.1 | 2026-11-27 | City pages batch 28 | Done | Dayton, Youngstown, Canton, Parma (OH); Erie, Reading, Scranton, Lancaster, Bethlehem, Harrisburg (PA) |
+| 30.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Dayton 480 (KD 9), Bethlehem PA 260 (KD 9), Canton Ohio 320 (KD 10), Lancaster PA 1,000 (KD 37) |
+| 30.3 | 2026-11-27 | QA | Done | 356 pages, 0 issues; batch uniqueness 67–79%; responsive 360/768/1280 clean |
+| 31 | Next | City pages batch 29 | Coming | California fourth tier: Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
