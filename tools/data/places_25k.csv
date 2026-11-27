@@ -1483,17 +1483,6 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 4261536,Plum,PA,C5,city,26873,11476,Allegheny County,40.5024102,-79.7495801
 4242168,Lebanon,PA,C5,city,26600,11651,Lebanon County,40.3411925,-76.4227344
 4239736,King of Prussia,PA,U1,cdp,25025,12442,Montgomery County,40.0962662,-75.3820787
-7276770,San Juan,PR,U1,cdp,320691,183020,San Juan Municipio,18.4046753,-66.064294
-7206593,Bayamón,PR,U1,cdp,167312,77703,Bayamón Municipio,18.3793613,-66.1634888
-7214290,Carolina,PR,U1,cdp,139051,71160,Carolina Municipio,18.4076538,-65.9809936
-7263820,Ponce,PR,U1,cdp,109765,56391,Ponce Municipio,18.0007161,-66.6234773
-7210334,Caguas,PR,U1,cdp,72862,36030,Caguas Municipio,18.2318831,-66.0387415
-7232522,Guaynabo,PR,U1,cdp,70087,32725,Guaynabo Municipio,18.383838,-66.1133794
-7252431,Mayagüez,PR,U1,cdp,59427,34074,Mayagüez Municipio,18.2012266,-67.1425666
-7283606,Trujillo Alto,PR,U1,cdp,43752,20066,Trujillo Alto Municipio,18.3599168,-66.0096194
-7203368,Arecibo,PR,U1,cdp,40255,20164,Arecibo Municipio,18.4529748,-66.7363817
-7250260,Mansión del Mar,PR,U1,cdp,26540,13133,Toa Baja Municipio,18.4458215,-66.1788622
-7227964,Fajardo,PR,U1,cdp,25524,14451,Fajardo Municipio,18.3334214,-65.6572747
 4459000,Providence,RI,C5,city,190214,79275,Providence County,41.8230106,-71.4187163
 4474300,Warwick,RI,C5,city,82871,37758,Kent County,41.7020999,-71.4202206
 4419180,Cranston,RI,C5,city,82632,33733,Providence County,41.7659991,-71.4823541
