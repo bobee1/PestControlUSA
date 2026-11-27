@@ -24,6 +24,7 @@ from content.cities_b19 import CITIES_B19
 from content.cities_b20 import CITIES_B20
 from content.cities_b21 import CITIES_B21
 from content.cities_b22 import CITIES_B22
+from content.cities_b23 import CITIES_B23
 
 CITIES = {}
 CITIES.update(CITIES_B1)
@@ -48,6 +49,7 @@ CITIES.update(CITIES_B19)
 CITIES.update(CITIES_B20)
 CITIES.update(CITIES_B21)
 CITIES.update(CITIES_B22)
+CITIES.update(CITIES_B23)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",

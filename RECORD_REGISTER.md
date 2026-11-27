@@ -140,7 +140,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 24.3 | 2026-11-27 | Same-name fix | Done | When two or more built cities share a name (Springfield x3, Aurora, Peoria, Kansas City, Rochester, Arlington, Glendale, Columbus), body text now reads "Springfield, Illinois"; title, H1 and schema keep "Springfield, IL". Same-name pages rose from 63–69% to 68–77% unique |
 | 24.4 | 2026-11-27 | Audit | Done | 296 pages, 0 issues; responsive clean |
 | 24.5 | 2026-11-27 | Push | Done | Committed to main |
-| 25 | Next | City pages batch 23 | Coming | Lansing, Ann Arbor, Warren, Sterling Heights, Dearborn, Green Bay, Kenosha, Duluth, Davenport, Independence |
+| 25.1 | 2026-11-27 | Batch 23 research | Done | Semrush keywords for 10 cities (40 terms); all names match the dataset |
+| 25.2 | 2026-11-27 | Batch 23 content | Done | `tools/content/cities_b23.py`: Lansing, Ann Arbor, Warren, Sterling Heights, Dearborn, Green Bay, Kenosha, Duluth, Davenport, Independence |
+| 25.3 | 2026-11-27 | Overlap fix | Done | Grand Rapids dipped to 64% after more bat pages; reworded Ann Arbor and Rockford bat seasons, tips and FAQs (Grand Rapids back to 66%, Rockford 76%, Ann Arbor 78%) |
+| 25.4 | 2026-11-27 | Audit | Done | 306 pages, 0 issues; batch uniqueness 67–81%; responsive clean |
+| 25.5 | 2026-11-27 | Push | Done | Committed to main |
+| 26 | Next | City pages batch 24 | Coming | Paterson, Elizabeth, Lowell, Cambridge, New Bedford, Brockton, Stamford, Waterbury, Manchester NH, Portland ME |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
