@@ -171,7 +171,11 @@ Every build step is logged here: what was done before, what is being done now, a
 | 31.1 | 2026-11-27 | City pages batch 29 | Done | Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance (CA) |
 | 31.2 | 2026-11-27 | Keyword research | Done | Semrush US: rodent control Torrance 590 (KD 6), pest control Palmdale 210 (KD 7), pest control Hayward 260 (KD 7), exterminator Torrance 590 (KD 11), pest control Torrance 880 (KD 13) |
 | 31.3 | 2026-11-27 | QA | Done | 366 pages, 0 issues; batch uniqueness 79–83%; Lancaster PA/CA same-name pages both fine; responsive clean |
-| 32 | Next | DC page + city pages batch 30 | Coming | Washington, DC district page, plus Mesquite TX, Olathe KS, Thornton CO, Metairie LA, Fargo ND, Norman OK, Visalia, Fullerton, Pasadena CA |
+| 32.1 | 2026-11-27 | Washington, DC page upgrade | Done | Added DC Health rodent program section (311, public vs private property, commercial excluded), ward-by-ward table (8 wards), row house termites, DOEE licensing and resident-agent rule, 2 new pest rows and 2 tips; uniqueness 88%, ~1,580 words |
+| 32.2 | 2026-11-27 | City pages batch 30 | Done | Mesquite TX, Olathe KS, Thornton CO, Metairie LA, Fargo ND, Norman OK, Visalia, Fullerton, Pasadena CA |
+| 32.3 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Olathe KS 210 (KD 3), pest control Pasadena CA 320 (KD 9), rodent control Pasadena 480 (KD 9), mosquito control Metairie 110 (KD 10), pest control Fullerton 140 (KD 11), pest control DC 590 (KD 27), rodent control DC 260 (KD 21) |
+| 32.4 | 2026-11-27 | QA | Done | 375 pages, 0 issues; batch uniqueness 73–83%; responsive clean |
+| 33 | Next | City pages batch 31 | Coming | Las Vegas Valley communities (Enterprise, Spring Valley, Sunrise Manor, Paradise) plus Columbia MO, Topeka KS, Meridian ID, Lafayette LA, Billings MT, Lewisville TX |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

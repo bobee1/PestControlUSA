@@ -27,7 +27,7 @@ NEIGHBORS = {
 WIKI_STATE = {"GA": "Georgia_(U.S._state)", "WA": "Washington_(state)", "NY": "New_York_(state)", "DC": "Washington,_D.C."}
 
 SVC_NAME = {}
-from content.states_extra import STATE_EXTRA
+from content.states_extra import STATE_EXTRA, DC_DETAIL
 CITY_LINKS = {}  # (name, state) -> url for built city pages
 CITY_DISPLAY = {}  # (name, state) -> display label for built city pages
 
@@ -133,7 +133,7 @@ def state_page(ab, places):
     seasons = "".join(f"<tr><td>{a}</td><td>{b}</td></tr>" for a, b in zip(("Spring", "Summer", "Fall", "Winter"), SEASONS[ab]))
 
     if ab == "DC":
-        city_table = ""
+        city_table = "".join(f"<h2>{h}</h2>{b}" for h, b in DC_DETAIL)
     else:
         trs = "".join(
             f'<tr><td>{citycell(r)}{"*" if r["kind"] == "cdp" else ""}</td><td>{html.escape("; ".join(short_county(c) for c in r["county"].split("; ")))}</td><td>{fmt(r["population"])}</td></tr>'

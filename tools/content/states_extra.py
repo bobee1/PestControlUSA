@@ -68,3 +68,26 @@ STATE_EXTRA = {
  "Eastern subterranean termites are active across Indiana, from Fort Wayne and South Bend in the north to Indianapolis and Evansville in the south, and termite inspections are a routine part of home sales. Southern Indiana, along the Ohio River from Evansville to New Albany and Jeffersonville, is warmer and more humid, with brown recluse spiders, heavier mosquito seasons and river floods that soak basements.",
  "The emerald ash borer killed millions of ash trees across Indiana after it arrived in the early 2000s, and dead trees and stumps became homes for carpenter ants and wildlife. Northern Indiana gets lake-effect snow off Lake Michigan, and mice, cluster flies and lady beetles move indoors each fall. Purdue University's entomology extension is a widely used resource for homeowners."]),
 }
+
+STATE_EXTRA["DC"] = ("Rodent control in DC: what the city does and what owners do", [
+ "DC Health's Rodent and Vector Control Division runs the District's rodent program. Residents report rats through 311, and inspectors survey the area, bait burrows on public property and work with other agencies to enforce trash and sanitation rules. In some cases, such as a neighborhood petition, the program will also treat private yards. Because most rat activity in the District traces back to garbage, the city's efforts focus on how trash is stored, from lidded supercans to sealed compactors for restaurants.",
+ "City service has limits. The program does not handle commercial property, and it doesn't trap rats inside homes, seal entry points or treat basements and crawlspaces. Those jobs fall to owners, landlords and businesses, which is where a licensed private provider comes in. The District's rat population is believed to have grown with warmer winters, so many row house owners on Capitol Hill, in Petworth and in Columbia Heights pair 311 reports for the alley with private exclusion work on the house itself."])
+
+DC_DETAIL = [
+ ("Pest control across DC's eight wards",
+  "<p>Pest pressure changes from one part of the District to another. These are the patterns providers see most often, ward by ward.</p>"
+  "<div class=\"tbl-wrap\"><table class=\"tbl\"><thead><tr><th>Ward</th><th>Neighborhoods</th><th>Common issues</th></tr></thead><tbody>"
+  "<tr><td>Ward 1</td><td>Columbia Heights, Adams Morgan, Mount Pleasant, U Street</td><td>Rats in alleys, roaches and bed bugs in dense apartment blocks, restaurant pests</td></tr>"
+  "<tr><td>Ward 2</td><td>Georgetown, Dupont Circle, Logan Circle, Foggy Bottom, Downtown</td><td>Rats around restaurants and trash corrals, mice in old row houses, office and hotel pest control</td></tr>"
+  "<tr><td>Ward 3</td><td>Cleveland Park, Tenleytown, Chevy Chase DC, Spring Valley, the Palisades</td><td>Ticks and deer near Rock Creek Park, squirrels and raccoons in attics, termites in wood-frame homes</td></tr>"
+  "<tr><td>Ward 4</td><td>Petworth, Brightwood, Takoma, Crestwood, Shepherd Park</td><td>Norway rats in row house yards, carpenter ants, mosquitoes, ticks along Rock Creek</td></tr>"
+  "<tr><td>Ward 5</td><td>Brookland, Bloomingdale, Eckington, Trinidad, Woodridge</td><td>Rats, mice in older homes, bed bugs in group houses near Catholic University</td></tr>"
+  "<tr><td>Ward 6</td><td>Capitol Hill, Navy Yard, Southwest Waterfront, NoMa, H Street NE</td><td>Rats in alleys, termites in row houses, pests in new high-rises and riverfront buildings</td></tr>"
+  "<tr><td>Ward 7</td><td>Deanwood, Benning, Hillcrest, Fort Dupont</td><td>Mosquitoes near the Anacostia River, rats, ticks and wildlife near wooded parkland</td></tr>"
+  "<tr><td>Ward 8</td><td>Anacostia, Congress Heights, Bellevue</td><td>Rats, roaches in older apartments, mosquitoes and wildlife near parks and the river</td></tr>"
+  "</tbody></table></div>"),
+ ("Termites and row houses in Washington",
+  "<p>Brick row houses in neighborhoods like Capitol Hill, Shaw, Bloomingdale and Petworth still have a lot of wood inside, including floor joists, sills, stair stringers and rear porches. Eastern subterranean termites are common across the region, and they reach that wood through damp basements, cracked foundation walls and wooden back steps that touch soil. Swarms usually appear indoors on warm spring days. Because row houses share walls, a colony found in one home can be active next door too, so neighbors often coordinate inspections. See <a href=\"/services/termite-inspection/\">termite inspection</a> and <a href=\"/services/termite-control/\">termite control</a>.</p>"),
+ ("Hiring a pest control company in DC",
+  "<p>The District requires every business that advertises or performs pest control in DC to hold a license from the Department of Energy and Environment, and the technicians who apply pesticides must be certified or registered. Many companies that serve the District are based in Maryland or Virginia. They can work in DC, but they need a District license and a resident agent here. DC law also requires approved integrated pest management plans for schools and child-occupied facilities and restricts some pesticide uses near those sites and waterways. Before work starts, ask for the company's DC license and the applicator's ID card.</p>"),
+]
