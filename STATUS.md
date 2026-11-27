@@ -3,19 +3,19 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 33)
+**Last updated:** 2026-11-26 (Build 34)
 
-## Previous step — Build 32: DC page + city pages batch 30 ✅
-- Washington, DC page upgraded (rodent program, wards, row house termites, DOEE licensing); Mesquite, Olathe, Thornton, Metairie, Fargo, Norman, Visalia, Fullerton, Pasadena CA.
+## Previous step — Build 33: city pages batch 31 ✅
+- Paradise, Enterprise, Spring Valley, Sunrise Manor (NV); Columbia MO, Topeka KS, Meridian ID, Lafayette LA, Billings MT, Lewisville TX.
 
-## Current step — Build 33: city pages batch 31 ✅ complete
-- **Places live:** Paradise, Enterprise, Spring Valley and Sunrise Manor (NV; each page explains it's an unincorporated Clark County town with a Las Vegas mailing address), plus Columbia MO, Topeka KS, Meridian ID, Lafayette LA, Billings MT and Lewisville TX.
-- **Keyword highlights (Semrush US):** pest control Paradise NV 70 (KD 4); roach exterminator Las Vegas 140 (KD 9); exterminator Billings MT 90 (KD 15); scorpion control Las Vegas 210 (KD 16); pest control Lewisville 390 (KD 18). The NV town names themselves get little search volume, so those pages also target Las Vegas service terms the main Las Vegas page doesn't (commercial, termites, bee removal, bed bugs).
-- **Place-specific topics:** commercial pest control on the Strip (Paradise), subterranean termites in new homes (Enterprise), bee swarms and Africanized bees (Spring Valley), bed bugs in apartments and weekly motels (Sunrise Manor), carpenter bees (Columbia), brown recluse vs. wolf spider ID (Topeka), voles in lawns (Meridian), fire ant rafts and floods (Lafayette), deer mice and hantavirus (Billings), spiders and lake insects (Lewisville).
-- **Checks:** 385 pages, 0 issues; batch uniqueness 74–79%; Columbia MO and Columbia SC both fine; responsive 360/768/1280 clean.
+## Current step — Build 34: city pages batch 32 ✅ complete
+- **Cities live:** Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield (CA).
+- **Keyword highlights (Semrush US):** pest control Santa Clara 210 (KD 5); pest control Concord CA 210 (KD 7); pest control Vallejo 170 (KD 8); rodent control Thousand Oaks 110 (KD 9); pest control Berkeley 140 (KD 10); termite inspection Orange County 260 (KD 21).
+- **City-specific topics:** termite inspections for Old Towne historic homes (Orange), moisture pests in irrigated desert yards (Victorville), rodent control for offices and data centers (Santa Clara), rodents drawing rattlesnakes (Simi Valley), wildlife-safe rodent control and California's rodenticide limits (Thousand Oaks), dampwood termites (Vallejo), backyard chicken coops and rats (Concord), canals and mosquitoes (Clovis), IPM and low-toxicity methods (Berkeley), move-in pest checks for Travis AFB families (Fairfield).
+- **Checks:** 395 pages, 0 issues; batch uniqueness 73–80%; responsive 360/768/1280 clean.
 
-## Coming next — Build 34: city pages batch 32 (10 cities)
-- Proposed: California fifth tier: Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield.
+## Coming next — Build 35: city pages batch 33 (10 cities)
+- Proposed: Lehigh Acres, Spring Hill and Brandon (FL); Arvada and Westminster (CO); Richardson TX; West Jordan UT; Broken Arrow OK; Antioch and Carlsbad (CA).
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds

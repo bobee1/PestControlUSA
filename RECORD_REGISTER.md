@@ -178,7 +178,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 33.1 | 2026-11-27 | City pages batch 31 | Done | Paradise, Enterprise, Spring Valley, Sunrise Manor (NV, unincorporated Clark County towns); Columbia MO, Topeka KS, Meridian ID, Lafayette LA, Billings MT, Lewisville TX |
 | 33.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Paradise NV 70 (KD 4), roach exterminator Las Vegas 140 (KD 9), exterminator Billings MT 90 (KD 15), scorpion control Las Vegas 210 (KD 16), pest control Lewisville 390 (KD 18), pest control Columbia MO 590 (KD 37) |
 | 33.3 | 2026-11-27 | QA | Done | 385 pages, 0 issues (one banned phrase fixed); batch uniqueness 74–79%; responsive clean |
-| 34 | Next | City pages batch 32 | Coming | California fifth tier: Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield |
+| 34.1 | 2026-11-27 | City pages batch 32 | Done | Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield (CA) |
+| 34.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Santa Clara 210 (KD 5), pest control Concord CA 210 (KD 7), pest control Vallejo 170 (KD 8), rodent control Thousand Oaks 110 (KD 9), pest control Berkeley 140 (KD 10), termite inspection Orange County 260 (KD 21) |
+| 34.3 | 2026-11-27 | QA | Done | 395 pages, 0 issues; batch uniqueness 73–80%; Concord CA/NC both fine; responsive clean |
+| 35 | Next | City pages batch 33 | Coming | Lehigh Acres, Spring Hill, Brandon (FL); Arvada, Westminster (CO); Richardson TX; West Jordan UT; Broken Arrow OK; Antioch, Carlsbad (CA) |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
