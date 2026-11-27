@@ -129,7 +129,7 @@ Every build step is logged here: what was done before, what is being done now, a
 | 22.3 | 2026-11-27 | Nearby lists | Done | Smaller towns added for Abilene, Waco, Beaumont, Midland |
 | 22.4 | 2026-11-27 | Audit | Done | 276 pages, 0 issues; batch uniqueness 73–81%; Texas state page 79%; responsive clean |
 | 22.5 | 2026-11-27 | Push | Done | Committed to main |
-| 23 | Next | City pages batch 21 | Coming | Mesa-area and Phoenix suburbs done; next: Tempe, Surprise, Goodyear, Yuma, Flagstaff (AZ), Las Cruces (NM), Provo, Orem, West Valley City, St. George (UT) |
+| 23 | Next | City pages batch 21 | Coming | Tempe, Surprise, Goodyear, Yuma, Flagstaff (AZ), Las Cruces (NM), Provo, Orem, West Valley City, St. George (UT) |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
