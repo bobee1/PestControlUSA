@@ -168,7 +168,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 30.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Dayton 480 (KD 9), Bethlehem PA 260 (KD 9), Canton Ohio 320 (KD 10), Lancaster PA 1,000 (KD 37) |
 | 30.3 | 2026-11-27 | QA | Done | 356 pages, 0 issues; batch uniqueness 67–79%; responsive 360/768/1280 clean |
 | 30.4 | 2026-11-27 | Scope change | Done | Owner rule: all 50 states incl. AK and HI, plus DC; no US territories. Removed 11 Puerto Rico places from places_25k.csv (1,854 remain); no PR pages had been built |
-| 31 | Next | City pages batch 29 | Coming | California fourth tier: Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance |
+| 31.1 | 2026-11-27 | City pages batch 29 | Done | Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance (CA) |
+| 31.2 | 2026-11-27 | Keyword research | Done | Semrush US: rodent control Torrance 590 (KD 6), pest control Palmdale 210 (KD 7), pest control Hayward 260 (KD 7), exterminator Torrance 590 (KD 11), pest control Torrance 880 (KD 13) |
+| 31.3 | 2026-11-27 | QA | Done | 366 pages, 0 issues; batch uniqueness 79–83%; Lancaster PA/CA same-name pages both fine; responsive clean |
+| 32 | Next | DC page + city pages batch 30 | Coming | Washington, DC district page, plus Mesquite TX, Olathe KS, Thornton CO, Metairie LA, Fargo ND, Norman OK, Visalia, Fullerton, Pasadena CA |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
