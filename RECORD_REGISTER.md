@@ -116,7 +116,11 @@ Every build step is logged here: what was done before, what is being done now, a
 | 19.3 | 2026-11-26 | Batch 17 content | Done | `tools/content/cities_b17.py`: Alexandria, Arlington VA, Newport News, Hampton, Cary, Fayetteville NC, Wilmington NC, High Point, Clarksville, Murfreesboro |
 | 19.4 | 2026-11-26 | Audit | Done | 246 pages, 0 issues; batch uniqueness 68–80% (Arlington VA lowest, shares a name with Arlington TX); responsive clean |
 | 19.5 | 2026-11-26 | Push | Done | Committed to main |
-| 20 | Next | City pages batch 18 | Coming | Vancouver WA, Bellevue, Kent, Everett, Renton, Spokane Valley, Salem, Eugene, Gresham, Hillsboro |
+| 20.1 | 2026-11-26 | Batch 18 research | Done | Semrush keywords for 10 cities (40 terms); all names match the dataset |
+| 20.2 | 2026-11-26 | Batch 18 content | Done | `tools/content/cities_b18.py`: Vancouver WA, Bellevue, Kent, Everett, Renton, Spokane Valley, Salem, Eugene, Gresham, Hillsboro; topics avoid overlap with Seattle, Portland, Spokane and Tacoma |
+| 20.3 | 2026-11-26 | Audit | Done | 256 pages, 0 issues; batch uniqueness 70–81%; Oregon state page 68%; responsive clean |
+| 20.4 | 2026-11-26 | Push | Done | Committed to main |
+| 21 | Next | City pages batch 19 | Coming | Santa Clarita, Glendale CA, Huntington Beach, Garden Grove, Oxnard, Ontario, Rancho Cucamonga, Oceanside, Elk Grove, Santa Rosa |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
