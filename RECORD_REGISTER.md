@@ -111,7 +111,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 18.3 | 2026-11-26 | Batch 16 content | Done | `tools/content/cities_b16.py`: Columbia SC, Greenville SC, Augusta, Columbus GA, Huntsville, Montgomery, Mobile, Jackson MS, Little Rock, Shreveport; base names checked (Fort Benning and Fort Gordon restored in 2025) |
 | 18.4 | 2026-11-26 | Audit | Done | 236 pages, 0 issues; batch uniqueness 73–81%; responsive clean |
 | 18.5 | 2026-11-26 | Push | Done | Committed to main |
-| 19 | Next | City pages batch 17 | Coming | Alexandria VA, Arlington VA, Newport News, Hampton, Cary, Fayetteville NC, Wilmington NC, High Point, Clarksville, Murfreesboro |
+| 19.1 | 2026-11-26 | Batch 17 data check | Done | Arlington VA is a CDP (Arlington County); Alexandria, Newport News and Hampton use independent-city county text |
+| 19.2 | 2026-11-26 | Batch 17 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 19.3 | 2026-11-26 | Batch 17 content | Done | `tools/content/cities_b17.py`: Alexandria, Arlington VA, Newport News, Hampton, Cary, Fayetteville NC, Wilmington NC, High Point, Clarksville, Murfreesboro |
+| 19.4 | 2026-11-26 | Audit | Done | 246 pages, 0 issues; batch uniqueness 68–80% (Arlington VA lowest, shares a name with Arlington TX); responsive clean |
+| 19.5 | 2026-11-26 | Push | Done | Committed to main |
+| 20 | Next | City pages batch 18 | Coming | Vancouver WA, Bellevue, Kent, Everett, Renton, Spokane Valley, Salem, Eugene, Gresham, Hillsboro |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
