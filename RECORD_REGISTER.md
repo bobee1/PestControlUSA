@@ -154,7 +154,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 27.3 | 2026-11-27 | Link planner fix | Done | Top-up step no longer adds a city to a neighbour's "more guides" list when it is already in that neighbour's nearby list (fixed Fort Myers at 2 in-text inbound links) |
 | 27.4 | 2026-11-27 | Audit | Done | 326 pages, 0 issues; batch uniqueness 73–83%; Florida state page 81%; responsive clean |
 | 27.5 | 2026-11-27 | Push | Done | Committed to main |
-| 28 | Next | City pages batch 26 | Coming | Georgia, Carolinas and Alabama fourth tier: Athens, Macon, Sandy Springs, Roswell, Johns Creek, North Charleston, Mount Pleasant, Rock Hill, Concord NC, Tuscaloosa |
+| 28.1 | 2026-11-27 | Batch 26 data check | Done | Dataset name "Macon-Bibb County" shown as Macon; Athens row (consolidated government) confirmed |
+| 28.2 | 2026-11-27 | Batch 26 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 28.3 | 2026-11-27 | Batch 26 content | Done | `tools/content/cities_b26.py`: Athens, Macon, Sandy Springs, Roswell, Johns Creek, North Charleston, Mount Pleasant, Rock Hill, Concord NC, Tuscaloosa |
+| 28.4 | 2026-11-27 | Audit | Done | 336 pages, 0 issues; batch uniqueness 70–79%; South Carolina state page 65% (watch); responsive clean |
+| 28.5 | 2026-11-27 | Push | Done | Committed to main |
+| 29 | Next | State page pass 2 + city batch 27 | Coming | Lift South Carolina, Wyoming and any state under 66%; then Texas suburbs and Hill Country: Sugar Land, The Woodlands, Pearland, League City, Conroe, New Braunfels, San Marcos, College Station, Tyler, Wichita Falls |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
