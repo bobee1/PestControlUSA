@@ -23,6 +23,7 @@ from content.cities_b18 import CITIES_B18
 from content.cities_b19 import CITIES_B19
 from content.cities_b20 import CITIES_B20
 from content.cities_b21 import CITIES_B21
+from content.cities_b22 import CITIES_B22
 
 CITIES = {}
 CITIES.update(CITIES_B1)
@@ -46,6 +47,7 @@ CITIES.update(CITIES_B18)
 CITIES.update(CITIES_B19)
 CITIES.update(CITIES_B20)
 CITIES.update(CITIES_B21)
+CITIES.update(CITIES_B22)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
@@ -79,7 +81,10 @@ def city_page(key, row, allrows):
     c = CITIES[key]
     ab = key[1]
     sslug, sname = BY_AB[ab][0], BY_AB[ab][1]
-    nm = city_name(key)
+    nm0 = city_name(key)
+    from collections import Counter as _C
+    _dups = {n for n, k in _C(city_name(k) for k in CITIES).items() if k > 1}
+    nm = f"{nm0}, {sname}" if nm0 in _dups else nm0
     url = city_url(key)
     crumbs = [("Home", "/"), ("Locations", "/locations/"), (sname, f"/locations/{sslug}/"), (nm, url)]
     zips = ZIPS.get(f"{key[0]}|{ab}", [])
@@ -145,29 +150,29 @@ def city_page(key, row, allrows):
 <p>{"Providers who serve " + nm + " also cover nearby communities, including " + near_txt if near_items else "Providers who serve " + nm + " also cover the rest of " + c["county"]}.{more_state}</p>
 <ul class="pills">{pills}</ul>
 </div></div>
-{S.call_band(f"Pest control in {nm}, {ab}", f"Call to reach a licensed provider serving {nm} and {c['county']}.")}'''
+{S.call_band(f"Pest control in {nm0}, {ab}", f"Call to reach a licensed provider serving {nm} and {c['county']}.")}'''
 
-    hero = S.page_hero(crumbs, f"Pest Control in {nm}, {ab}", c["lead"], None, "", [c["county"], f"{len(zips)} ZIP codes" if zips else sname, "Licensed local providers"])
-    title = f"Pest Control {nm}, {ab} | Exterminators | {S.BRAND}"
+    hero = S.page_hero(crumbs, f"Pest Control in {nm0}, {ab}", c["lead"], None, "", [c["county"], f"{len(zips)} ZIP codes" if zips else sname, "Licensed local providers"])
+    title = f"Pest Control {nm0}, {ab} | Exterminators | {S.BRAND}"
     if len(title) > 60:
-        title = f"Pest Control {nm}, {ab} | {S.BRAND}"
+        title = f"Pest Control {nm0}, {ab} | {S.BRAND}"
     top3 = [p[0].split(" in ")[0].split(" after ")[0].lower() for p in c["problems"][:3]]
-    meta = f"Pest control in {nm}, {ab}: {top3[0]}, {top3[1]} and {top3[2]}. Licensed local exterminators. Call {S.PHONE_DISPLAY}."
+    meta = f"Pest control in {nm0}, {ab}: {top3[0]}, {top3[1]} and {top3[2]}. Licensed local exterminators. Call {S.PHONE_DISPLAY}."
     if len(meta) > 155:
-        meta = f"Pest control in {nm}, {ab}: {top3[0]} and {top3[1]}. Licensed local exterminators. Call {S.PHONE_DISPLAY}."
+        meta = f"Pest control in {nm0}, {ab}: {top3[0]} and {top3[1]}. Licensed local exterminators. Call {S.PHONE_DISPLAY}."
     if len(meta) > 155:
-        meta = f"Pest control in {nm}, {ab} for termites, roaches, rodents and more. Licensed local exterminators. Call {S.PHONE_DISPLAY}."
+        meta = f"Pest control in {nm0}, {ab} for termites, roaches, rodents and more. Licensed local exterminators. Call {S.PHONE_DISPLAY}."
 
     full = S.BASE + url
     county_wiki = "https://en.wikipedia.org/wiki/" + (c["county_wiki"] if c.get("county_wiki") else c["county"].replace(" ", "_") + ",_" + STATE_FULL[ab])
-    city_node = {"@type": "City", "name": f"{nm}, {ab}", "sameAs": "https://en.wikipedia.org/wiki/" + c.get("wiki", WIKI_CITY.get(key[0], "")),
+    city_node = {"@type": "City", "name": f"{nm0}, {ab}", "sameAs": "https://en.wikipedia.org/wiki/" + c.get("wiki", WIKI_CITY.get(key[0], "")),
                  "containedInPlace": {"@type": "AdministrativeArea", "name": c["county"], "sameAs": county_wiki,
                                       "containedInPlace": {"@type": "State", "name": sname}}}
     schema = [
-        {"@type": "WebPage", "@id": f"{full}#webpage", "url": full, "name": f"Pest Control in {nm}, {ab}", "isPartOf": {"@id": S.SITE_ID},
+        {"@type": "WebPage", "@id": f"{full}#webpage", "url": full, "name": f"Pest Control in {nm0}, {ab}", "isPartOf": {"@id": S.SITE_ID},
          "about": [{"@id": f"{full}#service"}, {"@type": "Thing", "name": "Pest control", "sameAs": "https://en.wikipedia.org/wiki/Pest_control"}],
          "mentions": [city_node], "dateModified": S.TODAY_ISO, "inLanguage": "en-US", "breadcrumb": {"@id": f"{full}#breadcrumb"}},
-        {"@type": "Service", "@id": f"{full}#service", "name": f"Pest control in {nm}, {ab}", "serviceType": "Pest control", "url": full,
+        {"@type": "Service", "@id": f"{full}#service", "name": f"Pest control in {nm0}, {ab}", "serviceType": "Pest control", "url": full,
          "provider": {"@type": "HomeAndConstructionBusiness", "@id": S.BIZ_ID, "name": S.BRAND, "url": S.BASE + "/", "telephone": S.PHONE_TEL},
          "areaServed": city_node,
          "availableChannel": {"@type": "ServiceChannel", "servicePhone": {"@type": "ContactPoint", "telephone": S.PHONE_TEL, "contactType": "customer service", "areaServed": "US"}}},

@@ -3,19 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 23)
+**Last updated:** 2026-11-26 (Build 24)
 
-## Previous step — Build 22: city pages batch 20 ✅
-- Pasadena TX, Killeen, Denton, Waco, Round Rock, Carrollton, Midland, Odessa, Abilene, Beaumont.
+## Previous step — Build 23: city pages batch 21 ✅
+- Tempe, Surprise, Goodyear, Yuma, Flagstaff, Las Cruces, Provo, Orem, West Valley City, St. George.
 
-## Current step — Build 23: city pages batch 21 ✅ complete (Southwest and Mountain third tier)
-- **Cities live:** Tempe, Surprise, Goodyear, Yuma and Flagstaff (AZ); Las Cruces (NM); Provo, Orem, West Valley City and St. George (UT).
-- **Keyword highlights (Semrush US):** pest control Provo 320 (KD 7); bee removal Tempe KD 9; pest control Goodyear AZ KD 11; pest control Surprise AZ 590 (KD 14); exterminator Orem KD 14; pest control Las Cruces NM KD 15; pest control Orem 480 (KD 16). Yuma and St. George head terms are harder (KD 38–48).
-- **City-specific topics:** Tempe Town Lake midges and mosquitoes, West Valley roof rats (Surprise), river and lake mosquitoes (Goodyear), harvester and desert fire ants (Yuma), carpenter ants in pine country (Flagstaff), termites in adobe homes (Las Cruces), bed bugs in BYU-area housing (Provo), Utah Lake mosquitoes and midges (Orem), mice and deer mice (West Valley City), bark scorpions in Utah's Dixie (St. George).
-- **Checks:** 286 pages, 0 issues; batch uniqueness 71–82%; responsive 360/768/1280 clean. Lowest state page is Wyoming at 65% (rule is 60%).
+## Current step — Build 24: city pages batch 22 ✅ complete (Illinois, Indiana, Kansas)
+- **Cities live:** Aurora, Naperville, Joliet, Elgin, Rockford, Peoria and Springfield (IL); Evansville and South Bend (IN); Kansas City (KS).
+- **Keyword highlights (Semrush US):** pest control Elgin KD 10; exterminator Naperville KD 11; pest control Aurora IL 320 (KD 16); pest control Rockford IL 880 (KD 16); pest control South Bend 720 (KD 16); exterminator Joliet KD 15; pest control Naperville 390 (KD 18). Evansville, Peoria IL and Kansas City KS head terms are harder (KD 41–46).
+- **City-specific topics:** balloon-frame homes and mice (Aurora), ticks near forest preserves (Naperville), rail and intermodal rodents (Joliet), cockroaches in converted Victorians (Elgin), bats and rabies testing (Rockford), brown recluses at the northern edge of their range (Peoria), termites in historic homes (Springfield), Ohio River mosquitoes (Evansville), game-weekend and student rentals (South Bend), rats in Armourdale's old industrial districts (Kansas City, KS).
+- **Same-name fix:** body text on same-name city pages now includes the state ("Springfield, Illinois"), lifting those pages to 68–77% unique.
+- **Checks:** 296 pages, 0 issues; responsive 360/768/1280 clean.
 
-## Coming next — Build 24: city pages batch 22 (10 cities)
-- Proposed: Illinois, Indiana and Kansas second tier: Aurora, Naperville, Joliet, Elgin, Rockford, Peoria and Springfield (IL); Evansville and South Bend (IN); Kansas City (KS).
+## Coming next — Build 25: city pages batch 23 (10 cities)
+- Proposed: Michigan, Wisconsin, Minnesota, Iowa and Missouri third tier: Lansing, Ann Arbor, Warren, Sterling Heights and Dearborn (MI); Green Bay and Kenosha (WI); Duluth (MN); Davenport (IA); Independence (MO).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.

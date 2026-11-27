@@ -135,7 +135,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 23.4 | 2026-11-27 | Nearby lists | Done | Smaller towns added for Flagstaff, Las Cruces, St. George, Yuma |
 | 23.5 | 2026-11-27 | Audit | Done | 286 pages, 0 issues; batch uniqueness 71–82%; lowest state Wyoming 65%; responsive clean |
 | 23.6 | 2026-11-27 | Push | Done | Committed to main |
-| 24 | Next | City pages batch 22 | Coming | Aurora IL, Naperville, Joliet, Elgin, Rockford, Peoria IL, Springfield IL, Evansville, South Bend, Kansas City KS |
+| 24.1 | 2026-11-27 | Batch 22 research | Done | Semrush keywords for 10 cities (40 terms); all names match the dataset |
+| 24.2 | 2026-11-27 | Batch 22 content | Done | `tools/content/cities_b22.py`: Aurora IL, Naperville, Joliet, Elgin, Rockford, Peoria IL, Springfield IL, Evansville, South Bend, Kansas City KS |
+| 24.3 | 2026-11-27 | Same-name fix | Done | When two or more built cities share a name (Springfield x3, Aurora, Peoria, Kansas City, Rochester, Arlington, Glendale, Columbus), body text now reads "Springfield, Illinois"; title, H1 and schema keep "Springfield, IL". Same-name pages rose from 63–69% to 68–77% unique |
+| 24.4 | 2026-11-27 | Audit | Done | 296 pages, 0 issues; responsive clean |
+| 24.5 | 2026-11-27 | Push | Done | Committed to main |
+| 25 | Next | City pages batch 23 | Coming | Lansing, Ann Arbor, Warren, Sterling Heights, Dearborn, Green Bay, Kenosha, Duluth, Davenport, Independence |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
