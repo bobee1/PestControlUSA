@@ -124,7 +124,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 21.2 | 2026-11-26 | Batch 19 content | Done | `tools/content/cities_b19.py`: Santa Clarita, Glendale CA, Huntington Beach, Garden Grove, Oxnard, Ontario CA, Rancho Cucamonga, Oceanside, Elk Grove, Santa Rosa; topics avoid the 20 earlier California pages |
 | 21.3 | 2026-11-26 | Audit | Done | 266 pages, 0 issues; batch uniqueness 72–81%; California state page 86%; responsive clean |
 | 21.4 | 2026-11-26 | Push | Done | Committed to main |
-| 22 | Next | City pages batch 20 | Coming | Pasadena TX, Killeen, Denton, Waco, Round Rock, Carrollton, Midland, Odessa, Abilene, Beaumont |
+| 22.1 | 2026-11-27 | Batch 20 research | Done | Semrush keywords for 10 cities (40 terms); all names match the dataset |
+| 22.2 | 2026-11-27 | Batch 20 content | Done | `tools/content/cities_b20.py`: Pasadena TX, Killeen, Denton, Waco, Round Rock, Carrollton, Midland, Odessa, Abilene, Beaumont; Fort Hood name restored in 2025 |
+| 22.3 | 2026-11-27 | Nearby lists | Done | Smaller towns added for Abilene, Waco, Beaumont, Midland |
+| 22.4 | 2026-11-27 | Audit | Done | 276 pages, 0 issues; batch uniqueness 73–81%; Texas state page 79%; responsive clean |
+| 22.5 | 2026-11-27 | Push | Done | Committed to main |
+| 23 | Next | City pages batch 21 | Coming | Mesa-area and Phoenix suburbs done; next: Tempe, Surprise, Goodyear, Yuma, Flagstaff (AZ), Las Cruces (NM), Provo, Orem, West Valley City, St. George (UT) |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
