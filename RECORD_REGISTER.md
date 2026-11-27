@@ -149,7 +149,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 26.2 | 2026-11-27 | Batch 24 content | Done | `tools/content/cities_b24.py`: Paterson, Elizabeth, Lowell, Cambridge, New Bedford, Brockton, Stamford, Waterbury, Manchester NH, Portland ME; New Hampshire and Maine get their first city guides |
 | 26.3 | 2026-11-27 | Audit | Done | One duplicate FAQ answer (Waterbury/Paterson) reworded; 316 pages, 0 issues; batch uniqueness 72–81%; responsive clean |
 | 26.4 | 2026-11-27 | Push | Done | Committed to main |
-| 27 | Next | City pages batch 25 | Coming | Florida fourth tier: Fort Myers, Sarasota, Daytona Beach, Melbourne, Pompano Beach, Boca Raton, Deltona, Palm Coast, Kissimmee, Ocala |
+| 27.1 | 2026-11-27 | Batch 25 research | Done | Semrush keywords for 10 cities (40 terms); all names match the dataset |
+| 27.2 | 2026-11-27 | Batch 25 content | Done | `tools/content/cities_b25.py`: Fort Myers, Sarasota, Daytona Beach, Melbourne, Pompano Beach, Boca Raton, Deltona, Palm Coast, Kissimmee, Ocala; topics avoid the 22 earlier Florida pages |
+| 27.3 | 2026-11-27 | Link planner fix | Done | Top-up step no longer adds a city to a neighbour's "more guides" list when it is already in that neighbour's nearby list (fixed Fort Myers at 2 in-text inbound links) |
+| 27.4 | 2026-11-27 | Audit | Done | 326 pages, 0 issues; batch uniqueness 73–83%; Florida state page 81%; responsive clean |
+| 27.5 | 2026-11-27 | Push | Done | Committed to main |
+| 28 | Next | City pages batch 26 | Coming | Georgia, Carolinas and Alabama fourth tier: Athens, Macon, Sandy Springs, Roswell, Johns Creek, North Charleston, Mount Pleasant, Rock Hill, Concord NC, Tuscaloosa |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
