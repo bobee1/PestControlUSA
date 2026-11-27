@@ -106,7 +106,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 17.4 | 2026-11-26 | Same-name fix | Done | Rochester (MN/NY) and Springfield (MO/MA) produced identical service paragraphs; the paragraph now names the state ("Licensed {State} providers serving…") on every city page |
 | 17.5 | 2026-11-26 | Audit | Done | 226 pages, 0 issues; batch uniqueness 68–83% (same-name pairs lowest); responsive clean |
 | 17.6 | 2026-11-26 | Push | Done | Committed to main |
-| 18 | Next | City pages batch 16 | Coming | Columbia SC, Greenville SC, Augusta GA, Columbus GA, Huntsville, Montgomery, Mobile, Jackson MS, Little Rock, Shreveport |
+| 18.1 | 2026-11-26 | Dataset fix | Done | Removed a duplicate Columbus, GA row (manual Build 6 entry, GEOID 1319007) that duplicated the Census row 1319000; Georgia table now lists Columbus once |
+| 18.2 | 2026-11-26 | Batch 16 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 18.3 | 2026-11-26 | Batch 16 content | Done | `tools/content/cities_b16.py`: Columbia SC, Greenville SC, Augusta, Columbus GA, Huntsville, Montgomery, Mobile, Jackson MS, Little Rock, Shreveport; base names checked (Fort Benning and Fort Gordon restored in 2025) |
+| 18.4 | 2026-11-26 | Audit | Done | 236 pages, 0 issues; batch uniqueness 73–81%; responsive clean |
+| 18.5 | 2026-11-26 | Push | Done | Committed to main |
+| 19 | Next | City pages batch 17 | Coming | Alexandria VA, Arlington VA, Newport News, Hampton, Cary, Fayetteville NC, Wilmington NC, High Point, Clarksville, Murfreesboro |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

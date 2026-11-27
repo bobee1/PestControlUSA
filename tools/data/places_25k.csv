@@ -619,7 +619,6 @@ geoid,name,state,fips_class,kind,population,housing_units,county,lat,lng
 1249260,Northdale,FL,U1,cdp,25420,9631,Hillsborough County,28.1058079,-82.5263929
 1205462,Bellview,FL,U1,cdp,25051,10907,Escambia County,30.46203,-87.3120324
 1304000,Atlanta,GA,C1,city,499287,259122,Fulton County; DeKalb County,33.762837,-84.4220541
-1319007,Columbus,GA,C1,city,206922,0,Muscogee County,32.461,-84.9877
 1319000,Columbus,GA,C1,city,204383,91288,Muscogee County,32.5099584,-84.877043
 1304204,Augusta,GA,C1,city,202081,0,Richmond County,33.4735,-82.0105
 1349008,Macon-Bibb County,GA,C1,city,156543,71869,Bibb County,32.8064982,-83.69742
