@@ -129,7 +129,13 @@ Every build step is logged here: what was done before, what is being done now, a
 | 22.3 | 2026-11-27 | Nearby lists | Done | Smaller towns added for Abilene, Waco, Beaumont, Midland |
 | 22.4 | 2026-11-27 | Audit | Done | 276 pages, 0 issues; batch uniqueness 73–81%; Texas state page 79%; responsive clean |
 | 22.5 | 2026-11-27 | Push | Done | Committed to main |
-| 23 | Next | City pages batch 21 | Coming | Tempe, Surprise, Goodyear, Yuma, Flagstaff (AZ), Las Cruces (NM), Provo, Orem, West Valley City, St. George (UT) |
+| 23.1 | 2026-11-27 | Batch 21 data check | Done | Dataset name "Saint George" shown as St. George; Las Cruces county uses Doña Ana wiki override |
+| 23.2 | 2026-11-27 | Batch 21 research | Done | Semrush keywords for 10 cities (40 terms) |
+| 23.3 | 2026-11-27 | Batch 21 content | Done | `tools/content/cities_b21.py`: Tempe, Surprise, Goodyear, Yuma, Flagstaff, Las Cruces, Provo, Orem, West Valley City, St. George |
+| 23.4 | 2026-11-27 | Nearby lists | Done | Smaller towns added for Flagstaff, Las Cruces, St. George, Yuma |
+| 23.5 | 2026-11-27 | Audit | Done | 286 pages, 0 issues; batch uniqueness 71–82%; lowest state Wyoming 65%; responsive clean |
+| 23.6 | 2026-11-27 | Push | Done | Committed to main |
+| 24 | Next | City pages batch 22 | Coming | Aurora IL, Naperville, Joliet, Elgin, Rockford, Peoria IL, Springfield IL, Evansville, South Bend, Kansas City KS |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

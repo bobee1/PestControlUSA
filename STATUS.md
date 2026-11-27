@@ -3,19 +3,19 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 22)
+**Last updated:** 2026-11-26 (Build 23)
 
-## Previous step — Build 21: city pages batch 19 ✅
-- Santa Clarita, Glendale CA, Huntington Beach, Garden Grove, Oxnard, Ontario CA, Rancho Cucamonga, Oceanside, Elk Grove, Santa Rosa.
+## Previous step — Build 22: city pages batch 20 ✅
+- Pasadena TX, Killeen, Denton, Waco, Round Rock, Carrollton, Midland, Odessa, Abilene, Beaumont.
 
-## Current step — Build 22: city pages batch 20 ✅ complete (Texas third tier)
-- **Cities live:** Pasadena, Killeen, Denton, Waco, Round Rock, Carrollton, Midland, Odessa, Abilene, Beaumont.
-- **Keyword highlights (Semrush US):** exterminator Abilene KD 0 and pest control Abilene KD 9; mosquito control Beaumont KD 6; pest control Carrollton 320 (KD 12); exterminator Killeen KD 13; pest control Denton 390 (KD 18); pest control Round Rock 720 (KD 19); pest control Killeen 480 (KD 20). Beaumont and Odessa head terms are harder (KD 43–46).
-- **City-specific topics:** rats along the Ship Channel (Pasadena), move-out inspections for rentals near Fort Hood (Killeen), paper wasps and yellowjackets (Denton), termite damage found during renovations (Waco), creek-greenbelt wildlife (Round Rock), brown recluses in garages and attics (Carrollton), oilfield offices and yards (Midland), mice and pack rats in RVs and manufactured homes (Odessa), pack rats around ranchettes (Abilene), floods and the Jefferson County Mosquito Control District (Beaumont).
-- **Checks:** 276 pages, 0 issues; batch uniqueness 73–81%; responsive 360/768/1280 clean.
+## Current step — Build 23: city pages batch 21 ✅ complete (Southwest and Mountain third tier)
+- **Cities live:** Tempe, Surprise, Goodyear, Yuma and Flagstaff (AZ); Las Cruces (NM); Provo, Orem, West Valley City and St. George (UT).
+- **Keyword highlights (Semrush US):** pest control Provo 320 (KD 7); bee removal Tempe KD 9; pest control Goodyear AZ KD 11; pest control Surprise AZ 590 (KD 14); exterminator Orem KD 14; pest control Las Cruces NM KD 15; pest control Orem 480 (KD 16). Yuma and St. George head terms are harder (KD 38–48).
+- **City-specific topics:** Tempe Town Lake midges and mosquitoes, West Valley roof rats (Surprise), river and lake mosquitoes (Goodyear), harvester and desert fire ants (Yuma), carpenter ants in pine country (Flagstaff), termites in adobe homes (Las Cruces), bed bugs in BYU-area housing (Provo), Utah Lake mosquitoes and midges (Orem), mice and deer mice (West Valley City), bark scorpions in Utah's Dixie (St. George).
+- **Checks:** 286 pages, 0 issues; batch uniqueness 71–82%; responsive 360/768/1280 clean. Lowest state page is Wyoming at 65% (rule is 60%).
 
-## Coming next — Build 23: city pages batch 21 (10 cities)
-- Proposed: Southwest and Mountain third tier: Tempe, Surprise, Goodyear, Yuma and Flagstaff (AZ); Las Cruces (NM); Provo, Orem, West Valley City and St. George (UT).
+## Coming next — Build 24: city pages batch 22 (10 cities)
+- Proposed: Illinois, Indiana and Kansas second tier: Aurora, Naperville, Joliet, Elgin, Rockford, Peoria and Springfield (IL); Evansville and South Bend (IN); Kansas City (KS).
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.
