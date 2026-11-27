@@ -159,7 +159,12 @@ Every build step is logged here: what was done before, what is being done now, a
 | 28.3 | 2026-11-27 | Batch 26 content | Done | `tools/content/cities_b26.py`: Athens, Macon, Sandy Springs, Roswell, Johns Creek, North Charleston, Mount Pleasant, Rock Hill, Concord NC, Tuscaloosa |
 | 28.4 | 2026-11-27 | Audit | Done | 336 pages, 0 issues; batch uniqueness 70–79%; South Carolina state page 65% (watch); responsive clean |
 | 28.5 | 2026-11-27 | Push | Done | Committed to main |
-| 29 | Next | State page pass 2 + city batch 27 | Coming | Lift South Carolina, Wyoming and any state under 66%; then Texas suburbs and Hill Country: Sugar Land, The Woodlands, Pearland, League City, Conroe, New Braunfels, San Marcos, College Station, Tyler, Wichita Falls |
+| 29.1 | 2026-11-27 | State page pass 2 | Done | `states_extra.py`: new sections for SC, PA, MO, IA, ME, VT, IN; a third paragraph for WY, KS, SD, WV, NH. Lowest state page now 66% (was 65%) |
+| 29.2 | 2026-11-27 | Batch 27 research | Done | Semrush keywords for 10 Texas cities (40 terms); The Woodlands is a CDP |
+| 29.3 | 2026-11-27 | Batch 27 content | Done | `tools/content/cities_b27.py`: Sugar Land, The Woodlands, Pearland, League City, Conroe, New Braunfels, San Marcos, College Station, Tyler, Wichita Falls |
+| 29.4 | 2026-11-27 | Audit | Done | 346 pages, 0 issues; batch uniqueness 73–82%; responsive clean |
+| 29.5 | 2026-11-27 | Push | Done | Committed to main |
+| 30 | Next | City pages batch 28 | Coming | Ohio and Pennsylvania third tier: Dayton, Youngstown, Canton, Parma, Erie, Reading, Scranton, Lancaster, Bethlehem, Harrisburg |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
