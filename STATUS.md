@@ -3,20 +3,19 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 32)
+**Last updated:** 2026-11-26 (Build 33)
 
-## Previous step — Build 31: city pages batch 29 ✅
-- Lancaster, Palmdale, Salinas, Hayward, Corona, Sunnyvale, Roseville, Escondido, Pomona, Torrance (CA).
+## Previous step — Build 32: DC page + city pages batch 30 ✅
+- Washington, DC page upgraded (rodent program, wards, row house termites, DOEE licensing); Mesquite, Olathe, Thornton, Metairie, Fargo, Norman, Visalia, Fullerton, Pasadena CA.
 
-## Current step — Build 32: DC page + city pages batch 30 ✅ complete
-- **Washington, DC:** the existing district page (/locations/district-of-columbia/) was upgraded with a rodent control section based on DC Health's Rodent and Vector Control Division (311 reports, public-property baiting, private yards by petition, no commercial property), a ward-by-ward table of neighborhoods and pest issues, row house termites, and DOEE licensing rules (resident agent for Maryland/Virginia companies, IPM rules for schools). Now ~1,580 words, 88% unique.
-- **Cities live:** Mesquite TX, Olathe KS, Thornton CO, Metairie LA, Fargo ND, Norman OK, Visalia, Fullerton, Pasadena CA.
-- **Keyword highlights (Semrush US):** pest control Olathe KS 210 (KD 3); pest control Pasadena CA 320 (KD 9); rodent control Pasadena 480 (KD 9); mosquito control Metairie 110 (KD 10); pest control Fullerton 140 (KD 11); pest control DC 590 (KD 27); rodent control DC 260 (KD 21).
-- **City-specific topics:** American cockroaches from drains in older homes (Mesquite), lone star ticks and alpha-gal (Olathe), prairie dogs near new development (Thornton), canals and mosquitoes (Metairie), Red River floods and mosquitoes (Fargo), chiggers and ticks near Lake Thunderbird (Norman), Turkestan cockroaches (Visalia), raccoons and skunks in the hills (Fullerton), rodent-proofing Craftsman homes (Pasadena).
-- **Checks:** 375 pages, 0 issues; batch uniqueness 73–83%; responsive 360/768/1280 clean.
+## Current step — Build 33: city pages batch 31 ✅ complete
+- **Places live:** Paradise, Enterprise, Spring Valley and Sunrise Manor (NV; each page explains it's an unincorporated Clark County town with a Las Vegas mailing address), plus Columbia MO, Topeka KS, Meridian ID, Lafayette LA, Billings MT and Lewisville TX.
+- **Keyword highlights (Semrush US):** pest control Paradise NV 70 (KD 4); roach exterminator Las Vegas 140 (KD 9); exterminator Billings MT 90 (KD 15); scorpion control Las Vegas 210 (KD 16); pest control Lewisville 390 (KD 18). The NV town names themselves get little search volume, so those pages also target Las Vegas service terms the main Las Vegas page doesn't (commercial, termites, bee removal, bed bugs).
+- **Place-specific topics:** commercial pest control on the Strip (Paradise), subterranean termites in new homes (Enterprise), bee swarms and Africanized bees (Spring Valley), bed bugs in apartments and weekly motels (Sunrise Manor), carpenter bees (Columbia), brown recluse vs. wolf spider ID (Topeka), voles in lawns (Meridian), fire ant rafts and floods (Lafayette), deer mice and hantavirus (Billings), spiders and lake insects (Lewisville).
+- **Checks:** 385 pages, 0 issues; batch uniqueness 74–79%; Columbia MO and Columbia SC both fine; responsive 360/768/1280 clean.
 
-## Coming next — Build 33: city pages batch 31 (10 places)
-- Proposed: Las Vegas Valley communities (Enterprise, Spring Valley, Sunrise Manor, Paradise), plus Columbia MO, Topeka KS, Meridian ID, Lafayette LA, Billings MT and Lewisville TX.
+## Coming next — Build 34: city pages batch 32 (10 cities)
+- Proposed: California fifth tier: Orange, Victorville, Santa Clara, Simi Valley, Thousand Oaks, Vallejo, Concord, Clovis, Berkeley, Fairfield.
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds
