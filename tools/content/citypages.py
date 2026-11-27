@@ -25,6 +25,7 @@ from content.cities_b20 import CITIES_B20
 from content.cities_b21 import CITIES_B21
 from content.cities_b22 import CITIES_B22
 from content.cities_b23 import CITIES_B23
+from content.cities_b24 import CITIES_B24
 
 CITIES = {}
 CITIES.update(CITIES_B1)
@@ -50,11 +51,12 @@ CITIES.update(CITIES_B20)
 CITIES.update(CITIES_B21)
 CITIES.update(CITIES_B22)
 CITIES.update(CITIES_B23)
+CITIES.update(CITIES_B24)
 
 WIKI_CITY = {"Houston": "Houston", "San Antonio": "San_Antonio", "Dallas": "Dallas", "Austin": "Austin,_Texas",
              "Fort Worth": "Fort_Worth,_Texas", "Jacksonville": "Jacksonville,_Florida", "Miami": "Miami",
              "Tampa": "Tampa,_Florida", "Orlando": "Orlando,_Florida", "Saint Petersburg": "St._Petersburg,_Florida"}
-STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina", "IL": "Illinois", "IN": "Indiana", "OH": "Ohio", "MO": "Missouri", "KY": "Kentucky", "OK": "Oklahoma", "CO": "Colorado", "NV": "Nevada", "NY": "New_York", "PA": "Pennsylvania", "MA": "Massachusetts", "MD": "Maryland", "NJ": "New_Jersey", "RI": "Rhode_Island", "VA": "Virginia", "WA": "Washington", "OR": "Oregon", "ID": "Idaho", "UT": "Utah", "NM": "New_Mexico", "AK": "Alaska", "HI": "Hawaii", "MI": "Michigan", "WI": "Wisconsin", "MN": "Minnesota", "NE": "Nebraska", "KS": "Kansas", "IA": "Iowa", "SD": "South_Dakota", "CT": "Connecticut", "MS": "Mississippi", "AR": "Arkansas"}
+STATE_FULL = {"TX": "Texas", "FL": "Florida", "AZ": "Arizona", "CA": "California", "GA": "Georgia", "NC": "North_Carolina", "TN": "Tennessee", "LA": "Louisiana", "AL": "Alabama", "SC": "South_Carolina", "IL": "Illinois", "IN": "Indiana", "OH": "Ohio", "MO": "Missouri", "KY": "Kentucky", "OK": "Oklahoma", "CO": "Colorado", "NV": "Nevada", "NY": "New_York", "PA": "Pennsylvania", "MA": "Massachusetts", "MD": "Maryland", "NJ": "New_Jersey", "RI": "Rhode_Island", "VA": "Virginia", "WA": "Washington", "OR": "Oregon", "ID": "Idaho", "UT": "Utah", "NM": "New_Mexico", "AK": "Alaska", "HI": "Hawaii", "MI": "Michigan", "WI": "Wisconsin", "MN": "Minnesota", "NE": "Nebraska", "KS": "Kansas", "IA": "Iowa", "SD": "South_Dakota", "CT": "Connecticut", "MS": "Mississippi", "AR": "Arkansas", "NH": "New_Hampshire", "ME": "Maine"}
 
 ZIPS = json.load(open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "city_zips.json")))
 

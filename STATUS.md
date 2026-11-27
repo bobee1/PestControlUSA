@@ -3,20 +3,19 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 25)
+**Last updated:** 2026-11-26 (Build 26)
 
-## Previous step — Build 24: city pages batch 22 ✅
-- Aurora IL, Naperville, Joliet, Elgin, Rockford, Peoria IL, Springfield IL, Evansville, South Bend, Kansas City KS; same-name city fix.
+## Previous step — Build 25: city pages batch 23 ✅
+- Lansing, Ann Arbor, Warren, Sterling Heights, Dearborn, Green Bay, Kenosha, Duluth, Davenport, Independence.
 
-## Current step — Build 25: city pages batch 23 ✅ complete (Great Lakes and Upper Midwest third tier)
-- **Cities live:** Lansing, Ann Arbor, Warren, Sterling Heights and Dearborn (MI); Green Bay and Kenosha (WI); Duluth (MN); Davenport (IA); Independence (MO).
-- **Keyword highlights (Semrush US):** pest control Warren MI 210 (KD 6); bat removal Ann Arbor KD 7; pest control Sterling Heights KD 8; pest control Dearborn KD 8; exterminator Davenport 260 (KD 9); exterminator Duluth KD 14; mosquito control Kenosha 140 (KD 15); pest control Independence MO 390 (KD 19); pest control Ann Arbor 720 (KD 22).
-- **City-specific topics:** old basements and mice (Lansing), bats in historic homes (Ann Arbor), skunks and raccoons under postwar porches (Warren), pavement ants (Sterling Heights), rats behind food corridors (Dearborn), carpenter ants (Green Bay), mosquito season (Kenosha), cluster flies on the hillside (Duluth), river floods, moisture and termites (Davenport), termites in historic homes (Independence).
-- **Overlap fix:** reworded Ann Arbor and Rockford bat text so Grand Rapids stays above 65%.
-- **Checks:** 306 pages, 0 issues; batch uniqueness 67–81%; responsive 360/768/1280 clean.
+## Current step — Build 26: city pages batch 24 ✅ complete (Northeast third tier)
+- **Cities live:** Paterson and Elizabeth (NJ); Lowell, Cambridge, New Bedford and Brockton (MA); Stamford and Waterbury (CT); Manchester (NH); Portland (ME). First city guides for New Hampshire and Maine.
+- **Keyword highlights (Semrush US):** pest control Elizabeth NJ KD 1 and exterminator Elizabeth NJ KD 2; pest control New Bedford KD 9; pest control Paterson NJ KD 11; exterminator Waterbury CT KD 12; exterminator Cambridge MA KD 13; pest control Lowell MA 260 (KD 15); pest control Brockton 170 (KD 15). Manchester NH head term is harder (KD 42).
+- **City-specific topics:** Passaic River floods (Paterson), port and airport warehouses (Elizabeth), rats along the mill canals (Lowell), IPM for labs and campuses (Cambridge), seafood processing (New Bedford), bed bugs in triple-deckers (Brockton), North Stamford wildlife (Stamford), hillside three-families and mice (Waterbury), carpenter ants and ice dams (Manchester), browntail moths (Portland, ME).
+- **Checks:** 316 pages, 0 issues; batch uniqueness 72–81%; responsive 360/768/1280 clean.
 
-## Coming next — Build 26: city pages batch 24 (10 cities)
-- Proposed: Northeast third tier: Paterson and Elizabeth (NJ); Lowell, Cambridge, New Bedford and Brockton (MA); Stamford and Waterbury (CT); Manchester (NH); Portland (ME).
+## Coming next — Build 27: city pages batch 25 (10 cities)
+- Proposed: Florida fourth tier: Fort Myers, Sarasota, Daytona Beach, Melbourne, Pompano Beach, Boca Raton, Deltona, Palm Coast, Kissimmee, Ocala.
 
 ## Later builds
 - Remaining city batches until all 1,866 places are live; then towns under 25,000 if wanted.

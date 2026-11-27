@@ -145,7 +145,11 @@ Every build step is logged here: what was done before, what is being done now, a
 | 25.3 | 2026-11-27 | Overlap fix | Done | Grand Rapids dipped to 64% after more bat pages; reworded Ann Arbor and Rockford bat seasons, tips and FAQs (Grand Rapids back to 66%, Rockford 76%, Ann Arbor 78%) |
 | 25.4 | 2026-11-27 | Audit | Done | 306 pages, 0 issues; batch uniqueness 67–81%; responsive clean |
 | 25.5 | 2026-11-27 | Push | Done | Committed to main |
-| 26 | Next | City pages batch 24 | Coming | Paterson, Elizabeth, Lowell, Cambridge, New Bedford, Brockton, Stamford, Waterbury, Manchester NH, Portland ME |
+| 26.1 | 2026-11-27 | Batch 24 research | Done | Semrush keywords for 10 cities (40 terms); Stamford and Waterbury use historic Fairfield and New Haven counties |
+| 26.2 | 2026-11-27 | Batch 24 content | Done | `tools/content/cities_b24.py`: Paterson, Elizabeth, Lowell, Cambridge, New Bedford, Brockton, Stamford, Waterbury, Manchester NH, Portland ME; New Hampshire and Maine get their first city guides |
+| 26.3 | 2026-11-27 | Audit | Done | One duplicate FAQ answer (Waterbury/Paterson) reworded; 316 pages, 0 issues; batch uniqueness 72–81%; responsive clean |
+| 26.4 | 2026-11-27 | Push | Done | Committed to main |
+| 27 | Next | City pages batch 25 | Coming | Florida fourth tier: Fort Myers, Sarasota, Daytona Beach, Melbourne, Pompano Beach, Boca Raton, Deltona, Palm Coast, Kissimmee, Ocala |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
