@@ -40,6 +40,8 @@ def city_label(r):
         return r["name"][len("Metro of "):]
     if r["name"].endswith(" Town"):
         return r["name"][:-len(" Town")]
+    if r["name"].startswith("Saint "):
+        return "St. " + r["name"][len("Saint "):]
     return "St. Petersburg" if r["name"] == "Saint Petersburg" else r["name"]
 
 
@@ -62,7 +64,8 @@ def fmt(n):
 
 
 def short_county(c):
-    return c.replace(" County", "").replace(" Parish", " Parish").replace(" city", " City")
+    c = c.replace(" County", "").replace(" Parish", " Parish").replace(" city", " City")
+    return "St. " + c[len("Saint "):] if c.startswith("Saint ") else c
 
 
 QUICK = [

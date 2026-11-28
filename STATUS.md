@@ -3,19 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 42)
+**Last updated:** 2026-11-26 (Build 43)
 
-## Previous step — Build 41: city pages batch 39 ✅
-- Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC.
+## Previous step — Build 42: city pages batch 40 ✅
+- Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA.
 
-## Current step — Build 42: city pages batch 40 ✅ complete
-- **Cities live:** Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA.
-- **Keyword highlights (Semrush US):** pest control Fall River 90 (KD 10); pest control Tracy 210 (KD 13); pest control Livonia 320 (KD 13); exterminator San Marcos CA 320 (KD 15); pest control San Marcos CA 390 (KD 16); pest control Toms River 320 (KD 30). About 1,970 Semrush units left.
-- **City-specific topics:** tree squirrels in attics under big oaks (Arden-Arcade), ground squirrels along canals (Tracy), fire-safe vents that also block pests (San Marcos), illegal dumping and rats (Compton), rodents in stored boats and RVs (Redding), cluster flies (Livonia), big-headed ants under pavers (Plantation), Lake Houston mosquitoes (Atascocita), pests under raised post-Sandy homes (Toms River), carpet beetles and clothes moths (Fall River).
-- **Checks:** 475 pages, 0 issues; batch uniqueness 69–79%; responsive 360/768/1280 clean.
+## Current step — Build 43: city pages batch 41 ✅ complete
+- **Cities live:** Carson, Mission Viejo, South Gate, Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH.
+- **Keyword highlights (Semrush US):** pest control Carson CA 90 (KD 10); pest control Mission Viejo 590 (KD 12); pest control Nashua NH 260 (KD 13); pest control Kirkland 110 (KD 14); exterminator Santa Monica 720 (KD 21); pest control Santa Monica 880 (KD 25). About 1,790 Semrush units left.
+- **City-specific topics:** pests under mobile homes (Carson), HOA slopes, gophers and roof rats (Mission Viejo), termites in 1920s–40s homes (South Gate), California bed bug rules for rentals (Santa Monica), wolf spiders in new subdivisions (O'Fallon), yellowjacket super nests (Hoover), moisture pests in the rainy season (Bellingham), English ivy and rats (Kirkland), spotted lanternflies in Connecticut (Norwalk), deer ticks along Mine Falls Park (Nashua).
+- **Fix:** 'Saint' Census names now show as 'St.' sitewide.
+- **Checks:** 485 pages, 0 issues; batch uniqueness 67–81%; responsive 360/768/1280 clean.
 
-## Coming next — Build 43: city pages batch 41 (10 cities)
-- Proposed: Carson, Mission Viejo, South Gate and Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH.
+## Coming next — Build 44: city pages batch 42 (10 cities)
+- Proposed: Chino, Indio, Hemet and Merced (CA), Alafaya FL, Lawton OK, Avondale AZ, Germantown MD, Trenton NJ, Fort Smith AR.
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds

@@ -207,7 +207,11 @@ Every build step is logged here: what was done before, what is being done now, a
 | 42.1 | 2026-11-28 | City pages batch 40 | Done | Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA |
 | 42.2 | 2026-11-28 | Keyword research | Done | Semrush US (200 units): pest control Fall River 90 (KD 10), pest control Tracy 210 (KD 13), pest control Livonia 320 (KD 13), exterminator San Marcos CA 320 (KD 15), pest control San Marcos CA 390 (KD 16), pest control Toms River 320 (KD 30) |
 | 42.3 | 2026-11-28 | QA | Done | 475 pages, 0 issues; batch uniqueness 69–79%; San Marcos CA/TX both fine; responsive clean |
-| 43 | Next | City pages batch 41 | Coming | Carson, Mission Viejo, South Gate, Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH |
+| 43.1 | 2026-11-28 | City pages batch 41 | Done | Carson, Mission Viejo, South Gate, Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH |
+| 43.2 | 2026-11-28 | Keyword research | Done | Semrush US (180 units): pest control Carson CA 90 (KD 10), pest control Mission Viejo 590 (KD 12), pest control Nashua NH 260 (KD 13), pest control Kirkland 110 (KD 14), pest control Norwalk CT 320 (KD 20), exterminator Santa Monica 720 (KD 21), pest control Santa Monica 880 (KD 25) |
+| 43.3 | 2026-11-28 | Generator fix | Done | Census 'Saint' names (Saint Peters, Saint Charles, Saint Louis County) now display as 'St.' in nearby lists, state tables and county cells |
+| 43.4 | 2026-11-28 | QA | Done | 485 pages, 0 issues; batch uniqueness 67–81%; Norwalk CT/CA both fine; responsive clean |
+| 44 | Next | City pages batch 42 | Coming | Chino, Indio, Hemet, Merced (CA), Alafaya FL, Lawton OK, Avondale AZ, Germantown MD, Trenton NJ, Fort Smith AR |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
