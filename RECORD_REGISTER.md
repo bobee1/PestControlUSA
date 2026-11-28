@@ -204,7 +204,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 41.1 | 2026-11-28 | City pages batch 39 | Done | Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC |
 | 41.2 | 2026-11-28 | Keyword research | Done | Semrush US (trimmed list, 220 units): pest control Sandy Utah 70 (KD 5), pest control Beaverton 320 (KD 6), exterminator Suffolk VA 170 (KD 7), pest control Fayetteville AR 320 (KD 10), pest control Portsmouth VA 140 (KD 16), pest control Asheville 720 (KD 35) |
 | 41.3 | 2026-11-28 | QA | Done | 465 pages, 0 issues; batch uniqueness 72–80%; Fayetteville AR/NC both fine; responsive clean |
-| 42 | Next | City pages batch 40 | Coming | Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA |
+| 42.1 | 2026-11-28 | City pages batch 40 | Done | Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA |
+| 42.2 | 2026-11-28 | Keyword research | Done | Semrush US (200 units): pest control Fall River 90 (KD 10), pest control Tracy 210 (KD 13), pest control Livonia 320 (KD 13), exterminator San Marcos CA 320 (KD 15), pest control San Marcos CA 390 (KD 16), pest control Toms River 320 (KD 30) |
+| 42.3 | 2026-11-28 | QA | Done | 475 pages, 0 issues; batch uniqueness 69–79%; San Marcos CA/TX both fine; responsive clean |
+| 43 | Next | City pages batch 41 | Coming | Carson, Mission Viejo, South Gate, Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

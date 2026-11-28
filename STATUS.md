@@ -3,19 +3,19 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 41)
+**Last updated:** 2026-11-26 (Build 42)
 
-## Previous step — Build 40: city pages batch 38 ✅
-- Lynn MA, Norwalk, Hesperia, Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA.
+## Previous step — Build 41: city pages batch 39 ✅
+- Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC.
 
-## Current step — Build 41: city pages batch 39 ✅ complete
-- **Cities live:** Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC.
-- **Keyword highlights (Semrush US):** pest control Sandy Utah 70 (KD 5); pest control Beaverton 320 (KD 6); exterminator Suffolk VA 170 (KD 7); pest control Fayetteville AR 320 (KD 10); pest control Portsmouth VA 140 (KD 16); pest control Asheville 720 (KD 35). Semrush list trimmed to core terms to save units (~2,170 left).
-- **City-specific topics:** nutria along creeks (Beaverton), smokybrown cockroaches (Portsmouth), copperheads (Suffolk), flying squirrels in attics (Fayetteville AR), fruit flies and drain flies (Yakima), condo termite responsibilities (Sunrise), pests in storm shelters (Edmond), raccoons in historic homes (Lawrence), ground squirrels on foothill lots (Sandy), pests after Hurricane Helene flood damage (Asheville).
-- **Checks:** 465 pages, 0 issues; batch uniqueness 72–80%; responsive 360/768/1280 clean.
+## Current step — Build 42: city pages batch 40 ✅ complete
+- **Cities live:** Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA.
+- **Keyword highlights (Semrush US):** pest control Fall River 90 (KD 10); pest control Tracy 210 (KD 13); pest control Livonia 320 (KD 13); exterminator San Marcos CA 320 (KD 15); pest control San Marcos CA 390 (KD 16); pest control Toms River 320 (KD 30). About 1,970 Semrush units left.
+- **City-specific topics:** tree squirrels in attics under big oaks (Arden-Arcade), ground squirrels along canals (Tracy), fire-safe vents that also block pests (San Marcos), illegal dumping and rats (Compton), rodents in stored boats and RVs (Redding), cluster flies (Livonia), big-headed ants under pavers (Plantation), Lake Houston mosquitoes (Atascocita), pests under raised post-Sandy homes (Toms River), carpet beetles and clothes moths (Fall River).
+- **Checks:** 475 pages, 0 issues; batch uniqueness 69–79%; responsive 360/768/1280 clean.
 
-## Coming next — Build 42: city pages batch 40 (10 cities)
-- Proposed: Arden-Arcade, Tracy, San Marcos, Compton and Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA.
+## Coming next — Build 43: city pages batch 41 (10 cities)
+- Proposed: Carson, Mission Viejo, South Gate and Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH.
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds
