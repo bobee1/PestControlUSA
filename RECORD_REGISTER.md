@@ -188,7 +188,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 36.1 | 2026-11-27 | City pages batch 34 | Done | Richmond, East Los Angeles, Downey, Murrieta, Costa Mesa, Temecula, Ventura (CA); Pueblo, Greeley (CO); Miami Gardens FL |
 | 36.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control Richmond CA 50 (KD 6), pest control Pueblo 320 (KD 10), pest control Costa Mesa 720 (KD 11), pest control Greeley CO 170 (KD 13), pest control Miami Gardens 170 (KD 15), pest control Temecula 720 (KD 29) |
 | 36.3 | 2026-11-27 | QA | Done | 415 pages, 0 issues; batch uniqueness 71–79%; Richmond CA/VA both fine; Ventura shows as 'Ventura' (official name San Buenaventura); responsive clean |
-| 37 | Next | City pages batch 35 | Coming | Santa Maria, West Covina, El Monte, Menifee, Jurupa Valley (CA); South Fulton GA; Sparks NV; Riverview FL; Allen TX; Centennial CO |
+| 37.1 | 2026-11-27 | City pages batch 35 | Done | Santa Maria, West Covina, El Monte, Menifee, Jurupa Valley (CA); South Fulton GA; Sparks NV; Riverview FL; Allen TX; Centennial CO |
+| 37.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control El Monte 30 (KD 6), pest control Jurupa Valley 70 (KD 6), pest control Menifee 320 (KD 7), termite control West Covina 70 (KD 8), exterminator Allen TX 210 (KD 10), pest control Allen TX 320 (KD 12), pest control Riverview FL 590 (KD 22) |
+| 37.3 | 2026-11-27 | QA | Done | 425 pages, 0 issues; batch uniqueness 70–81%; responsive clean |
+| 38 | Next | City pages batch 36 | Coming | Rio Rancho NM, Davie FL, Nampa ID, Boulder CO, Columbia MD, Inglewood, Burbank, El Cajon, Rialto, San Mateo (CA) |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
