@@ -3,19 +3,20 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 38)
+**Last updated:** 2026-11-26 (Build 39)
 
-## Previous step — Build 37: city pages batch 35 ✅
-- Santa Maria, West Covina, El Monte, Menifee, Jurupa Valley (CA); South Fulton GA; Sparks NV; Riverview FL; Allen TX; Centennial CO.
+## Previous step — Build 38: city pages batch 36 ✅
+- Rio Rancho NM, Davie FL, Nampa ID, Boulder CO, Columbia MD, Inglewood, Burbank, El Cajon, Rialto, San Mateo (CA).
 
-## Current step — Build 38: city pages batch 36 ✅ complete
-- **Cities live:** Rio Rancho NM, Davie FL, Nampa ID, Boulder CO, Columbia MD, Inglewood, Burbank, El Cajon, Rialto, San Mateo (CA).
-- **Keyword highlights (Semrush US):** rodent control El Cajon 110 (KD 4); termite control El Cajon 70 (KD 4); pest control Nampa 480 (KD 10); pest control El Cajon 260 (KD 10); pest control San Mateo 210 (KD 11); rodent control San Mateo 260 (KD 14); pest control Columbia MD 170 (KD 15).
-- **City-specific topics:** kissing bugs and pack rats (Rio Rancho), cane toads and pets (Davie), canals and West Nile (Nampa), bears and trash rules (Boulder), camel crickets in basements (Columbia), rats displaced by stadium-area construction (Inglewood), pantry moths and beetles (Burbank), heat treatment for drywood termites (El Cajon), checking California pest control licenses (Rialto), attic cleanup after rats (San Mateo).
-- **Checks:** 435 pages, 0 issues; batch uniqueness 68–83%; responsive 360/768/1280 clean.
+## Current step — Build 39: city pages batch 37 ✅ complete
+- **Cities live:** Lee's Summit MO, Edinburg TX, Daly City, Vacaville, Chico (CA), Bend OR, Highlands Ranch CO, Quincy MA, Fishers IN, Albany NY.
+- **Keyword highlights (Semrush US):** pest control Lee's Summit 170 (KD 5); exterminator Highlands Ranch 110 (KD 5); pest control Daly City 50 (KD 7); pest control Quincy MA 110 (KD 12); pest control Highlands Ranch 210 (KD 13); mosquito control Fishers 110 (KD 15); pest control Albany NY 720 (KD 30).
+- **City-specific topics:** Asian lady beetles (Lee's Summit), Africanized bees' first U.S. detection in Hidalgo County (Edinburg), rodents in attached Westlake-style homes (Daly City), heat-wave ant invasions (Vacaville), rice fields and West Nile (Chico), pest-proofing vacation rentals (Bend), Japanese beetles (Highlands Ranch), deer ticks near the Blue Hills (Quincy), mosquitoes around Geist Reservoir (Fishers), mice through rowhouse party walls (Albany).
+- **Fix:** Census ' Town' suffixes (Braintree Town, Weymouth Town) now display as plain town names.
+- **Checks:** 445 pages, 0 issues; batch uniqueness 70–79%; responsive 360/768/1280 clean.
 
-## Coming next — Build 39: city pages batch 37 (10 cities)
-- Proposed: Lee's Summit MO, Edinburg TX, Daly City, Vacaville and Chico (CA), Bend OR, Highlands Ranch CO, Quincy MA, Fishers IN, Albany NY.
+## Coming next — Build 40: city pages batch 38 (10 cities)
+- Proposed: Lynn MA, Norwalk, Hesperia and Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA.
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds

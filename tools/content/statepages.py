@@ -38,6 +38,8 @@ def city_label(r):
         return CITY_DISPLAY[k]
     if r["name"].startswith("Metro of "):
         return r["name"][len("Metro of "):]
+    if r["name"].endswith(" Town"):
+        return r["name"][:-len(" Town")]
     return "St. Petersburg" if r["name"] == "Saint Petersburg" else r["name"]
 
 

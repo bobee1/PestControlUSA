@@ -194,7 +194,11 @@ Every build step is logged here: what was done before, what is being done now, a
 | 38.1 | 2026-11-28 | City pages batch 36 | Done | Rio Rancho NM, Davie FL, Nampa ID, Boulder CO, Columbia MD, Inglewood, Burbank, El Cajon, Rialto, San Mateo (CA) |
 | 38.2 | 2026-11-28 | Keyword research | Done | Semrush US: rodent control El Cajon 110 (KD 4), termite control El Cajon 70 (KD 4), pest control Nampa 480 (KD 10), pest control El Cajon 260 (KD 10), pest control San Mateo 210 (KD 11), rodent control San Mateo 260 (KD 14), pest control Columbia MD 170 (KD 15) |
 | 38.3 | 2026-11-28 | QA | Done | 435 pages, 0 issues; batch uniqueness 68–83%; Columbia MD/MO/SC all fine; responsive clean |
-| 39 | Next | City pages batch 37 | Coming | Lee's Summit MO, Edinburg TX, Daly City, Vacaville, Chico (CA), Bend OR, Highlands Ranch CO, Quincy MA, Fishers IN, Albany NY |
+| 39.1 | 2026-11-28 | City pages batch 37 | Done | Lee's Summit MO, Edinburg TX, Daly City, Vacaville, Chico (CA), Bend OR, Highlands Ranch CO, Quincy MA, Fishers IN, Albany NY |
+| 39.2 | 2026-11-28 | Keyword research | Done | Semrush US: pest control Lee's Summit 170 (KD 5), exterminator Highlands Ranch 110 (KD 5), pest control Daly City 50 (KD 7), pest control Quincy MA 110 (KD 12), pest control Highlands Ranch 210 (KD 13), mosquito control Fishers 110 (KD 15), pest control Albany NY 720 (KD 30) |
+| 39.3 | 2026-11-28 | Generator fix | Done | Census ' Town' suffix (Braintree Town, Weymouth Town, etc.) stripped from nearby lists and state tables |
+| 39.4 | 2026-11-28 | QA | Done | 445 pages, 0 issues; batch uniqueness 70–79%; responsive clean |
+| 40 | Next | City pages batch 38 | Coming | Lynn MA, Norwalk, Hesperia, Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
