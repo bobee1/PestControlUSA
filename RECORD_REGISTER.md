@@ -191,7 +191,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 37.1 | 2026-11-27 | City pages batch 35 | Done | Santa Maria, West Covina, El Monte, Menifee, Jurupa Valley (CA); South Fulton GA; Sparks NV; Riverview FL; Allen TX; Centennial CO |
 | 37.2 | 2026-11-27 | Keyword research | Done | Semrush US: pest control El Monte 30 (KD 6), pest control Jurupa Valley 70 (KD 6), pest control Menifee 320 (KD 7), termite control West Covina 70 (KD 8), exterminator Allen TX 210 (KD 10), pest control Allen TX 320 (KD 12), pest control Riverview FL 590 (KD 22) |
 | 37.3 | 2026-11-27 | QA | Done | 425 pages, 0 issues; batch uniqueness 70–81%; responsive clean |
-| 38 | Next | City pages batch 36 | Coming | Rio Rancho NM, Davie FL, Nampa ID, Boulder CO, Columbia MD, Inglewood, Burbank, El Cajon, Rialto, San Mateo (CA) |
+| 38.1 | 2026-11-28 | City pages batch 36 | Done | Rio Rancho NM, Davie FL, Nampa ID, Boulder CO, Columbia MD, Inglewood, Burbank, El Cajon, Rialto, San Mateo (CA) |
+| 38.2 | 2026-11-28 | Keyword research | Done | Semrush US: rodent control El Cajon 110 (KD 4), termite control El Cajon 70 (KD 4), pest control Nampa 480 (KD 10), pest control El Cajon 260 (KD 10), pest control San Mateo 210 (KD 11), rodent control San Mateo 260 (KD 14), pest control Columbia MD 170 (KD 15) |
+| 38.3 | 2026-11-28 | QA | Done | 435 pages, 0 issues; batch uniqueness 68–83%; Columbia MD/MO/SC all fine; responsive clean |
+| 39 | Next | City pages batch 37 | Coming | Lee's Summit MO, Edinburg TX, Daly City, Vacaville, Chico (CA), Bend OR, Highlands Ranch CO, Quincy MA, Fishers IN, Albany NY |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
