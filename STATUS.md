@@ -3,20 +3,19 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 43)
+**Last updated:** 2026-11-26 (Build 44)
 
-## Previous step — Build 42: city pages batch 40 ✅
-- Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA.
+## Previous step — Build 43: city pages batch 41 ✅
+- Carson, Mission Viejo, South Gate, Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH.
 
-## Current step — Build 43: city pages batch 41 ✅ complete
-- **Cities live:** Carson, Mission Viejo, South Gate, Santa Monica (CA), O'Fallon MO, Hoover AL, Bellingham and Kirkland WA, Norwalk CT, Nashua NH.
-- **Keyword highlights (Semrush US):** pest control Carson CA 90 (KD 10); pest control Mission Viejo 590 (KD 12); pest control Nashua NH 260 (KD 13); pest control Kirkland 110 (KD 14); exterminator Santa Monica 720 (KD 21); pest control Santa Monica 880 (KD 25). About 1,790 Semrush units left.
-- **City-specific topics:** pests under mobile homes (Carson), HOA slopes, gophers and roof rats (Mission Viejo), termites in 1920s–40s homes (South Gate), California bed bug rules for rentals (Santa Monica), wolf spiders in new subdivisions (O'Fallon), yellowjacket super nests (Hoover), moisture pests in the rainy season (Bellingham), English ivy and rats (Kirkland), spotted lanternflies in Connecticut (Norwalk), deer ticks along Mine Falls Park (Nashua).
-- **Fix:** 'Saint' Census names now show as 'St.' sitewide.
-- **Checks:** 485 pages, 0 issues; batch uniqueness 67–81%; responsive 360/768/1280 clean.
+## Current step — Build 44: city pages batch 42 ✅ complete
+- **Cities live:** Chino, Indio, Hemet, Merced (CA), Alafaya FL, Lawton OK, Avondale AZ, Germantown MD, Trenton NJ, Fort Smith AR.
+- **Keyword highlights (Semrush US):** pest control Germantown MD 390 (KD 6); pest control Hemet 170 (KD 7); pest control Fort Smith 170 (KD 12); pest control Trenton NJ 210 (KD 18); pest control Indio 320 (KD 23). About 1,590 Semrush units left.
+- **City-specific topics:** Prado Basin mosquitoes (Chino), red imported fire ants in the Coachella Valley (Indio), brown dog ticks indoors (Hemet), native southern fire ants (Merced), building-wide apartment treatments near UCF (Alafaya), hackberry psyllids (Lawton), black and brown widows (Avondale), Montgomery County's lawn pesticide rules (Germantown), Delaware River and D&R Canal mosquitoes (Trenton), brown recluse monitoring (Fort Smith).
+- **Checks:** 495 pages, 0 issues; batch uniqueness 69–80%; responsive 360/768/1280 clean.
 
-## Coming next — Build 44: city pages batch 42 (10 cities)
-- Proposed: Chino, Indio, Hemet and Merced (CA), Alafaya FL, Lawton OK, Avondale AZ, Germantown MD, Trenton NJ, Fort Smith AR.
+## Coming next — Build 45: city pages batch 43 (10 cities)
+- Proposed: Westminster, San Leandro and Santa Barbara (CA), Clifton NJ, Waukegan and Champaign IL, Bloomington MN, Greenville NC, Newton MA, Santa Fe NM.
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds

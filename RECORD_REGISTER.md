@@ -211,7 +211,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 43.2 | 2026-11-28 | Keyword research | Done | Semrush US (180 units): pest control Carson CA 90 (KD 10), pest control Mission Viejo 590 (KD 12), pest control Nashua NH 260 (KD 13), pest control Kirkland 110 (KD 14), pest control Norwalk CT 320 (KD 20), exterminator Santa Monica 720 (KD 21), pest control Santa Monica 880 (KD 25) |
 | 43.3 | 2026-11-28 | Generator fix | Done | Census 'Saint' names (Saint Peters, Saint Charles, Saint Louis County) now display as 'St.' in nearby lists, state tables and county cells |
 | 43.4 | 2026-11-28 | QA | Done | 485 pages, 0 issues; batch uniqueness 67–81%; Norwalk CT/CA both fine; responsive clean |
-| 44 | Next | City pages batch 42 | Coming | Chino, Indio, Hemet, Merced (CA), Alafaya FL, Lawton OK, Avondale AZ, Germantown MD, Trenton NJ, Fort Smith AR |
+| 44.1 | 2026-11-28 | City pages batch 42 | Done | Chino, Indio, Hemet, Merced (CA), Alafaya FL, Lawton OK, Avondale AZ, Germantown MD, Trenton NJ, Fort Smith AR |
+| 44.2 | 2026-11-28 | Keyword research | Done | Semrush US (200 units): pest control Germantown MD 390 (KD 6), pest control Hemet 170 (KD 7), pest control Fort Smith 170 (KD 12), pest control Chino 90 (KD 14), pest control Trenton NJ 210 (KD 18), pest control Indio 320 (KD 23), pest control Lawton OK 320 (KD 31) |
+| 44.3 | 2026-11-28 | QA | Done | 495 pages, 0 issues; batch uniqueness 69–80%; responsive clean |
+| 45 | Next | City pages batch 43 | Coming | Westminster, San Leandro, Santa Barbara (CA), Clifton NJ, Waukegan and Champaign IL, Bloomington MN, Greenville NC, Newton MA, Santa Fe NM |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
