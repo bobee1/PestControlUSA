@@ -201,7 +201,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 40.1 | 2026-11-28 | City pages batch 38 | Done | Lynn MA, Norwalk, Hesperia, Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA |
 | 40.2 | 2026-11-28 | Keyword research | Done | Semrush US: exterminator Hesperia 90 (KD 8), pest control Federal Way 260 (KD 11), pest control Buckeye AZ 170 (KD 11), pest control Longmont 480 (KD 18), pest control San Angelo 320 (KD 26), pest control Roanoke 320 (KD 29) |
 | 40.3 | 2026-11-28 | QA | Done | 455 pages, 0 issues; batch uniqueness 70–80%; responsive clean |
-| 41 | Next | City pages batch 39 | Coming | Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC |
+| 41.1 | 2026-11-28 | City pages batch 39 | Done | Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC |
+| 41.2 | 2026-11-28 | Keyword research | Done | Semrush US (trimmed list, 220 units): pest control Sandy Utah 70 (KD 5), pest control Beaverton 320 (KD 6), exterminator Suffolk VA 170 (KD 7), pest control Fayetteville AR 320 (KD 10), pest control Portsmouth VA 140 (KD 16), pest control Asheville 720 (KD 35) |
+| 41.3 | 2026-11-28 | QA | Done | 465 pages, 0 issues; batch uniqueness 72–80%; Fayetteville AR/NC both fine; responsive clean |
+| 42 | Next | City pages batch 40 | Coming | Arden-Arcade, Tracy, San Marcos, Compton, Redding (CA), Livonia MI, Plantation FL, Atascocita TX, Toms River NJ, Fall River MA |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 
