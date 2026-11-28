@@ -198,7 +198,10 @@ Every build step is logged here: what was done before, what is being done now, a
 | 39.2 | 2026-11-28 | Keyword research | Done | Semrush US: pest control Lee's Summit 170 (KD 5), exterminator Highlands Ranch 110 (KD 5), pest control Daly City 50 (KD 7), pest control Quincy MA 110 (KD 12), pest control Highlands Ranch 210 (KD 13), mosquito control Fishers 110 (KD 15), pest control Albany NY 720 (KD 30) |
 | 39.3 | 2026-11-28 | Generator fix | Done | Census ' Town' suffix (Braintree Town, Weymouth Town, etc.) stripped from nearby lists and state tables |
 | 39.4 | 2026-11-28 | QA | Done | 445 pages, 0 issues; batch uniqueness 70–79%; responsive clean |
-| 40 | Next | City pages batch 38 | Coming | Lynn MA, Norwalk, Hesperia, Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA |
+| 40.1 | 2026-11-28 | City pages batch 38 | Done | Lynn MA, Norwalk, Hesperia, Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA |
+| 40.2 | 2026-11-28 | Keyword research | Done | Semrush US: exterminator Hesperia 90 (KD 8), pest control Federal Way 260 (KD 11), pest control Buckeye AZ 170 (KD 11), pest control Longmont 480 (KD 18), pest control San Angelo 320 (KD 26), pest control Roanoke 320 (KD 29) |
+| 40.3 | 2026-11-28 | QA | Done | 455 pages, 0 issues; batch uniqueness 70–80%; responsive clean |
+| 41 | Next | City pages batch 39 | Coming | Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC |
 | 10+ | Later | Remaining city batches | Planned | Until all 1,866 places are live |
 | 4+ | Later | Blog | Planned | Per Blog Post Criteria doc |
 

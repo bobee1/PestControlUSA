@@ -3,20 +3,19 @@
 **Site:** PestHalt · nationwide pest control referral site · target domain **pesthalt.us** (not yet purchased)
 **Repo:** github.com/bobee1/PestControlUSA · **Owner/operator:** Anjam Javed
 **Phone (temporary):** (800) 555-0199 → replace with the real toll-free number before launch
-**Last updated:** 2026-11-26 (Build 39)
+**Last updated:** 2026-11-26 (Build 40)
 
-## Previous step — Build 38: city pages batch 36 ✅
-- Rio Rancho NM, Davie FL, Nampa ID, Boulder CO, Columbia MD, Inglewood, Burbank, El Cajon, Rialto, San Mateo (CA).
+## Previous step — Build 39: city pages batch 37 ✅
+- Lee's Summit MO, Edinburg TX, Daly City, Vacaville, Chico (CA), Bend OR, Highlands Ranch CO, Quincy MA, Fishers IN, Albany NY.
 
-## Current step — Build 39: city pages batch 37 ✅ complete
-- **Cities live:** Lee's Summit MO, Edinburg TX, Daly City, Vacaville, Chico (CA), Bend OR, Highlands Ranch CO, Quincy MA, Fishers IN, Albany NY.
-- **Keyword highlights (Semrush US):** pest control Lee's Summit 170 (KD 5); exterminator Highlands Ranch 110 (KD 5); pest control Daly City 50 (KD 7); pest control Quincy MA 110 (KD 12); pest control Highlands Ranch 210 (KD 13); mosquito control Fishers 110 (KD 15); pest control Albany NY 720 (KD 30).
-- **City-specific topics:** Asian lady beetles (Lee's Summit), Africanized bees' first U.S. detection in Hidalgo County (Edinburg), rodents in attached Westlake-style homes (Daly City), heat-wave ant invasions (Vacaville), rice fields and West Nile (Chico), pest-proofing vacation rentals (Bend), Japanese beetles (Highlands Ranch), deer ticks near the Blue Hills (Quincy), mosquitoes around Geist Reservoir (Fishers), mice through rowhouse party walls (Albany).
-- **Fix:** Census ' Town' suffixes (Braintree Town, Weymouth Town) now display as plain town names.
-- **Checks:** 445 pages, 0 issues; batch uniqueness 70–79%; responsive 360/768/1280 clean.
+## Current step — Build 40: city pages batch 38 ✅ complete
+- **Cities live:** Lynn MA, Norwalk, Hesperia, Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA.
+- **Keyword highlights (Semrush US):** exterminator Hesperia 90 (KD 8); pest control Federal Way 260 (KD 11); pest control Buckeye AZ 170 (KD 11); rodent control Vista CA 70 (KD 12); pest control Longmont 480 (KD 18); pest control San Angelo 320 (KD 26).
+- **City-specific topics:** carpenter ants in triple-decker porches (Lynn), Oriental cockroaches (Norwalk), tarantulas and tarantula hawks (Hesperia), ants farming aphids on citrus and avocado (Vista), cicada killers and ground-nesting bees (Carmel), rattlesnakes in new desert-edge neighborhoods (Buckeye), Concho River mosquitoes (San Angelo), moles and Washington trapping limits (Federal Way), clover mites (Longmont), stink bugs in the Roanoke Valley (Roanoke).
+- **Checks:** 455 pages, 0 issues; batch uniqueness 70–80%; responsive 360/768/1280 clean.
 
-## Coming next — Build 40: city pages batch 38 (10 cities)
-- Proposed: Lynn MA, Norwalk, Hesperia and Vista (CA), Carmel IN, Buckeye AZ, San Angelo TX, Federal Way WA, Longmont CO, Roanoke VA.
+## Coming next — Build 41: city pages batch 39 (10 cities)
+- Proposed: Beaverton OR, Portsmouth and Suffolk VA, Fayetteville AR, Yakima WA, Sunrise FL, Edmond OK, Lawrence KS, Sandy UT, Asheville NC.
 - Scope rule (owner, 2026-11-27): all 50 states (Alaska and Hawaii stay) plus Washington, DC; no overseas territories.
 
 ## Later builds
